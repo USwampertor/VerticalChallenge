@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: b3a18ee71dc84a8409e3b05fded6b7f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6871411132897544048
+    second: DiabloFontClean_0
+  - first:
+      213: 7379462570385788871
+    second: DiabloFontClean_1
+  - first:
+      213: -3247124255030799485
+    second: DiabloFontClean_2
+  - first:
+      213: -678724889744370060
+    second: DiabloFontClean_3
+  - first:
+      213: 7230036613791633760
+    second: DiabloFontClean_4
+  - first:
+      213: -1511099165720580955
+    second: DiabloFontClean_5
+  - first:
+      213: 2930232331973696606
+    second: DiabloFontClean_6
+  - first:
+      213: -7706920423836471885
+    second: DiabloFontClean_7
+  - first:
+      213: 6734615218942125223
+    second: DiabloFontClean_8
+  - first:
+      213: -1697170261439594459
+    second: DiabloFontClean_9
+  - first:
+      213: 6696524923288278072
+    second: DiabloFontClean_10
+  - first:
+      213: -3647141822115065835
+    second: DiabloFontClean_11
+  - first:
+      213: 812447229940056213
+    second: DiabloFontClean_12
+  - first:
+      213: -3447982302484114384
+    second: DiabloFontClean_13
+  - first:
+      213: 2108639347493922431
+    second: DiabloFontClean_14
+  - first:
+      213: 6833429915000282801
+    second: DiabloFontClean_15
+  - first:
+      213: 9000261824620186213
+    second: DiabloFontClean_16
+  - first:
+      213: 5066844602583509393
+    second: DiabloFontClean_17
+  - first:
+      213: 1598690999799138206
+    second: DiabloFontClean_18
+  - first:
+      213: -1101954278765031743
+    second: DiabloFontClean_19
+  - first:
+      213: -4171311402691141149
+    second: DiabloFontClean_20
+  - first:
+      213: -8215466042743920076
+    second: DiabloFontClean_21
+  - first:
+      213: -250632501554605063
+    second: DiabloFontClean_22
+  - first:
+      213: -4670337755072180672
+    second: DiabloFontClean_23
+  - first:
+      213: 528010449482539583
+    second: DiabloFontClean_24
+  - first:
+      213: -3127756486956878817
+    second: DiabloFontClean_25
+  - first:
+      213: -4667974110146677602
+    second: DiabloFontClean_26
+  - first:
+      213: -5638496387639650124
+    second: DiabloFontClean_27
+  - first:
+      213: 52568166073721368
+    second: DiabloFontClean_28
+  - first:
+      213: -4563999851057871913
+    second: DiabloFontClean_29
+  - first:
+      213: -990365889193401382
+    second: DiabloFontClean_30
+  - first:
+      213: 1894031693219689331
+    second: DiabloFontClean_31
+  - first:
+      213: -4953686519504558612
+    second: DiabloFontClean_32
+  - first:
+      213: 6724272731592088465
+    second: DiabloFontClean_33
+  - first:
+      213: 4281475679457396189
+    second: DiabloFontClean_34
+  - first:
+      213: 6796832921894389960
+    second: DiabloFontClean_35
+  - first:
+      213: 318550216985180278
+    second: DiabloFontClean_36
+  - first:
+      213: 3202095375263039527
+    second: DiabloFontClean_37
+  - first:
+      213: -6933349598023052795
+    second: DiabloFontClean_38
+  - first:
+      213: -4219047792442516621
+    second: DiabloFontClean_39
+  - first:
+      213: -6333592567134175893
+    second: DiabloFontClean_40
+  - first:
+      213: -6900003629379559723
+    second: DiabloFontClean_41
+  - first:
+      213: 1104617513130025013
+    second: DiabloFontClean_42
+  - first:
+      213: 7861469184997230790
+    second: DiabloFontClean_43
+  - first:
+      213: 3749677987956361566
+    second: DiabloFontClean_44
+  - first:
+      213: -1355079737126875783
+    second: DiabloFontClean_45
+  - first:
+      213: -7986925985769788245
+    second: DiabloFontClean_46
+  - first:
+      213: -589308119470405509
+    second: DiabloFontClean_47
+  - first:
+      213: 4113128823343343019
+    second: DiabloFontClean_48
+  - first:
+      213: -6097204930279855555
+    second: DiabloFontClean_49
+  - first:
+      213: -4933540302138288268
+    second: DiabloFontClean_50
+  - first:
+      213: 8232075936758250055
+    second: DiabloFontClean_51
+  - first:
+      213: -2426174450363388276
+    second: DiabloFontClean_52
+  - first:
+      213: 4171855937804478065
+    second: DiabloFontClean_53
+  - first:
+      213: 871385645717644144
+    second: DiabloFontClean_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DiabloFontClean_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a9540d509f9da43a20edc119de8177
+      internalID: 6871411132897544048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 241
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856b30eb9acbc794e900340ce4e6507d
+      internalID: 7379462570385788871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 240
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d9b1eb36850834dbbe38b10abd0c19
+      internalID: -3247124255030799485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 241
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6fa758e7f68141a517fb84cf2d6e4
+      internalID: -678724889744370060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 239
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbe484198b388346a9e87ef437294fc
+      internalID: 7230036613791633760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 239
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bd505027e3d164ab3e5f6b71f0d331
+      internalID: -1511099165720580955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 241
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13efab817d61faf47b8975582041f6ca
+      internalID: 2930232331973696606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 230
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a1e1b6445bc234ca8ca00c25a7d8bf
+      internalID: -7706920423836471885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e803cb44467c1340aa9eab51c7f5f56
+      internalID: 6734615218942125223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 193
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f01b55de98250b43b815a1164851404
+      internalID: -1697170261439594459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 196
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c954d8e6014ce43a38fb1864c1af9e
+      internalID: 6696524923288278072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 196
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589c50ca7618c93408139c390810d85d
+      internalID: -3647141822115065835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeba3b3592629d4bbeaa370db3af82c
+      internalID: 812447229940056213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 196
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9214690f8bb5348ad1a7b0e728ae83
+      internalID: -3447982302484114384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 191
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5348a6b6d7dabd24083b90b3c172b57a
+      internalID: 2108639347493922431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 195
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d624d7caeae547a1774dfdbb11bb4
+      internalID: 6833429915000282801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 194
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a222bb9d78886642835c3739bb31eba
+      internalID: 9000261824620186213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 196
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3a7c3ca733e484c914744fdfbad406
+      internalID: 5066844602583509393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b866e8d03407b2e45afbcc48d6a3fcf6
+      internalID: 1598690999799138206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 148
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8add962e89b940b896662970b19ee
+      internalID: -1101954278765031743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 148
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8e7e91a0cac2d4f80ab4ba60d0374f
+      internalID: -4171311402691141149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 148
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ebd0da0187fd8469870f23e1bde841
+      internalID: -8215466042743920076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 150
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed107b6531386cc4194377dac524d73b
+      internalID: -250632501554605063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 147
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eaef969cc98e141b7d419c7b2f6fbd
+      internalID: -4670337755072180672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_24
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 150
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad6e952d5a01d4fad4094814ebc896
+      internalID: 528010449482539583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f1d2f603d6354a88102896f29d0c1
+      internalID: -3127756486956878817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 148
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a744c8375d58940bd3b20ddd70bde0
+      internalID: -4667974110146677602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_27
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 150
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401a92cdeaa605b41bdbfae61356a007
+      internalID: -5638496387639650124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0c398bbae70e142934aadbc0bb7bdd
+      internalID: 52568166073721368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_29
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 102
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ef119c09289094ca8b2dba0cfd04bf
+      internalID: -4563999851057871913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 103
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccd1d197f1f01747b014e2cdc0abfc0
+      internalID: -990365889193401382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_31
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 102
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3591b9e0c2ed9c458496101e2c9fc36
+      internalID: 1894031693219689331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_32
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 103
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284ebc1c1ce41364fa576891f200c66f
+      internalID: -4953686519504558612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_33
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 102
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df8c7a238cacc242afca8f1f48c722b
+      internalID: 6724272731592088465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_34
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 102
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26579c3215f72d145b231a56f85a1146
+      internalID: 4281475679457396189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_35
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 110
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f03bbb03aeb1a4a87954caa6ae20dc
+      internalID: 6796832921894389960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_36
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 103
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a6bbf29d8b43e418182f4b4f8981e7
+      internalID: 318550216985180278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_37
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 101
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7004ae6d986c0b4c8ff6a28c6b33ce3
+      internalID: 3202095375263039527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10116977388ab1749a08025381f0a6e7
+      internalID: -6933349598023052795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_39
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 50
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce2a3a25fcf0f94d9b1f14f55ff21ee
+      internalID: -4219047792442516621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 50
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee6c3e81beb0b343a5883fb6a093988
+      internalID: -6333592567134175893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_41
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 67
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9971eaf5b7e7a14ca01eef381437e31
+      internalID: -6900003629379559723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_42
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 65
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5824858192c689248a108f02d87ee739
+      internalID: 1104617513130025013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_43
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73fdf0d46d4b394ca77033d0b399511
+      internalID: 7861469184997230790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_44
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 76
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c915e966e68603742b63b986de5f5434
+      internalID: 3749677987956361566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_45
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 76
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffe45f38cc522c46b3a6ccfb64ad748
+      internalID: -1355079737126875783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_46
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 76
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d977751165d361843bddf9b5e67bd0e2
+      internalID: -7986925985769788245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395227f4c514f19429fbc8793ef00e0a
+      internalID: -589308119470405509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_48
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610548a9a1d11074e9eedbc42a9d9b56
+      internalID: 4113128823343343019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_49
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 4
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6680f606e315f4b8c5af099a5e7836
+      internalID: -6097204930279855555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3dd1cdacb60524d96adcf7ebdca371
+      internalID: -4933540302138288268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_51
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 239
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175f01224273ab345ab284eb96202126
+      internalID: 8232075936758250055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_52
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 241
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6370e7dff225874fa5ffbde9071845d
+      internalID: -2426174450363388276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_53
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 52
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4beae240c42877429ad8d043079e507
+      internalID: 4171855937804478065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_54
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 8
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c4a72571a246545a8b27b0ff8c97ba
+      internalID: 871385645717644144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1e430d171f371554480264e3b7d332fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
