@@ -9,11 +9,11 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file for actual methods / implementation
   /// </summary>
-  partial class diPlayerImplement : MonoBehaviour
+  partial class diPlayer : diBoid
   {
     private void Awake()
     {
-      
+      InitStateMachine();
     }
 
     private void Start()
@@ -30,7 +30,6 @@ namespace Diablo_Entities
     {
       
     }
-
   }
 }
 

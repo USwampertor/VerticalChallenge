@@ -8,7 +8,7 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file to declarate variables, properties and constants
   /// </summary>
-  partial class diPlayer : MonoBehaviour
+  partial class diPlayer : diBoid
   {
     #region Movement Settings
     #endregion //Movement Settings
