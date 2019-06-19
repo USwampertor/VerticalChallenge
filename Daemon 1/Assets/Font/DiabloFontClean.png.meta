@@ -167,6 +167,9 @@ TextureImporter:
   - first:
       213: 871385645717644144
     second: DiabloFontClean_54
+  - first:
+      213: 2358210511565339952
+    second: DiabloFontClean_55
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1413,7 +1416,7 @@ TextureImporter:
         width: 17
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1421,6 +1424,27 @@ TextureImporter:
       bones: []
       spriteID: 581e8014bba4c3e4fb674b378d66962e
       internalID: 871385645717644144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloFontClean_55
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7182780ae5134db750313fcc35b3f
+      internalID: 2358210511565339952
       vertices: []
       indices: 
       edges: []
