@@ -1,106 +1,297 @@
 fileFormatVersion: 2
 guid: 68fdafb0a9424ba488eb8752ff3fe2c6
-timeCreated: 1487710353
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Couture_0
-    21300002: Couture_1
-    21300004: Couture_2
-    21300006: Couture_3
-    21300008: Couture_4
-    21300010: Couture_5
-    21300012: Couture_6
-    21300014: Couture_7
-    21300016: Couture_8
-    21300018: Couture_9
-    21300020: Couture_10
-    21300022: Couture_11
-    21300024: Couture_12
-    21300026: Couture_13
-    21300028: Couture_14
-    21300030: Couture_15
-    21300032: Couture_16
-    21300034: Couture_17
-    21300036: Couture_18
-    21300038: Couture_19
-    21300040: Couture_20
-    21300042: Couture_21
-    21300044: Couture_22
-    21300046: Couture_23
-    21300048: Couture_24
-    21300050: Couture_25
-    21300052: Couture_26
-    21300054: Couture_27
-    21300056: Couture_28
-    21300058: Couture_29
-    21300060: Couture_30
-    21300062: Couture_31
-    21300064: Couture_32
-    21300066: Couture_33
-    21300068: Couture_34
-    21300070: Couture_35
-    21300072: Couture_36
-    21300074: Couture_37
-    21300076: Couture_38
-    21300078: Couture_39
-    21300080: Couture_40
-    21300082: Couture_41
-    21300084: Couture_42
-    21300086: Couture_43
-    21300088: Couture_44
-    21300090: Couture_45
-    21300092: Couture_46
-    21300094: Couture_47
-    21300096: Couture_48
-    21300098: Couture_49
-    21300100: Couture_50
-    21300102: Couture_51
-    21300104: Couture_52
-    21300106: Couture_53
-    21300108: Couture_54
-    21300110: Couture_55
-    21300112: Couture_56
-    21300114: Couture_57
-    21300116: Couture_58
-    21300118: Couture_59
-    21300120: Couture_60
-    21300122: Couture_61
-    21300124: Couture_62
-    21300126: Couture_63
-    21300128: Couture_64
-    21300130: Couture_65
-    21300132: Couture_66
-    21300134: Couture_67
-    21300136: Couture_68
-    21300138: Couture_69
-    21300140: Couture_70
-    21300142: Couture_71
-    21300144: Couture_72
-    21300146: Couture_73
-    21300148: Couture_74
-    21300150: Couture_75
-    21300152: Couture_76
-    21300154: Couture_77
-    21300156: Couture_78
-    21300158: Couture_79
-    21300160: Couture_80
-    21300162: Couture_81
-    21300164: Couture_82
-    21300166: Couture_83
-    21300168: Couture_84
-    21300170: Couture_85
-    21300172: Couture_86
-    21300174: Couture_87
-    21300176: Couture_88
-    21300178: Couture_89
-    21300180: Couture_90
-    21300182: Couture_91
-    21300184: Couture_92
-    21300186: Couture_93
-    21300188: Couture_94
-    21300190: Couture_95
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Couture_0
+  - first:
+      213: 21300002
+    second: Couture_1
+  - first:
+      213: 21300004
+    second: Couture_2
+  - first:
+      213: 21300006
+    second: Couture_3
+  - first:
+      213: 21300008
+    second: Couture_4
+  - first:
+      213: 21300010
+    second: Couture_5
+  - first:
+      213: 21300012
+    second: Couture_6
+  - first:
+      213: 21300014
+    second: Couture_7
+  - first:
+      213: 21300016
+    second: Couture_8
+  - first:
+      213: 21300018
+    second: Couture_9
+  - first:
+      213: 21300020
+    second: Couture_10
+  - first:
+      213: 21300022
+    second: Couture_11
+  - first:
+      213: 21300024
+    second: Couture_12
+  - first:
+      213: 21300026
+    second: Couture_13
+  - first:
+      213: 21300028
+    second: Couture_14
+  - first:
+      213: 21300030
+    second: Couture_15
+  - first:
+      213: 21300032
+    second: Couture_16
+  - first:
+      213: 21300034
+    second: Couture_17
+  - first:
+      213: 21300036
+    second: Couture_18
+  - first:
+      213: 21300038
+    second: Couture_19
+  - first:
+      213: 21300040
+    second: Couture_20
+  - first:
+      213: 21300042
+    second: Couture_21
+  - first:
+      213: 21300044
+    second: Couture_22
+  - first:
+      213: 21300046
+    second: Couture_23
+  - first:
+      213: 21300048
+    second: Couture_24
+  - first:
+      213: 21300050
+    second: Couture_25
+  - first:
+      213: 21300052
+    second: Couture_26
+  - first:
+      213: 21300054
+    second: Couture_27
+  - first:
+      213: 21300056
+    second: Couture_28
+  - first:
+      213: 21300058
+    second: Couture_29
+  - first:
+      213: 21300060
+    second: Couture_30
+  - first:
+      213: 21300062
+    second: Couture_31
+  - first:
+      213: 21300064
+    second: Couture_32
+  - first:
+      213: 21300066
+    second: Couture_33
+  - first:
+      213: 21300068
+    second: Couture_34
+  - first:
+      213: 21300070
+    second: Couture_35
+  - first:
+      213: 21300072
+    second: Couture_36
+  - first:
+      213: 21300074
+    second: Couture_37
+  - first:
+      213: 21300076
+    second: Couture_38
+  - first:
+      213: 21300078
+    second: Couture_39
+  - first:
+      213: 21300080
+    second: Couture_40
+  - first:
+      213: 21300082
+    second: Couture_41
+  - first:
+      213: 21300084
+    second: Couture_42
+  - first:
+      213: 21300086
+    second: Couture_43
+  - first:
+      213: 21300088
+    second: Couture_44
+  - first:
+      213: 21300090
+    second: Couture_45
+  - first:
+      213: 21300092
+    second: Couture_46
+  - first:
+      213: 21300094
+    second: Couture_47
+  - first:
+      213: 21300096
+    second: Couture_48
+  - first:
+      213: 21300098
+    second: Couture_49
+  - first:
+      213: 21300100
+    second: Couture_50
+  - first:
+      213: 21300102
+    second: Couture_51
+  - first:
+      213: 21300104
+    second: Couture_52
+  - first:
+      213: 21300106
+    second: Couture_53
+  - first:
+      213: 21300108
+    second: Couture_54
+  - first:
+      213: 21300110
+    second: Couture_55
+  - first:
+      213: 21300112
+    second: Couture_56
+  - first:
+      213: 21300114
+    second: Couture_57
+  - first:
+      213: 21300116
+    second: Couture_58
+  - first:
+      213: 21300118
+    second: Couture_59
+  - first:
+      213: 21300120
+    second: Couture_60
+  - first:
+      213: 21300122
+    second: Couture_61
+  - first:
+      213: 21300124
+    second: Couture_62
+  - first:
+      213: 21300126
+    second: Couture_63
+  - first:
+      213: 21300128
+    second: Couture_64
+  - first:
+      213: 21300130
+    second: Couture_65
+  - first:
+      213: 21300132
+    second: Couture_66
+  - first:
+      213: 21300134
+    second: Couture_67
+  - first:
+      213: 21300136
+    second: Couture_68
+  - first:
+      213: 21300138
+    second: Couture_69
+  - first:
+      213: 21300140
+    second: Couture_70
+  - first:
+      213: 21300142
+    second: Couture_71
+  - first:
+      213: 21300144
+    second: Couture_72
+  - first:
+      213: 21300146
+    second: Couture_73
+  - first:
+      213: 21300148
+    second: Couture_74
+  - first:
+      213: 21300150
+    second: Couture_75
+  - first:
+      213: 21300152
+    second: Couture_76
+  - first:
+      213: 21300154
+    second: Couture_77
+  - first:
+      213: 21300156
+    second: Couture_78
+  - first:
+      213: 21300158
+    second: Couture_79
+  - first:
+      213: 21300160
+    second: Couture_80
+  - first:
+      213: 21300162
+    second: Couture_81
+  - first:
+      213: 21300164
+    second: Couture_82
+  - first:
+      213: 21300166
+    second: Couture_83
+  - first:
+      213: 21300168
+    second: Couture_84
+  - first:
+      213: 21300170
+    second: Couture_85
+  - first:
+      213: 21300172
+    second: Couture_86
+  - first:
+      213: 21300174
+    second: Couture_87
+  - first:
+      213: 21300176
+    second: Couture_88
+  - first:
+      213: 21300178
+    second: Couture_89
+  - first:
+      213: 21300180
+    second: Couture_90
+  - first:
+      213: 21300182
+    second: Couture_91
+  - first:
+      213: 21300184
+    second: Couture_92
+  - first:
+      213: 21300186
+    second: Couture_93
+  - first:
+      213: 21300188
+    second: Couture_94
+  - first:
+      213: 21300190
+    second: Couture_95
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -108,6 +299,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -116,6 +309,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -123,10 +318,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -135,65 +333,85 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -209,7 +427,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b6ae71f94964abb449dbfa5cddf9da97
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_1
       rect:
@@ -222,7 +448,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bc51a3f7c9b33a64e9352feeb0f9810d
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_2
       rect:
@@ -235,7 +469,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 66e5ca28e106be7408d687f19d64eef2
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_3
       rect:
@@ -248,7 +490,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c04aee4391637d74cbaad12cff54951b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_4
       rect:
@@ -261,7 +511,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e025f15ef671fd844a82bc0a49e89d8a
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_5
       rect:
@@ -274,7 +532,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f45faf97fb60ce14ea800428ea687619
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_6
       rect:
@@ -287,7 +553,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bcedc5915e16abb4c9f0ef0f16863134
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_7
       rect:
@@ -300,7 +574,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5f851c6134b1d604cac40a5b71790935
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_8
       rect:
@@ -313,7 +595,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 00bcc30afe2bedd4e97db957e9032eec
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_9
       rect:
@@ -326,7 +616,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c84f4f12421ecf746949044b168af322
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_10
       rect:
@@ -339,7 +637,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b15c2c37c0d880f44a48fa3e376ce7e9
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_11
       rect:
@@ -352,7 +658,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 275609e85cef2e048991419d234405bd
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_12
       rect:
@@ -365,7 +679,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 182a3136b6b8c554f939805a32e393ea
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_13
       rect:
@@ -378,7 +700,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 217c64d8195b4114a9ea7ed4b97eeedb
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_14
       rect:
@@ -391,7 +721,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 53d5aae6bf627ca409f8624c68e1366d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_15
       rect:
@@ -404,7 +742,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 228a2153f1b5c3f409ba5edf49370b25
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_16
       rect:
@@ -417,7 +763,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c4c41520b193424aa259ba2b731142f
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_17
       rect:
@@ -430,7 +784,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0e7f412f8459a5d49a25262848b68de6
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_18
       rect:
@@ -443,7 +805,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2dfef63a2df3e0b4ca5e8da3beb12e32
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_19
       rect:
@@ -456,7 +826,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d5c6e5f430ba9ba49929b4eb41cdae7f
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_20
       rect:
@@ -469,7 +847,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dc2a4869d6a1d4e41a6ce69e2cdd5171
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_21
       rect:
@@ -482,7 +868,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 47b2729e0b3e1f14fa38101ce5b30684
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_22
       rect:
@@ -495,7 +889,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bb18c4eaa7ca13e42a870c11d047ba26
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_23
       rect:
@@ -508,7 +910,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d0ecf22fdb0fcef4283fb4a0169b0d83
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_24
       rect:
@@ -521,7 +931,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0979a9748268abf4f9f5f6a690a92439
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_25
       rect:
@@ -534,7 +952,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 20b202c98a4ab16438b67b0d2b8117d3
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_26
       rect:
@@ -547,7 +973,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6e6226a9f27c026438a163f14312a676
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_27
       rect:
@@ -560,7 +994,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 152df7cb960dd7941bc7b0dda6447882
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_28
       rect:
@@ -573,7 +1015,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 90f26584f9a61a242b85f796fa7925c0
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_29
       rect:
@@ -586,7 +1036,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a322543ca51f0e84dace879943bfc63a
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_30
       rect:
@@ -599,7 +1057,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa024d43db0a5f3469c0be9833fb89bf
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_31
       rect:
@@ -612,7 +1078,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 08185ff2480a2884d9ada5906e880ca4
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_32
       rect:
@@ -625,7 +1099,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b48b2917c61cf114f84960b0aa37ab84
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_33
       rect:
@@ -638,7 +1120,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb3592a82bb99c04692538d8fbfd2595
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_34
       rect:
@@ -651,7 +1141,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1e0e40d5d15bb61408b93001a9fb0aa0
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_35
       rect:
@@ -664,7 +1162,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1839be8a18fb89a4c9039fe74676fedd
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_36
       rect:
@@ -677,7 +1183,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e6e2e3fb0fb238b46b2c090c8b156c55
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_37
       rect:
@@ -690,7 +1204,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fdcd075965f0cd541b1e926fcf34a182
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_38
       rect:
@@ -703,7 +1225,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 372a8397220781748a3409e375514d9f
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_39
       rect:
@@ -716,7 +1246,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5427734d98aa18e46a93399999bc1875
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_40
       rect:
@@ -729,7 +1267,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f0c0106401f639f4bb89cb334af67506
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_41
       rect:
@@ -742,7 +1288,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 67669f425b91e4d4496cc0fd963bd2b8
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_42
       rect:
@@ -755,7 +1309,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8109afbc14241af4a90f1d81daa583d4
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_43
       rect:
@@ -768,7 +1330,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ebd1f9a632caf424faa578479993b62c
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_44
       rect:
@@ -781,7 +1351,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d8fce8817c9fb70418701cbe287aa76f
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_45
       rect:
@@ -794,7 +1372,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fb63f970d5b4ade4d9fdee53099ce66e
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_46
       rect:
@@ -807,7 +1393,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c189b22a5a6aeb74dba940d1509fd7fa
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_47
       rect:
@@ -820,7 +1414,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dbef967f6a5f24744876369479af9bc1
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_48
       rect:
@@ -833,7 +1435,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a1a3786e06f55d94ab7c62850f061cd1
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_49
       rect:
@@ -846,7 +1456,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ecc5090293ef3f545a44d9495aa5f913
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_50
       rect:
@@ -859,7 +1477,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 90e8f7d0058832c46b000d8d6acd7c19
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_51
       rect:
@@ -872,7 +1498,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: be3d3fd20b3996d47b1c7c21c18734d7
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_52
       rect:
@@ -885,7 +1519,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03b67b7771fdf4544a1d498ed400a3ec
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_53
       rect:
@@ -898,7 +1540,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 839c45fbf6e38414c8d6374f10c62658
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_54
       rect:
@@ -911,7 +1561,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d0bb1f3f3f999bd4b963a12add286bef
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_55
       rect:
@@ -924,7 +1582,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 151731cf14fedf348b9ecbd4683aaf2c
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_56
       rect:
@@ -937,7 +1603,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b25d77b0295321c4baa0871ec9f2c099
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_57
       rect:
@@ -950,7 +1624,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dcb7099571c4dfa49808482ad9ad8647
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_58
       rect:
@@ -963,7 +1645,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a7ff9b821270bf84e864343c7199cd3a
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_59
       rect:
@@ -976,7 +1666,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c8dff8a0d2648e45b1b73a2345e78b6
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_60
       rect:
@@ -989,7 +1687,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 82949ddc9a3a50a48a7bfbd315d74654
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_61
       rect:
@@ -1002,7 +1708,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ee9b70dd40956cc4b879fddb2cbd4779
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_62
       rect:
@@ -1015,7 +1729,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4381311d5c59beb4b97680778938c295
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_63
       rect:
@@ -1028,7 +1750,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5218a833b38f4a4197be5e356841ca0
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_64
       rect:
@@ -1041,7 +1771,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 688c2c041193041488fdbf4bc00baea7
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_65
       rect:
@@ -1054,7 +1792,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 392a103fec8f32b4aa60b21ccc705da0
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_66
       rect:
@@ -1067,7 +1813,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 238b982bc0d32b24db11604a337e8ed4
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_67
       rect:
@@ -1080,7 +1834,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 114d0636f4e74b24694d1cacf73a05de
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_68
       rect:
@@ -1093,7 +1855,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 80a5fd4c43895fa49a05f32da4fd1807
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_69
       rect:
@@ -1106,7 +1876,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f58199f690f99fe4088c7a52d51b5fc7
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_70
       rect:
@@ -1119,7 +1897,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 69ad55a352f8c7c4786e83b490c9da38
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_71
       rect:
@@ -1132,7 +1918,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1b5ae5f2d440a4943a3b5611031d1f85
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_72
       rect:
@@ -1145,7 +1939,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96cb8f81357f9c94db4dca00b6ded570
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_73
       rect:
@@ -1158,7 +1960,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5e17de02a05dfe342b4f92186e336d77
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_74
       rect:
@@ -1171,7 +1981,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 50af17bdd79aeee4591678e6c0fc52d3
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_75
       rect:
@@ -1184,7 +2002,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 75db848d0a6b53b4482a9d6b9685ecb6
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_76
       rect:
@@ -1197,7 +2023,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 712979f8599269f489d92911a4d8334e
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_77
       rect:
@@ -1210,7 +2044,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e07b25ea60278734faf2f2f67d575978
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_78
       rect:
@@ -1223,7 +2065,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2bf27b55cb0b18d48a58cfc40519fb66
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_79
       rect:
@@ -1236,7 +2086,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 746bae7ccadb62c49a94423730008c68
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_80
       rect:
@@ -1249,7 +2107,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ddb052b9ef4a3634ea6f1285b766e1e2
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_81
       rect:
@@ -1262,7 +2128,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 46fb63e66ac4f3543b9185d0b91e3fd2
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_82
       rect:
@@ -1275,7 +2149,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f789991c5fef2c749a4a6b28cb0bdf80
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_83
       rect:
@@ -1288,7 +2170,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e4793dd7d60c1f1439ffe1f1c8dc9b12
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_84
       rect:
@@ -1301,7 +2191,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f3c95091ec09a954aa02cc3455e5cd91
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_85
       rect:
@@ -1314,7 +2212,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 11bf47e5e9080cf489f7ae7bcbf5b1d5
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_86
       rect:
@@ -1327,7 +2233,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9204cf8395c33bb42af0fcd31b51be13
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_87
       rect:
@@ -1340,7 +2254,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d87948ede2a478942954248a5147c3b5
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_88
       rect:
@@ -1353,7 +2275,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d076bfb107d15ec4ba557ad65d89d367
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_89
       rect:
@@ -1366,7 +2296,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1b8e84573cbc0594983913b0561d08ff
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_90
       rect:
@@ -1379,7 +2317,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 809f5c85bb42eec408433583e36e8bbc
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_91
       rect:
@@ -1392,7 +2338,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f888ba2b0825438488be8860ad60a161
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_92
       rect:
@@ -1405,7 +2359,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 252bd058d45a6e34f915e392de674e41
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_93
       rect:
@@ -1418,7 +2380,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bf1c25df4eea8824a9c08159b1b3b58c
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_94
       rect:
@@ -1431,7 +2401,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 99253c6694e283b49b9df691c609b4fe
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Couture_95
       rect:
@@ -1444,9 +2422,28 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2b9d2d8cc04f5514f8197cef38fa83d7
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 285ad48103bb070498e0ff3f96ef52ff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

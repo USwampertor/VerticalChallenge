@@ -1,106 +1,297 @@
 fileFormatVersion: 2
 guid: b48f5fd8781c3e3458bdbd8715ee9d63
-timeCreated: 1487710356
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Tower Print_0
-    21300002: Tower Print_1
-    21300004: Tower Print_2
-    21300006: Tower Print_3
-    21300008: Tower Print_4
-    21300010: Tower Print_5
-    21300012: Tower Print_6
-    21300014: Tower Print_7
-    21300016: Tower Print_8
-    21300018: Tower Print_9
-    21300020: Tower Print_10
-    21300022: Tower Print_11
-    21300024: Tower Print_12
-    21300026: Tower Print_13
-    21300028: Tower Print_14
-    21300030: Tower Print_15
-    21300032: Tower Print_16
-    21300034: Tower Print_17
-    21300036: Tower Print_18
-    21300038: Tower Print_19
-    21300040: Tower Print_20
-    21300042: Tower Print_21
-    21300044: Tower Print_22
-    21300046: Tower Print_23
-    21300048: Tower Print_24
-    21300050: Tower Print_25
-    21300052: Tower Print_26
-    21300054: Tower Print_27
-    21300056: Tower Print_28
-    21300058: Tower Print_29
-    21300060: Tower Print_30
-    21300062: Tower Print_31
-    21300064: Tower Print_32
-    21300066: Tower Print_33
-    21300068: Tower Print_34
-    21300070: Tower Print_35
-    21300072: Tower Print_36
-    21300074: Tower Print_37
-    21300076: Tower Print_38
-    21300078: Tower Print_39
-    21300080: Tower Print_40
-    21300082: Tower Print_41
-    21300084: Tower Print_42
-    21300086: Tower Print_43
-    21300088: Tower Print_44
-    21300090: Tower Print_45
-    21300092: Tower Print_46
-    21300094: Tower Print_47
-    21300096: Tower Print_48
-    21300098: Tower Print_49
-    21300100: Tower Print_50
-    21300102: Tower Print_51
-    21300104: Tower Print_52
-    21300106: Tower Print_53
-    21300108: Tower Print_54
-    21300110: Tower Print_55
-    21300112: Tower Print_56
-    21300114: Tower Print_57
-    21300116: Tower Print_58
-    21300118: Tower Print_59
-    21300120: Tower Print_60
-    21300122: Tower Print_61
-    21300124: Tower Print_62
-    21300126: Tower Print_63
-    21300128: Tower Print_64
-    21300130: Tower Print_65
-    21300132: Tower Print_66
-    21300134: Tower Print_67
-    21300136: Tower Print_68
-    21300138: Tower Print_69
-    21300140: Tower Print_70
-    21300142: Tower Print_71
-    21300144: Tower Print_72
-    21300146: Tower Print_73
-    21300148: Tower Print_74
-    21300150: Tower Print_75
-    21300152: Tower Print_76
-    21300154: Tower Print_77
-    21300156: Tower Print_78
-    21300158: Tower Print_79
-    21300160: Tower Print_80
-    21300162: Tower Print_81
-    21300164: Tower Print_82
-    21300166: Tower Print_83
-    21300168: Tower Print_84
-    21300170: Tower Print_85
-    21300172: Tower Print_86
-    21300174: Tower Print_87
-    21300176: Tower Print_88
-    21300178: Tower Print_89
-    21300180: Tower Print_90
-    21300182: Tower Print_91
-    21300184: Tower Print_92
-    21300186: Tower Print_93
-    21300188: Tower Print_94
-    21300190: Tower Print_95
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Tower Print_0
+  - first:
+      213: 21300002
+    second: Tower Print_1
+  - first:
+      213: 21300004
+    second: Tower Print_2
+  - first:
+      213: 21300006
+    second: Tower Print_3
+  - first:
+      213: 21300008
+    second: Tower Print_4
+  - first:
+      213: 21300010
+    second: Tower Print_5
+  - first:
+      213: 21300012
+    second: Tower Print_6
+  - first:
+      213: 21300014
+    second: Tower Print_7
+  - first:
+      213: 21300016
+    second: Tower Print_8
+  - first:
+      213: 21300018
+    second: Tower Print_9
+  - first:
+      213: 21300020
+    second: Tower Print_10
+  - first:
+      213: 21300022
+    second: Tower Print_11
+  - first:
+      213: 21300024
+    second: Tower Print_12
+  - first:
+      213: 21300026
+    second: Tower Print_13
+  - first:
+      213: 21300028
+    second: Tower Print_14
+  - first:
+      213: 21300030
+    second: Tower Print_15
+  - first:
+      213: 21300032
+    second: Tower Print_16
+  - first:
+      213: 21300034
+    second: Tower Print_17
+  - first:
+      213: 21300036
+    second: Tower Print_18
+  - first:
+      213: 21300038
+    second: Tower Print_19
+  - first:
+      213: 21300040
+    second: Tower Print_20
+  - first:
+      213: 21300042
+    second: Tower Print_21
+  - first:
+      213: 21300044
+    second: Tower Print_22
+  - first:
+      213: 21300046
+    second: Tower Print_23
+  - first:
+      213: 21300048
+    second: Tower Print_24
+  - first:
+      213: 21300050
+    second: Tower Print_25
+  - first:
+      213: 21300052
+    second: Tower Print_26
+  - first:
+      213: 21300054
+    second: Tower Print_27
+  - first:
+      213: 21300056
+    second: Tower Print_28
+  - first:
+      213: 21300058
+    second: Tower Print_29
+  - first:
+      213: 21300060
+    second: Tower Print_30
+  - first:
+      213: 21300062
+    second: Tower Print_31
+  - first:
+      213: 21300064
+    second: Tower Print_32
+  - first:
+      213: 21300066
+    second: Tower Print_33
+  - first:
+      213: 21300068
+    second: Tower Print_34
+  - first:
+      213: 21300070
+    second: Tower Print_35
+  - first:
+      213: 21300072
+    second: Tower Print_36
+  - first:
+      213: 21300074
+    second: Tower Print_37
+  - first:
+      213: 21300076
+    second: Tower Print_38
+  - first:
+      213: 21300078
+    second: Tower Print_39
+  - first:
+      213: 21300080
+    second: Tower Print_40
+  - first:
+      213: 21300082
+    second: Tower Print_41
+  - first:
+      213: 21300084
+    second: Tower Print_42
+  - first:
+      213: 21300086
+    second: Tower Print_43
+  - first:
+      213: 21300088
+    second: Tower Print_44
+  - first:
+      213: 21300090
+    second: Tower Print_45
+  - first:
+      213: 21300092
+    second: Tower Print_46
+  - first:
+      213: 21300094
+    second: Tower Print_47
+  - first:
+      213: 21300096
+    second: Tower Print_48
+  - first:
+      213: 21300098
+    second: Tower Print_49
+  - first:
+      213: 21300100
+    second: Tower Print_50
+  - first:
+      213: 21300102
+    second: Tower Print_51
+  - first:
+      213: 21300104
+    second: Tower Print_52
+  - first:
+      213: 21300106
+    second: Tower Print_53
+  - first:
+      213: 21300108
+    second: Tower Print_54
+  - first:
+      213: 21300110
+    second: Tower Print_55
+  - first:
+      213: 21300112
+    second: Tower Print_56
+  - first:
+      213: 21300114
+    second: Tower Print_57
+  - first:
+      213: 21300116
+    second: Tower Print_58
+  - first:
+      213: 21300118
+    second: Tower Print_59
+  - first:
+      213: 21300120
+    second: Tower Print_60
+  - first:
+      213: 21300122
+    second: Tower Print_61
+  - first:
+      213: 21300124
+    second: Tower Print_62
+  - first:
+      213: 21300126
+    second: Tower Print_63
+  - first:
+      213: 21300128
+    second: Tower Print_64
+  - first:
+      213: 21300130
+    second: Tower Print_65
+  - first:
+      213: 21300132
+    second: Tower Print_66
+  - first:
+      213: 21300134
+    second: Tower Print_67
+  - first:
+      213: 21300136
+    second: Tower Print_68
+  - first:
+      213: 21300138
+    second: Tower Print_69
+  - first:
+      213: 21300140
+    second: Tower Print_70
+  - first:
+      213: 21300142
+    second: Tower Print_71
+  - first:
+      213: 21300144
+    second: Tower Print_72
+  - first:
+      213: 21300146
+    second: Tower Print_73
+  - first:
+      213: 21300148
+    second: Tower Print_74
+  - first:
+      213: 21300150
+    second: Tower Print_75
+  - first:
+      213: 21300152
+    second: Tower Print_76
+  - first:
+      213: 21300154
+    second: Tower Print_77
+  - first:
+      213: 21300156
+    second: Tower Print_78
+  - first:
+      213: 21300158
+    second: Tower Print_79
+  - first:
+      213: 21300160
+    second: Tower Print_80
+  - first:
+      213: 21300162
+    second: Tower Print_81
+  - first:
+      213: 21300164
+    second: Tower Print_82
+  - first:
+      213: 21300166
+    second: Tower Print_83
+  - first:
+      213: 21300168
+    second: Tower Print_84
+  - first:
+      213: 21300170
+    second: Tower Print_85
+  - first:
+      213: 21300172
+    second: Tower Print_86
+  - first:
+      213: 21300174
+    second: Tower Print_87
+  - first:
+      213: 21300176
+    second: Tower Print_88
+  - first:
+      213: 21300178
+    second: Tower Print_89
+  - first:
+      213: 21300180
+    second: Tower Print_90
+  - first:
+      213: 21300182
+    second: Tower Print_91
+  - first:
+      213: 21300184
+    second: Tower Print_92
+  - first:
+      213: 21300186
+    second: Tower Print_93
+  - first:
+      213: 21300188
+    second: Tower Print_94
+  - first:
+      213: 21300190
+    second: Tower Print_95
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -108,6 +299,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -116,6 +309,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -123,10 +318,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -135,25 +333,30 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -169,7 +372,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f70d41e2ef9d1ac42b598476dcc66bc5
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_1
       rect:
@@ -182,7 +393,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4f7261833f14c1b42971c390556465f7
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_2
       rect:
@@ -195,7 +414,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 494deff61511426458cb5a0dd90ab309
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_3
       rect:
@@ -208,7 +435,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: afc97983b6631ab40bf1a6df4827c8fe
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_4
       rect:
@@ -221,7 +456,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 31b66fe28e651b24b9957367dfdd43fb
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_5
       rect:
@@ -234,7 +477,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fcb317028ec96a64fa3d66b02a7ed81e
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_6
       rect:
@@ -247,7 +498,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3579d55d46dccb04a9525c3412aa53fa
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_7
       rect:
@@ -260,7 +519,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5e9ff259c033bfc4fb532d9eedb5b931
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_8
       rect:
@@ -273,7 +540,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 21e6adc2cba9786488ad5421ff88a880
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_9
       rect:
@@ -286,7 +561,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9d63910ef3462054a8cd366073ec7701
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_10
       rect:
@@ -299,7 +582,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 64f06d40efb97f747b64852053c7ee4b
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_11
       rect:
@@ -312,7 +603,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 187aa52a91804fa439ead44945261857
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_12
       rect:
@@ -325,7 +624,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f5fc4cd49c57ad34789dd48fd7b34e09
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_13
       rect:
@@ -338,7 +645,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 179f082cfca47f842b19dc23b1ac7269
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_14
       rect:
@@ -351,7 +666,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e991340af21fbb847b1188fcf4c2e45c
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_15
       rect:
@@ -364,7 +687,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 701d75f885b2f394bae04b9cc4bdd6e5
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_16
       rect:
@@ -377,7 +708,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84af5fac7b3b58a4889411ba93492646
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_17
       rect:
@@ -390,7 +729,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cb2a9beaf76caa248a7175423bfdaccb
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_18
       rect:
@@ -403,7 +750,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a85b4916490fa3642948e253ca6cb8cc
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_19
       rect:
@@ -416,7 +771,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a0d461e3212187e4484d52d1914e6402
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_20
       rect:
@@ -429,7 +792,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c69401ce8e450e04481dfe284015deae
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_21
       rect:
@@ -442,7 +813,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 001a387e27813fa4cbb13bd9af9e9a2c
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_22
       rect:
@@ -455,7 +834,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 05aab11f98c84f84980c1191eb2e920a
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_23
       rect:
@@ -468,7 +855,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1a18d0359711f8a4aa8bb63703c21a87
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_24
       rect:
@@ -481,7 +876,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 42936c0210d428d41ac3495ba1dd1aeb
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_25
       rect:
@@ -494,7 +897,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d510676a7dcc5514f84705b74eb126c1
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_26
       rect:
@@ -507,7 +918,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6f913f95a95472b48aecfb18fb12c3a1
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_27
       rect:
@@ -520,7 +939,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0736d495c88ffb04194cf13384b9d16c
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_28
       rect:
@@ -533,7 +960,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a14ddba5c5843ba43bc7b946442cf7a4
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_29
       rect:
@@ -546,7 +981,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0156aeda4b95b75479957603728fd1f8
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_30
       rect:
@@ -559,7 +1002,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f1cc76d73d0f08643b426f89f23364a7
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_31
       rect:
@@ -572,7 +1023,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c17ef2419bd40fa4a831d764d41cc84c
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_32
       rect:
@@ -585,7 +1044,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7e08fd2cd959b7f4c9ec52b0acc3bd11
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_33
       rect:
@@ -598,7 +1065,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d7e4470c24014d948a5bb7ed31bb0dc3
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_34
       rect:
@@ -611,7 +1086,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c36ddf93226f7d141908d984e102dd08
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_35
       rect:
@@ -624,7 +1107,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bb83048455a9ce842894eda030afe01a
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_36
       rect:
@@ -637,7 +1128,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8e8e5397aa74a374e9cac2b594b8b123
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_37
       rect:
@@ -650,7 +1149,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d698eb75affc1d840becf4cdf1af5134
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_38
       rect:
@@ -663,7 +1170,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9b5457d099e10cb4397924d0fd83c7d7
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_39
       rect:
@@ -676,7 +1191,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6affb1e79bb9e1b4681761010dfc2b9a
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_40
       rect:
@@ -689,7 +1212,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 474435a69cedf1245b7e184e69a30d88
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_41
       rect:
@@ -702,7 +1233,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f848c0fbccc548d4aaeb028ccce875d0
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_42
       rect:
@@ -715,7 +1254,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a9704ea55d207094fa55f9e44f312dd1
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_43
       rect:
@@ -728,7 +1275,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bc6aa94a50aafb948a736207ac1bb04d
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_44
       rect:
@@ -741,7 +1296,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 682244fa458991a46ba325724b4d887f
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_45
       rect:
@@ -754,7 +1317,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f530bcaf90699c3439eabaaa448cb5d2
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_46
       rect:
@@ -767,7 +1338,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2e748c994352f0143a2a501acf909b89
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_47
       rect:
@@ -780,7 +1359,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8450f237d9b553c4289e8bde6976ac97
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_48
       rect:
@@ -793,7 +1380,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d0e13edcc0c2c2a4489ee924f0b45003
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_49
       rect:
@@ -806,7 +1401,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a98bf7ebd79e32243a28073ee32d402e
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_50
       rect:
@@ -819,7 +1422,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a30e1ffabd28070419a1b2fd85a216bc
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_51
       rect:
@@ -832,7 +1443,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83a044102e7c3c44e8f6fb7f8cda28f0
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_52
       rect:
@@ -845,7 +1464,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a9f804fb6e1e12041bfdc13245e4e926
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_53
       rect:
@@ -858,7 +1485,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0376edcbf586aa9449e83a2529d4baba
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_54
       rect:
@@ -871,7 +1506,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3ced960e12f6ae74da04cad0718685cd
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_55
       rect:
@@ -884,7 +1527,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 668b258eefde2da49ac5c68dfb2b24e6
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_56
       rect:
@@ -897,7 +1548,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: be9b152919de21f44a2443c38792bae6
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_57
       rect:
@@ -910,7 +1569,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: da1364eaf83478c4aab180a2e212f16a
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_58
       rect:
@@ -923,7 +1590,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 00e9f8745b95b464f894f46ef34b8c08
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_59
       rect:
@@ -936,7 +1611,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7806d9d24bb86324895c6bab58e30143
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_60
       rect:
@@ -949,7 +1632,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 651176763c280df41af30b264f632d5f
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_61
       rect:
@@ -962,7 +1653,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 41da5316c0e8ad540b7e9cc29aaaa355
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_62
       rect:
@@ -975,7 +1674,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 18790fa216c98214f90412d1393cd942
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_63
       rect:
@@ -988,7 +1695,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 35ddc5accc9d9d14e98fbab11dc1ba01
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_64
       rect:
@@ -1001,7 +1716,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0d6696b46cb601b44b7abbf5402e1a81
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_65
       rect:
@@ -1014,7 +1737,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96eb0fc6e36c7884683e71bf9b3a623b
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_66
       rect:
@@ -1027,7 +1758,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1d7e8233f3693ee44ac33495dc76efb9
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_67
       rect:
@@ -1040,7 +1779,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f4a798d922620564d81868b72fd65ec1
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_68
       rect:
@@ -1053,7 +1800,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 89e2cd9be8bb7d147a0138b69178e7bd
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_69
       rect:
@@ -1066,7 +1821,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 266ffb4cf123c214e9eecf4532c6751d
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_70
       rect:
@@ -1079,7 +1842,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d68fc7a9f7f851e4f92878aef574fafa
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_71
       rect:
@@ -1092,7 +1863,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96cb3a713aabdce4589b0250926e0ecd
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_72
       rect:
@@ -1105,7 +1884,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d4444e228344e26469b7dcab863474ca
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_73
       rect:
@@ -1118,7 +1905,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 218f945bec921494098c435b200b2e51
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_74
       rect:
@@ -1131,7 +1926,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dd90d2209a92bfd4d80643fe78944c89
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_75
       rect:
@@ -1144,7 +1947,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03988eca2a008dd44993a1e7ee9e7a26
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_76
       rect:
@@ -1157,7 +1968,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d77873e627659b040ab6311926e20404
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_77
       rect:
@@ -1170,7 +1989,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ab062faac0227d0459cbdffefb0502df
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_78
       rect:
@@ -1183,7 +2010,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b1d9bf318c13ebd46ab1563956c9206c
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_79
       rect:
@@ -1196,7 +2031,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44d85dffb76dda74091f1bfe2b4200c9
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_80
       rect:
@@ -1209,7 +2052,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 998abfabc2ad6fc45bc193c485dd628a
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_81
       rect:
@@ -1222,7 +2073,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 39e9167ccaa222f4eb1e23a578435caa
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_82
       rect:
@@ -1235,7 +2094,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b4c2a3dab514944aacebe257a09cec0
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_83
       rect:
@@ -1248,7 +2115,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03934c4ca5eae7a489f0483e1af0c7f3
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_84
       rect:
@@ -1261,7 +2136,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24eabfd3685fbd7428ee2fd2ae7e38e2
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_85
       rect:
@@ -1274,7 +2157,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: da5948551bd1a9345a2759739156e688
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_86
       rect:
@@ -1287,7 +2178,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf5af184b70f94eb78c61ed574f7cc
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_87
       rect:
@@ -1300,7 +2199,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4a6dea924c6f75c488f9b4242763924a
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_88
       rect:
@@ -1313,7 +2220,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d5516d667ab861245b719ba5994dfbe3
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_89
       rect:
@@ -1326,7 +2241,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 60543e2755d4ae048b286834077155e5
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_90
       rect:
@@ -1339,7 +2262,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 30acf7d4fc882b04f8e60ad02bec40f7
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_91
       rect:
@@ -1352,7 +2283,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 740422dd19b441c4cac50e6ebc3b04c9
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_92
       rect:
@@ -1365,7 +2304,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cb8fe8b8effae9549a15a2b199b083a4
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_93
       rect:
@@ -1378,7 +2325,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 48259af558ec62d48af0b12246d5ddc4
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_94
       rect:
@@ -1391,7 +2346,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8561a67c32de9924087e899a322753f7
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tower Print_95
       rect:
@@ -1404,9 +2367,28 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bd0fc5ff494e53946a914c9772f6513c
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0156bcc524ea1bd40a040daedb178834
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
