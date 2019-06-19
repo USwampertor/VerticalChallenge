@@ -20,6 +20,7 @@ public class diDialog
 {
   public int id;
   public string m_name;
+  public AudioClip m_audio;
   public eDialogType m_type;
   [TextArea]
   public string m_gossip;
