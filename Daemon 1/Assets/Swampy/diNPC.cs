@@ -3,17 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class diNPC : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-      this.gameObject.AddComponent<Outline>();
-    }
+  public List<diDialog> m_dialogs;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public Sprite m_sprite;
+  private SpriteRenderer m_renderer;
+
+  // Start is called before the first frame update
+  void Start()
+  {
+    this.gameObject.AddComponent<Outline>();
+    m_renderer = this.gameObject.GetComponent<SpriteRenderer>();
+    m_renderer.sprite = m_sprite;
+  }
+  
+  // Update is called once per frame
+  void Update()
+  {
+      
+  }
+  
+  
 }
