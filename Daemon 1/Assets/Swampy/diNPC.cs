@@ -46,6 +46,7 @@ public class diNPC : MonoBehaviour
 
     m_collider.size = new Vector2(m_renderer.bounds.size.x,
                                   m_renderer.bounds.size.y);
+
   }
 
   private void Update() {
