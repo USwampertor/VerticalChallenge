@@ -9,7 +9,7 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file for actual methods / implementation
   /// </summary>
-  partial class diPlayer : diBoid
+  partial class diEnemy : diBoid
   {
     private void Awake()
     {
@@ -18,17 +18,20 @@ namespace Diablo_Entities
 
     private void Start()
     {
-      
+      m_camReference = Camera.main;
+      m_playerPosReference =
+         GameObject.FindGameObjectWithTag("player").transform;
     }
 
     private void Update()
     {
-      
+      m_playerPosReference =
+         GameObject.FindGameObjectWithTag("player").transform;
     }
 
     private void FixedUpdate()
     {
-      
+      m_stateMachine.OnState(this);
     }
   }
 }

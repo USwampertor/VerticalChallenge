@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace Diablo_Entities
 {
   public abstract class diBoid : MonoBehaviour
@@ -63,14 +64,23 @@ namespace Diablo_Entities
     }
     #endregion
 
-    protected void Move()
+    public void Move()
     {
-      if(Velocity != Vector2.zero)
-      {
-        m_v2LastPosition = transform.position;
-        m_v2Velocity += m_v2TotalForce * Time.fixedDeltaTime;
-        transform.position += (Vector3)m_v2Velocity * Time.fixedDeltaTime;
-      }
+
+    }
+
+    public Vector2 seek(Vector2 startPos, Vector2 targetPos, float magnitude)
+    {
+      //Initializes vector
+      Vector2 forceV = new Vector3();
+      //sets vector to where object will start moving towards
+      forceV = targetPos - startPos;
+      //Normalize the vector
+      forceV.Normalize();
+      forceV *= magnitude;
+     /* //Just Debugging the final direction
+      Debug.DrawRay(startPos, forceV * 10, Color.blue);*/
+      return forceV;
     }
 
   }

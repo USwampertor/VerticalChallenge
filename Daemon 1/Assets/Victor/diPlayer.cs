@@ -11,6 +11,28 @@ namespace Diablo_Entities
   partial class diPlayer : diBoid
   {
     #region Movement Settings
+
+    /// <summary>
+    /// The position of the mouse when clicks in the map
+    /// </summary>
+    [SerializeField]
+    internal Vector2 m_targetToMove;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    internal bool m_targetReached;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    internal Camera m_camReference;
+
+    [SerializeField]
+    internal float m_rangeToArrive;
+
     #endregion //Movement Settings
 
     #region Combat Settings

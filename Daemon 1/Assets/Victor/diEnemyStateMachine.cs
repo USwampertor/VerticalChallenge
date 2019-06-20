@@ -6,20 +6,25 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file to declare / initialize the state machine
   /// </summary>
-  partial class diPlayer : diBoid
+  partial class diEnemy : diBoid
   {
     //Object of the StateMachine Class made with sfCharacter Template
-    private diStateMachine<diPlayer> m_stateMachine;
+    private diStateMachine<diEnemy> m_stateMachine;
+
+    public EnemyMoveState movingState;
+    public EnemyIdleState idleState;
 
     /// <summary>
     /// Initialize State Machine
     /// </summary>
     private void InitStateMachine()
     {
-      m_stateMachine = new diStateMachine<diPlayer>();
-      /*
-            idleState = new CharIdleState(m_stateMachine);
-            m_stateMachine.Init(idleState);*/
+      m_stateMachine = new diStateMachine<diEnemy>();
+
+      idleState = new EnemyIdleState(m_stateMachine);
+      movingState = new EnemyMoveState(m_stateMachine);
+
+      m_stateMachine.Init(idleState);
     }
   }
 }
