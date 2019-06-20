@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-  public AudioSource
-  m_theme;
-
   public GameObject 
   m_markers;
 
@@ -31,12 +28,14 @@ public class Menu : MonoBehaviour
     m_inputDelay = 1.0f;
     m_maxTime = 30.0f;
     m_timer = 0.0f;
-    m_theme.Play();
   }
 
   void 
   Update(){
-    if (Input.GetKey(KeyCode.Escape)){
+
+    ButtonChecker();
+
+    if (Input.GetKeyDown(KeyCode.Escape)){
         Application.Quit();
     }
 
@@ -103,6 +102,24 @@ public class Menu : MonoBehaviour
       }
       m_markers.transform.position += new Vector3(0.0f, m_markerDistance, 0.0f);
       m_markerPosition--;
+    }
+  }
+
+  void
+  ButtonChecker(){
+    if(Input.GetKeyDown(KeyCode.Return)){
+      if (m_markerPosition == 0){
+        SceneManager.LoadScene(4);
+      }
+      if (m_markerPosition == 2){
+        SceneManager.LoadScene(0);
+      }
+      if (m_markerPosition == 3){
+        SceneManager.LoadScene(3);
+      }
+      if (m_markerPosition == 4){
+        Application.Quit();
+      }
     }
   }
 }
