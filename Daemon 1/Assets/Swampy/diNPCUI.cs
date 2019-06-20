@@ -9,9 +9,9 @@ public enum eUIState
   NONE = 0,
   MENU,
   SHOP,
+  SELL,
   GOSSIPING,
-  WAITING,
-  GOSSIP
+  WAITING
 }
 
 
@@ -35,6 +35,8 @@ public class diNPCUI : MonoBehaviour
   private GameObject m_actionContainer;
   private GameObject m_narration;
   private GameObject m_narrationMask;
+
+  private GameObject m_player;
 
   private AudioSource m_source;
 
@@ -126,8 +128,17 @@ public class diNPCUI : MonoBehaviour
 
     if(m_state == eUIState.MENU) {
 
+      if(Input.GetKeyUp(KeyCode.Return)) {
+        m_list[m_listPosition].GetComponent<Button>().onClick.Invoke();
+        return;
+      }
+
       if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)) {
         m_timer += Time.deltaTime;
+        if(m_timer >= m_inputDelay) {
+          if (Input.GetKey(KeyCode.DownArrow)) { ++m_listPosition; }
+          if (Input.GetKey(KeyCode.UpArrow)) { --m_listPosition; }
+        }
       }
       else {
         if (Input.GetKeyUp(KeyCode.DownArrow)) {
@@ -136,16 +147,11 @@ public class diNPCUI : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.UpArrow)) {
           --m_listPosition;
         }
-
+        m_timer = 0;
+      }
         if (m_listPosition < 0) { m_listPosition = m_list.Count - 1; }
         else if (m_listPosition >= m_list.Count) { m_listPosition = 0; }
-
-        m_timer = 0;
         StartCoroutine(SetCursor());
-      }
-
-      
-
     }
 
     if(m_state == eUIState.GOSSIPING) {
@@ -172,6 +178,21 @@ public class diNPCUI : MonoBehaviour
                                m_actionContainer, 
                                null));
         }
+        else if ( dialog.m_type == eDialogType.SHOP) {
+          tmp.GetComponent<Button>().onClick.AddListener(
+            () => EnterSubMenu(dialog.m_type,
+                               dialog.m_options,
+                               m_shopContainer,
+                               null));
+        }
+        else if (dialog.m_type == eDialogType.SELL) {
+          tmp.GetComponent<Button>().onClick.AddListener(
+            () => EnterSubMenu(dialog.m_type,
+                               dialog.m_options,
+                               m_shopContainer,
+                               null));
+        }
+
         tmp.transform.parent = container.transform;
         Text tmpText = tmp.transform.GetChild(0).GetComponent<Text>();
         tmpText.text = dialog.m_name;
@@ -198,16 +219,34 @@ public class diNPCUI : MonoBehaviour
         m_list.Add(tmp);
       }
     }
+
+    else if(type == eDialogType.SELL) {
+      foreach (diDialog dialog in dialogs) {
+        
+      }
+    }
+
+    else if (type == eDialogType.SHOP) {
+      foreach (diDialog dialog in dialogs) {
+        
+      }
+    }
+
   }
 
   private IEnumerator SetCursor() {
     yield return new WaitForEndOfFrame();
+
+    float offset =
+      m_list[m_listPosition].GetComponent<RectTransform>().sizeDelta.x / 2 +
+      m_list[m_listPosition].transform.GetChild(0).GetComponent<RectTransform>().sizeDelta.x / 2 +
+      (m_menuCursor.transform.GetChild(0).GetComponent<RectTransform>().sizeDelta.x / 2 * 
+       m_menuCursor.transform.GetChild(0).GetComponent<RectTransform>().localScale.x * 2);
+
     float newXPositive =
-        m_list[m_listPosition].transform.GetChild(0).transform.position.x +
-        m_list[m_listPosition].transform.GetChild(0).GetComponent<RectTransform>().sizeDelta.x;
+      m_list[m_listPosition].transform.GetChild(0).transform.position.x - offset;
     float newXNegative =
-      m_list[m_listPosition].transform.GetChild(0).transform.position.x -
-      m_list[m_listPosition].transform.GetChild(0).GetComponent<RectTransform>().sizeDelta.x;
+      m_list[m_listPosition].transform.GetChild(0).transform.position.x + offset;
 
     m_menuCursor.transform.position = m_list[m_listPosition].transform.position;
     m_menuCursor.transform.GetChild(0).transform.position =
@@ -225,7 +264,7 @@ public class diNPCUI : MonoBehaviour
     Debug.Log("Setting narration...");
     m_gossipObject.SetActive(true);
     m_infoObject.SetActive(false);
-
+    m_menuCursor.SetActive(false);
     m_narration.GetComponent<Text>().text = narration;
     m_state = eUIState.WAITING;
   }
@@ -242,14 +281,29 @@ public class diNPCUI : MonoBehaviour
 
   private void StopNarrationSequence() {
     Debug.Log("Stopping Narration Sequence...");
-    m_state = eUIState.GOSSIP;
+    m_state = eUIState.MENU;
     m_gossipObject.SetActive(false);
     m_infoObject.SetActive(true);
+    m_menuCursor.SetActive(true);
     if (m_activeNPC.m_type == eNPCType.GOSSIP) {
       ExitUI();
     }
+    else {
+      StartCoroutine(SetCursor());
+    }
   }
 
+  private void BuyItem() {
+   
+  }
+
+  private void SellItem() {
+
+  }
+
+  private void OpenStore(eDialogType type) {
+
+  }
 
   private void CleanMenu(GameObject container) {
     Debug.Log("Cleaning menu...");

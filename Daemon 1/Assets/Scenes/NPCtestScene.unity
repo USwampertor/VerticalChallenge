@@ -1860,7 +1860,7 @@ MonoBehaviour:
   - id: 0
     m_name: Talk to the other Pentagram
     m_audio: {fileID: 0}
-    m_type: 6
+    m_type: 2
     m_gossip: 
     m_options:
     - id: 0
@@ -2478,11 +2478,11 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 5
-  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
-  m_ChildScaleWidth: 1
+  m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
 --- !u!114 &1736910382
 MonoBehaviour:
