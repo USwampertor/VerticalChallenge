@@ -1,106 +1,297 @@
 fileFormatVersion: 2
 guid: 403db179d3ded5f44b86b5c447248438
-timeCreated: 1487710354
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Sofia_0
-    21300002: Sofia_1
-    21300004: Sofia_2
-    21300006: Sofia_3
-    21300008: Sofia_4
-    21300010: Sofia_5
-    21300012: Sofia_6
-    21300014: Sofia_7
-    21300016: Sofia_8
-    21300018: Sofia_9
-    21300020: Sofia_10
-    21300022: Sofia_11
-    21300024: Sofia_12
-    21300026: Sofia_13
-    21300028: Sofia_14
-    21300030: Sofia_15
-    21300032: Sofia_16
-    21300034: Sofia_17
-    21300036: Sofia_18
-    21300038: Sofia_19
-    21300040: Sofia_20
-    21300042: Sofia_21
-    21300044: Sofia_22
-    21300046: Sofia_23
-    21300048: Sofia_24
-    21300050: Sofia_25
-    21300052: Sofia_26
-    21300054: Sofia_27
-    21300056: Sofia_28
-    21300058: Sofia_29
-    21300060: Sofia_30
-    21300062: Sofia_31
-    21300064: Sofia_32
-    21300066: Sofia_33
-    21300068: Sofia_34
-    21300070: Sofia_35
-    21300072: Sofia_36
-    21300074: Sofia_37
-    21300076: Sofia_38
-    21300078: Sofia_39
-    21300080: Sofia_40
-    21300082: Sofia_41
-    21300084: Sofia_42
-    21300086: Sofia_43
-    21300088: Sofia_44
-    21300090: Sofia_45
-    21300092: Sofia_46
-    21300094: Sofia_47
-    21300096: Sofia_48
-    21300098: Sofia_49
-    21300100: Sofia_50
-    21300102: Sofia_51
-    21300104: Sofia_52
-    21300106: Sofia_53
-    21300108: Sofia_54
-    21300110: Sofia_55
-    21300112: Sofia_56
-    21300114: Sofia_57
-    21300116: Sofia_58
-    21300118: Sofia_59
-    21300120: Sofia_60
-    21300122: Sofia_61
-    21300124: Sofia_62
-    21300126: Sofia_63
-    21300128: Sofia_64
-    21300130: Sofia_65
-    21300132: Sofia_66
-    21300134: Sofia_67
-    21300136: Sofia_68
-    21300138: Sofia_69
-    21300140: Sofia_70
-    21300142: Sofia_71
-    21300144: Sofia_72
-    21300146: Sofia_73
-    21300148: Sofia_74
-    21300150: Sofia_75
-    21300152: Sofia_76
-    21300154: Sofia_77
-    21300156: Sofia_78
-    21300158: Sofia_79
-    21300160: Sofia_80
-    21300162: Sofia_81
-    21300164: Sofia_82
-    21300166: Sofia_83
-    21300168: Sofia_84
-    21300170: Sofia_85
-    21300172: Sofia_86
-    21300174: Sofia_87
-    21300176: Sofia_88
-    21300178: Sofia_89
-    21300180: Sofia_90
-    21300182: Sofia_91
-    21300184: Sofia_92
-    21300186: Sofia_93
-    21300188: Sofia_94
-    21300190: Sofia_95
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Sofia_0
+  - first:
+      213: 21300002
+    second: Sofia_1
+  - first:
+      213: 21300004
+    second: Sofia_2
+  - first:
+      213: 21300006
+    second: Sofia_3
+  - first:
+      213: 21300008
+    second: Sofia_4
+  - first:
+      213: 21300010
+    second: Sofia_5
+  - first:
+      213: 21300012
+    second: Sofia_6
+  - first:
+      213: 21300014
+    second: Sofia_7
+  - first:
+      213: 21300016
+    second: Sofia_8
+  - first:
+      213: 21300018
+    second: Sofia_9
+  - first:
+      213: 21300020
+    second: Sofia_10
+  - first:
+      213: 21300022
+    second: Sofia_11
+  - first:
+      213: 21300024
+    second: Sofia_12
+  - first:
+      213: 21300026
+    second: Sofia_13
+  - first:
+      213: 21300028
+    second: Sofia_14
+  - first:
+      213: 21300030
+    second: Sofia_15
+  - first:
+      213: 21300032
+    second: Sofia_16
+  - first:
+      213: 21300034
+    second: Sofia_17
+  - first:
+      213: 21300036
+    second: Sofia_18
+  - first:
+      213: 21300038
+    second: Sofia_19
+  - first:
+      213: 21300040
+    second: Sofia_20
+  - first:
+      213: 21300042
+    second: Sofia_21
+  - first:
+      213: 21300044
+    second: Sofia_22
+  - first:
+      213: 21300046
+    second: Sofia_23
+  - first:
+      213: 21300048
+    second: Sofia_24
+  - first:
+      213: 21300050
+    second: Sofia_25
+  - first:
+      213: 21300052
+    second: Sofia_26
+  - first:
+      213: 21300054
+    second: Sofia_27
+  - first:
+      213: 21300056
+    second: Sofia_28
+  - first:
+      213: 21300058
+    second: Sofia_29
+  - first:
+      213: 21300060
+    second: Sofia_30
+  - first:
+      213: 21300062
+    second: Sofia_31
+  - first:
+      213: 21300064
+    second: Sofia_32
+  - first:
+      213: 21300066
+    second: Sofia_33
+  - first:
+      213: 21300068
+    second: Sofia_34
+  - first:
+      213: 21300070
+    second: Sofia_35
+  - first:
+      213: 21300072
+    second: Sofia_36
+  - first:
+      213: 21300074
+    second: Sofia_37
+  - first:
+      213: 21300076
+    second: Sofia_38
+  - first:
+      213: 21300078
+    second: Sofia_39
+  - first:
+      213: 21300080
+    second: Sofia_40
+  - first:
+      213: 21300082
+    second: Sofia_41
+  - first:
+      213: 21300084
+    second: Sofia_42
+  - first:
+      213: 21300086
+    second: Sofia_43
+  - first:
+      213: 21300088
+    second: Sofia_44
+  - first:
+      213: 21300090
+    second: Sofia_45
+  - first:
+      213: 21300092
+    second: Sofia_46
+  - first:
+      213: 21300094
+    second: Sofia_47
+  - first:
+      213: 21300096
+    second: Sofia_48
+  - first:
+      213: 21300098
+    second: Sofia_49
+  - first:
+      213: 21300100
+    second: Sofia_50
+  - first:
+      213: 21300102
+    second: Sofia_51
+  - first:
+      213: 21300104
+    second: Sofia_52
+  - first:
+      213: 21300106
+    second: Sofia_53
+  - first:
+      213: 21300108
+    second: Sofia_54
+  - first:
+      213: 21300110
+    second: Sofia_55
+  - first:
+      213: 21300112
+    second: Sofia_56
+  - first:
+      213: 21300114
+    second: Sofia_57
+  - first:
+      213: 21300116
+    second: Sofia_58
+  - first:
+      213: 21300118
+    second: Sofia_59
+  - first:
+      213: 21300120
+    second: Sofia_60
+  - first:
+      213: 21300122
+    second: Sofia_61
+  - first:
+      213: 21300124
+    second: Sofia_62
+  - first:
+      213: 21300126
+    second: Sofia_63
+  - first:
+      213: 21300128
+    second: Sofia_64
+  - first:
+      213: 21300130
+    second: Sofia_65
+  - first:
+      213: 21300132
+    second: Sofia_66
+  - first:
+      213: 21300134
+    second: Sofia_67
+  - first:
+      213: 21300136
+    second: Sofia_68
+  - first:
+      213: 21300138
+    second: Sofia_69
+  - first:
+      213: 21300140
+    second: Sofia_70
+  - first:
+      213: 21300142
+    second: Sofia_71
+  - first:
+      213: 21300144
+    second: Sofia_72
+  - first:
+      213: 21300146
+    second: Sofia_73
+  - first:
+      213: 21300148
+    second: Sofia_74
+  - first:
+      213: 21300150
+    second: Sofia_75
+  - first:
+      213: 21300152
+    second: Sofia_76
+  - first:
+      213: 21300154
+    second: Sofia_77
+  - first:
+      213: 21300156
+    second: Sofia_78
+  - first:
+      213: 21300158
+    second: Sofia_79
+  - first:
+      213: 21300160
+    second: Sofia_80
+  - first:
+      213: 21300162
+    second: Sofia_81
+  - first:
+      213: 21300164
+    second: Sofia_82
+  - first:
+      213: 21300166
+    second: Sofia_83
+  - first:
+      213: 21300168
+    second: Sofia_84
+  - first:
+      213: 21300170
+    second: Sofia_85
+  - first:
+      213: 21300172
+    second: Sofia_86
+  - first:
+      213: 21300174
+    second: Sofia_87
+  - first:
+      213: 21300176
+    second: Sofia_88
+  - first:
+      213: 21300178
+    second: Sofia_89
+  - first:
+      213: 21300180
+    second: Sofia_90
+  - first:
+      213: 21300182
+    second: Sofia_91
+  - first:
+      213: 21300184
+    second: Sofia_92
+  - first:
+      213: 21300186
+    second: Sofia_93
+  - first:
+      213: 21300188
+    second: Sofia_94
+  - first:
+      213: 21300190
+    second: Sofia_95
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -108,6 +299,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -116,6 +309,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -123,10 +318,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -135,65 +333,85 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -209,7 +427,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fbd787fc8353063458c2ebfcae0def35
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_1
       rect:
@@ -222,7 +448,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6ea05d3770f106547a27d3632b5364be
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_2
       rect:
@@ -235,7 +469,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 66cde926441614a4085693a7fd14154a
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_3
       rect:
@@ -248,7 +490,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7955969dcbb3a6e4bb57432eacecbecd
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_4
       rect:
@@ -261,7 +511,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3d94579fffb59194fa117a139d3e91aa
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_5
       rect:
@@ -274,7 +532,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f449421f47662dd45a3d29ee776ea138
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_6
       rect:
@@ -287,7 +553,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 45239a3bdf35a5d4690d8cc6b7ec0e8a
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_7
       rect:
@@ -300,7 +574,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2033dad9ece36344487db8bfceae1eee
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_8
       rect:
@@ -313,7 +595,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aae3c68288ee1b846b0edddcec4014a7
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_9
       rect:
@@ -326,7 +616,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c855725cea5280f4f86006ca3ce5777b
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_10
       rect:
@@ -339,7 +637,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7b27511704461c34d9bc9bb50aa90836
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_11
       rect:
@@ -352,7 +658,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3c2720754a7eeb241a0a12009be8c901
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_12
       rect:
@@ -365,7 +679,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: edd6129f79f1b1f4295e2622b4b7ab9e
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_13
       rect:
@@ -378,7 +700,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5ea943c20d97e194e8344f01d012721e
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_14
       rect:
@@ -391,7 +721,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 93ece52a3f7573e49a9f5e819d7f6999
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_15
       rect:
@@ -404,7 +742,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4b211d24d4692474c83ab84a1320e752
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_16
       rect:
@@ -417,7 +763,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 726d6b19407c5d44fa2b6aeb53854d0e
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_17
       rect:
@@ -430,7 +784,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6f4a9a9ea19b6ce449322c1834ed46eb
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_18
       rect:
@@ -443,7 +805,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b67f60c72bf4ac34bafa99ad27ef7d99
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_19
       rect:
@@ -456,7 +826,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 60659124d2095fe46b717783d7b39c3f
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_20
       rect:
@@ -469,7 +847,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 61b15703c5e1c5d4398ffaaf4fcff40e
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_21
       rect:
@@ -482,7 +868,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1c4ac0ac3859e6444855d0861f18f589
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_22
       rect:
@@ -495,7 +889,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8f4e949f8ee62204785442e11f3ad25a
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_23
       rect:
@@ -508,7 +910,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ae8e7b04327ea98449e7f03df2872ab9
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_24
       rect:
@@ -521,7 +931,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d1fb69cc1eaee7349887d325a1fcc237
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_25
       rect:
@@ -534,7 +952,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 53c68e1384c999046ba22f49d8f37770
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_26
       rect:
@@ -547,7 +973,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 40233847a2b08c8499b8dab94f0e71f1
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_27
       rect:
@@ -560,7 +994,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4ca382c06bbde7e498b9c07971b5cdf0
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_28
       rect:
@@ -573,7 +1015,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cdb8f0a01355a53419f5f7395ebcc554
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_29
       rect:
@@ -586,7 +1036,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 781767baceb63b54fbcf03d078075735
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_30
       rect:
@@ -599,7 +1057,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8b66005283d65dc4fbf8d8cd88f6b620
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_31
       rect:
@@ -612,7 +1078,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 97380537ca847bd40b8055e13b16f357
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_32
       rect:
@@ -625,7 +1099,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5b345797476014c4f8f02fde6d63c795
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_33
       rect:
@@ -638,7 +1120,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6980e84a93c92e149a0a3ad5b95ecd91
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_34
       rect:
@@ -651,7 +1141,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 70cd36c105b06324f8fc23aa19c86eda
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_35
       rect:
@@ -664,7 +1162,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 15f158eb533139340ab5999dac06f8bb
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_36
       rect:
@@ -677,7 +1183,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4d11fb2d422c5aa4db4f1fd846ab8eec
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_37
       rect:
@@ -690,7 +1204,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8eb11a73f0f87f64680dbb42eadde4c4
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_38
       rect:
@@ -703,7 +1225,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 86b6b5b376baef546b9889c1e47889b8
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_39
       rect:
@@ -716,7 +1246,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d8ab754486a28614cb4916adc617e571
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_40
       rect:
@@ -729,7 +1267,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c60a1c120d14e764fb509d2b8f57f4df
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_41
       rect:
@@ -742,7 +1288,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa5f3e84e16a0924497f551ad6e222a3
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_42
       rect:
@@ -755,7 +1309,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9343d56fbce443c418eacc9d2e584a03
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_43
       rect:
@@ -768,7 +1330,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b29658745efcc0c4e97e3fb5dd5d38bf
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_44
       rect:
@@ -781,7 +1351,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b92533cebd34df418c524347999d917
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_45
       rect:
@@ -794,7 +1372,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 33d28c723d88c8143951074c097e88d8
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_46
       rect:
@@ -807,7 +1393,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 926235bd25e885c4c85274d4fba175c6
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_47
       rect:
@@ -820,7 +1414,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 099394467bce68e4da58e97e53b06e2e
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_48
       rect:
@@ -833,7 +1435,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b6f1ed13b56277d47877294cf9ddb15f
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_49
       rect:
@@ -846,7 +1456,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 74b1ea7341fe73248a2e41f22bc2d561
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_50
       rect:
@@ -859,7 +1477,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 424bd502903608b4fae00264b5f11638
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_51
       rect:
@@ -872,7 +1498,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 38417567b9cd56645845a85d0e3367b9
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_52
       rect:
@@ -885,7 +1519,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d9c8c57b710e76d4e97a2d1df3c9b99c
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_53
       rect:
@@ -898,7 +1540,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9a143ffef39bca24b95dba78673e7a05
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_54
       rect:
@@ -911,7 +1561,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d04ed2329b4649d43be8255a446bb2da
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_55
       rect:
@@ -924,7 +1582,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c849c3fc4f3658d46afe776699ea3a82
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_56
       rect:
@@ -937,7 +1603,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 79d1973fa1199394daf9bf327829b440
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_57
       rect:
@@ -950,7 +1624,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2598100bcf5e4184b8a7f3ec2a94c2e6
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_58
       rect:
@@ -963,7 +1645,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 75138d8f4c01c674b9c3f4bedbf92dc5
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_59
       rect:
@@ -976,7 +1666,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e70431a3011b4b4469d29f4c2a5c1092
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_60
       rect:
@@ -989,7 +1687,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 72def8ee72663284089206421c2e7ddf
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_61
       rect:
@@ -1002,7 +1708,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8398493075bb0154fafb452563d72ba6
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_62
       rect:
@@ -1015,7 +1729,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fcded5b3d83462540a5dc8a09e689c1e
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_63
       rect:
@@ -1028,7 +1750,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cf2ef9214abc29742b122286a4834335
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_64
       rect:
@@ -1041,7 +1771,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a1a79a51bcbeff4418f29504f634fd59
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_65
       rect:
@@ -1054,7 +1792,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ea0cb2fb83da65a4fa3d22b85c90f177
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_66
       rect:
@@ -1067,7 +1813,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 96d5f2e2b275963458a7aa4fd6c9cc78
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_67
       rect:
@@ -1080,7 +1834,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5a80c5c0f117d6b448cd294e6d08492b
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_68
       rect:
@@ -1093,7 +1855,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bde48b0abe2c2914998e508329f32bb5
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_69
       rect:
@@ -1106,7 +1876,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f6a8e2cfa414b764eb695394a9cc9e06
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_70
       rect:
@@ -1119,7 +1897,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 76e1ae5dc13df1b49b2a29529f55f2dd
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_71
       rect:
@@ -1132,7 +1918,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7af48fdb526b9a34d9d6d8e1fe7257ee
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_72
       rect:
@@ -1145,7 +1939,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ff56b9e52d2ac734f94ae05b4d787fb5
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_73
       rect:
@@ -1158,7 +1960,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e8061361d68abf541a7d9d5f45dd8f4c
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_74
       rect:
@@ -1171,7 +1981,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2647e737c010a7941a5247cb464a46ae
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_75
       rect:
@@ -1184,7 +2002,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 903b388ec7f738d46b7684a403036e7c
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_76
       rect:
@@ -1197,7 +2023,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0758467e8dbf5d84b97c15941fff1edb
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_77
       rect:
@@ -1210,7 +2044,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b4685710e64bd5a499ca1dc39ea692e2
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_78
       rect:
@@ -1223,7 +2065,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aef910de12445e944a631a52d8557480
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_79
       rect:
@@ -1236,7 +2086,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8fd81b0fad261344eaee29d975660d4b
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_80
       rect:
@@ -1249,7 +2107,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 39c081ff94575504eaa5ceca32d6034d
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_81
       rect:
@@ -1262,7 +2128,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 119aa726761af7a44b18100d80cbf975
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_82
       rect:
@@ -1275,7 +2149,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ad79fa9ad62b66e4fb16be39a7056a46
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_83
       rect:
@@ -1288,7 +2170,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b02bb0a255848bf4ba7d2f021d323181
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_84
       rect:
@@ -1301,7 +2191,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 70ba4e7048e979b40833f24a5c211056
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_85
       rect:
@@ -1314,7 +2212,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cf5009746814ccd499d6ff8d573d4919
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_86
       rect:
@@ -1327,7 +2233,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: dcc72589bfa2ab142b426989562e8af8
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_87
       rect:
@@ -1340,7 +2254,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ecb058583ab0004419068b35a33ebb77
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_88
       rect:
@@ -1353,7 +2275,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6ddb731daf5a36244aa44acc1d3c6e7c
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_89
       rect:
@@ -1366,7 +2296,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: db678e8f2b38d534783818d7cf5a7aee
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_90
       rect:
@@ -1379,7 +2317,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 23fdde64dd658d74ea4783769371743a
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_91
       rect:
@@ -1392,7 +2338,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7889a4377a8f7004aa0075c36db40856
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_92
       rect:
@@ -1405,7 +2359,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 72f9355a08b3d474096f7bae1b2fa9d4
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_93
       rect:
@@ -1418,7 +2380,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1ef473a3d68640943a5ccc4fdfca44ad
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_94
       rect:
@@ -1431,7 +2401,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 706a9ca2bf111b641ad30789d031a219
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sofia_95
       rect:
@@ -1444,9 +2422,28 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 503f89a35b9419b4ba2bc00f8d5af19d
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 27c9f1fb71843a048a3ad2ced93d3634
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

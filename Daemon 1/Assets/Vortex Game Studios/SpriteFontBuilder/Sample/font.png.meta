@@ -1,417 +1,1230 @@
 fileFormatVersion: 2
 guid: b4a43a63801ac2b439647bc46da2d429
-timeCreated: 1487710359
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Littera Font_0
-    21300002: Littera Font_1
-    21300004: Littera Font_2
-    21300006: Littera Font_3
-    21300008: Littera Font_4
-    21300010: Littera Font_5
-    21300012: Littera Font_6
-    21300014: Littera Font_7
-    21300016: Littera Font_8
-    21300018: Littera Font_9
-    21300020: Littera Font_10
-    21300022: Littera Font_11
-    21300024: Littera Font_12
-    21300026: Littera Font_13
-    21300028: Littera Font_14
-    21300030: Littera Font_15
-    21300032: Littera Font_16
-    21300034: Littera Font_17
-    21300036: Littera Font_18
-    21300038: Littera Font_19
-    21300040: Littera Font_20
-    21300042: Littera Font_21
-    21300044: Littera Font_22
-    21300046: Littera Font_23
-    21300048: Littera Font_24
-    21300050: Littera Font_25
-    21300052: Littera Font_26
-    21300054: Littera Font_27
-    21300056: Littera Font_28
-    21300058: Littera Font_29
-    21300060: Littera Font_30
-    21300062: Littera Font_31
-    21300064: Littera Font_32
-    21300066: Littera Font_33
-    21300068: Littera Font_34
-    21300070: Littera Font_35
-    21300072: Littera Font_36
-    21300074: Littera Font_37
-    21300076: Littera Font_38
-    21300078: Littera Font_39
-    21300080: Littera Font_40
-    21300082: Littera Font_41
-    21300084: Littera Font_42
-    21300086: Littera Font_43
-    21300088: Littera Font_44
-    21300090: Littera Font_45
-    21300092: Littera Font_46
-    21300094: Littera Font_47
-    21300096: Littera Font_48
-    21300098: Littera Font_49
-    21300100: Littera Font_50
-    21300102: Littera Font_51
-    21300104: Littera Font_52
-    21300106: Littera Font_53
-    21300108: Littera Font_54
-    21300110: Littera Font_55
-    21300112: Littera Font_56
-    21300114: Littera Font_57
-    21300116: Littera Font_58
-    21300118: Littera Font_59
-    21300120: Littera Font_60
-    21300122: Littera Font_61
-    21300124: Littera Font_62
-    21300126: Littera Font_63
-    21300128: Littera Font_64
-    21300130: Littera Font_65
-    21300132: Littera Font_66
-    21300134: Littera Font_67
-    21300136: Littera Font_68
-    21300138: Littera Font_69
-    21300140: Littera Font_70
-    21300142: Littera Font_71
-    21300144: Littera Font_72
-    21300146: Littera Font_73
-    21300148: Littera Font_74
-    21300150: Littera Font_75
-    21300152: Littera Font_76
-    21300154: Littera Font_77
-    21300156: Littera Font_78
-    21300158: Littera Font_79
-    21300160: Littera Font_80
-    21300162: Littera Font_81
-    21300164: Littera Font_82
-    21300166: Littera Font_83
-    21300168: Littera Font_84
-    21300170: Littera Font_85
-    21300172: Littera Font_86
-    21300174: Littera Font_87
-    21300176: Littera Font_88
-    21300178: Littera Font_89
-    21300180: Littera Font_90
-    21300182: Littera Font_91
-    21300184: Littera Font_92
-    21300186: Littera Font_93
-    21300188: Littera Font_94
-    21300190: Font_0
-    21300192: Font_1
-    21300194: Font_2
-    21300196: Font_3
-    21300198: Font_4
-    21300200: Font_5
-    21300202: Font_6
-    21300204: Font_7
-    21300206: Font_8
-    21300208: Font_9
-    21300210: Font_10
-    21300212: Font_11
-    21300214: Font_12
-    21300216: Font_13
-    21300218: Font_14
-    21300220: Font_15
-    21300222: Font_16
-    21300224: Font_17
-    21300226: Font_18
-    21300228: Font_19
-    21300230: Font_20
-    21300232: Font_21
-    21300234: Font_22
-    21300236: Font_23
-    21300238: Font_24
-    21300240: Font_25
-    21300242: Font_26
-    21300244: Font_27
-    21300246: Font_28
-    21300248: Font_29
-    21300250: Font_30
-    21300252: Font_31
-    21300254: Font_32
-    21300256: Font_33
-    21300258: Font_34
-    21300260: Font_35
-    21300262: Font_36
-    21300264: Font_37
-    21300266: Font_38
-    21300268: Font_39
-    21300270: Font_40
-    21300272: Font_41
-    21300274: Font_42
-    21300276: Font_43
-    21300278: Font_44
-    21300280: Font_45
-    21300282: Font_46
-    21300284: Font_47
-    21300286: Font_48
-    21300288: Font_49
-    21300290: Font_50
-    21300292: Font_51
-    21300294: Font_52
-    21300296: Font_53
-    21300298: Font_54
-    21300300: Font_55
-    21300302: Font_56
-    21300304: Font_57
-    21300306: Font_58
-    21300308: Font_59
-    21300310: Font_60
-    21300312: Font_61
-    21300314: Font_62
-    21300316: Font_63
-    21300318: Font_64
-    21300320: Font_65
-    21300322: Font_66
-    21300324: Font_67
-    21300326: Font_68
-    21300328: Font_69
-    21300330: Font_70
-    21300332: Font_71
-    21300334: Font_72
-    21300336: Font_73
-    21300338: Font_74
-    21300340: Font_75
-    21300342: Font_76
-    21300344: Font_77
-    21300346: Font_78
-    21300348: Font_79
-    21300350: Font_80
-    21300352: Font_81
-    21300354: Font_82
-    21300356: Font_83
-    21300358: Font_84
-    21300360: Font_85
-    21300362: Font_86
-    21300364: Font_87
-    21300366: Font_88
-    21300368: Font_89
-    21300370: Font_90
-    21300372: Font_91
-    21300374: Font_92
-    21300376: Font_93
-    21300378: Font_94
-    21300380: Another Font_0
-    21300382: Another Font_1
-    21300384: Another Font_2
-    21300386: Another Font_3
-    21300388: Another Font_4
-    21300390: Another Font_5
-    21300392: Another Font_6
-    21300394: Another Font_7
-    21300396: Another Font_8
-    21300398: Another Font_9
-    21300400: Another Font_10
-    21300402: Another Font_11
-    21300404: Another Font_12
-    21300406: Another Font_13
-    21300408: Another Font_14
-    21300410: Another Font_15
-    21300412: Another Font_16
-    21300414: Another Font_17
-    21300416: Another Font_18
-    21300418: Another Font_19
-    21300420: Another Font_20
-    21300422: Another Font_21
-    21300424: Another Font_22
-    21300426: Another Font_23
-    21300428: Another Font_24
-    21300430: Another Font_25
-    21300432: Another Font_26
-    21300434: Another Font_27
-    21300436: Another Font_28
-    21300438: Another Font_29
-    21300440: Another Font_30
-    21300442: Another Font_31
-    21300444: Another Font_32
-    21300446: Another Font_33
-    21300448: Another Font_34
-    21300450: Another Font_35
-    21300452: Another Font_36
-    21300454: Another Font_37
-    21300456: Another Font_38
-    21300458: Another Font_39
-    21300460: Another Font_40
-    21300462: Another Font_41
-    21300464: Another Font_42
-    21300466: Another Font_43
-    21300468: Another Font_44
-    21300470: Another Font_45
-    21300472: Another Font_46
-    21300474: Another Font_47
-    21300476: Another Font_48
-    21300478: Another Font_49
-    21300480: Another Font_50
-    21300482: Another Font_51
-    21300484: Another Font_52
-    21300486: Another Font_53
-    21300488: Another Font_54
-    21300490: Another Font_55
-    21300492: Another Font_56
-    21300494: Another Font_57
-    21300496: Another Font_58
-    21300498: Another Font_59
-    21300500: Another Font_60
-    21300502: Another Font_61
-    21300504: Another Font_62
-    21300506: Another Font_63
-    21300508: Another Font_64
-    21300510: Another Font_65
-    21300512: Another Font_66
-    21300514: Another Font_67
-    21300516: Another Font_68
-    21300518: Another Font_69
-    21300520: Another Font_70
-    21300522: Another Font_71
-    21300524: Another Font_72
-    21300526: Another Font_73
-    21300528: Another Font_74
-    21300530: Another Font_75
-    21300532: Another Font_76
-    21300534: Another Font_77
-    21300536: Another Font_78
-    21300538: Another Font_79
-    21300540: Another Font_80
-    21300542: Another Font_81
-    21300544: Another Font_82
-    21300546: Another Font_83
-    21300548: Another Font_84
-    21300550: Another Font_85
-    21300552: Another Font_86
-    21300554: Another Font_87
-    21300556: Another Font_88
-    21300558: Another Font_89
-    21300560: Another Font_90
-    21300562: Another Font_91
-    21300564: Another Font_92
-    21300566: Another Font_93
-    21300568: Another Font_94
-    21300570: Littera Font_95
-    21300572: Littera Font_96
-    21300574: Littera Font_97
-    21300576: Littera Font_98
-    21300578: Littera Font_99
-    21300580: Littera Font_100
-    21300582: Littera Font_101
-    21300584: Littera Font_102
-    21300586: Littera Font_103
-    21300588: Littera Font_104
-    21300590: Littera Font_105
-    21300592: Littera Font_106
-    21300594: Littera Font_107
-    21300596: Littera Font_108
-    21300598: Littera Font_109
-    21300600: Littera Font_110
-    21300602: Littera Font_111
-    21300604: Littera Font_112
-    21300606: Littera Font_113
-    21300608: Littera Font_114
-    21300610: Littera Font_115
-    21300612: Littera Font_116
-    21300614: Littera Font_117
-    21300616: Littera Font_118
-    21300618: Littera Font_119
-    21300620: Littera Font_120
-    21300622: Littera Font_121
-    21300624: Littera Font_122
-    21300626: Littera Font_123
-    21300628: Littera Font_124
-    21300630: Littera Font_125
-    21300632: Littera Font_126
-    21300634: Littera Font_127
-    21300636: Littera Font_128
-    21300638: Littera Font_129
-    21300640: Littera Font_130
-    21300642: Littera Font_131
-    21300644: Littera Font_132
-    21300646: Littera Font_133
-    21300648: Littera Font_134
-    21300650: Littera Font_135
-    21300652: Littera Font_136
-    21300654: Littera Font_137
-    21300656: Littera Font_138
-    21300658: Littera Font_139
-    21300660: Littera Font_140
-    21300662: Littera Font_141
-    21300664: Littera Font_142
-    21300666: Littera Font_143
-    21300668: Littera Font_144
-    21300670: Littera Font_145
-    21300672: Littera Font_146
-    21300674: Littera Font_147
-    21300676: Littera Font_148
-    21300678: Littera Font_149
-    21300680: Littera Font_150
-    21300682: Littera Font_151
-    21300684: Littera Font_152
-    21300686: Littera Font_153
-    21300688: Littera Font_154
-    21300690: Littera Font_155
-    21300692: Littera Font_156
-    21300694: Littera Font_157
-    21300696: Littera Font_158
-    21300698: Littera Font_159
-    21300700: Littera Font_160
-    21300702: Littera Font_161
-    21300704: Littera Font_162
-    21300706: Littera Font_163
-    21300708: Littera Font_164
-    21300710: Littera Font_165
-    21300712: Littera Font_166
-    21300714: Littera Font_167
-    21300716: Littera Font_168
-    21300718: Littera Font_169
-    21300720: Littera Font_170
-    21300722: Littera Font_171
-    21300724: Littera Font_172
-    21300726: Littera Font_173
-    21300728: Littera Font_174
-    21300730: Littera Font_175
-    21300732: Littera Font_176
-    21300734: Littera Font_177
-    21300736: Littera Font_178
-    21300738: Littera Font_179
-    21300740: Littera Font_180
-    21300742: Littera Font_181
-    21300744: Littera Font_182
-    21300746: Littera Font_183
-    21300748: Littera Font_184
-    21300750: Littera Font_185
-    21300752: Littera Font_186
-    21300754: Littera Font_187
-    21300756: Littera Font_188
-    21300758: Littera Font_189
-    21300760: Littera Font_190
-    21300762: Littera Font_191
-    21300764: Littera Font_192
-    21300766: Littera Font_193
-    21300768: Littera Font_194
-    21300770: Littera Font_195
-    21300772: Littera Font_196
-    21300774: Littera Font_197
-    21300776: Littera Font_198
-    21300778: Littera Font_199
-    21300780: Littera Font_200
-    21300782: Littera Font_201
-    21300784: Littera Font_202
-    21300786: Littera Font_203
-    21300788: Littera Font_204
-    21300790: Littera Font_205
-    21300792: Littera Font_206
-    21300794: Littera Font_207
-    21300796: Littera Font_208
-    21300798: Littera Font_209
-    21300800: Littera Font_210
-    21300802: Littera Font_211
-    21300804: Littera Font_212
-    21300806: Littera Font_213
-    21300808: Littera Font_214
-    21300810: Littera Font_215
-    21300812: Littera Font_216
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Littera Font_0
+  - first:
+      213: 21300002
+    second: Littera Font_1
+  - first:
+      213: 21300004
+    second: Littera Font_2
+  - first:
+      213: 21300006
+    second: Littera Font_3
+  - first:
+      213: 21300008
+    second: Littera Font_4
+  - first:
+      213: 21300010
+    second: Littera Font_5
+  - first:
+      213: 21300012
+    second: Littera Font_6
+  - first:
+      213: 21300014
+    second: Littera Font_7
+  - first:
+      213: 21300016
+    second: Littera Font_8
+  - first:
+      213: 21300018
+    second: Littera Font_9
+  - first:
+      213: 21300020
+    second: Littera Font_10
+  - first:
+      213: 21300022
+    second: Littera Font_11
+  - first:
+      213: 21300024
+    second: Littera Font_12
+  - first:
+      213: 21300026
+    second: Littera Font_13
+  - first:
+      213: 21300028
+    second: Littera Font_14
+  - first:
+      213: 21300030
+    second: Littera Font_15
+  - first:
+      213: 21300032
+    second: Littera Font_16
+  - first:
+      213: 21300034
+    second: Littera Font_17
+  - first:
+      213: 21300036
+    second: Littera Font_18
+  - first:
+      213: 21300038
+    second: Littera Font_19
+  - first:
+      213: 21300040
+    second: Littera Font_20
+  - first:
+      213: 21300042
+    second: Littera Font_21
+  - first:
+      213: 21300044
+    second: Littera Font_22
+  - first:
+      213: 21300046
+    second: Littera Font_23
+  - first:
+      213: 21300048
+    second: Littera Font_24
+  - first:
+      213: 21300050
+    second: Littera Font_25
+  - first:
+      213: 21300052
+    second: Littera Font_26
+  - first:
+      213: 21300054
+    second: Littera Font_27
+  - first:
+      213: 21300056
+    second: Littera Font_28
+  - first:
+      213: 21300058
+    second: Littera Font_29
+  - first:
+      213: 21300060
+    second: Littera Font_30
+  - first:
+      213: 21300062
+    second: Littera Font_31
+  - first:
+      213: 21300064
+    second: Littera Font_32
+  - first:
+      213: 21300066
+    second: Littera Font_33
+  - first:
+      213: 21300068
+    second: Littera Font_34
+  - first:
+      213: 21300070
+    second: Littera Font_35
+  - first:
+      213: 21300072
+    second: Littera Font_36
+  - first:
+      213: 21300074
+    second: Littera Font_37
+  - first:
+      213: 21300076
+    second: Littera Font_38
+  - first:
+      213: 21300078
+    second: Littera Font_39
+  - first:
+      213: 21300080
+    second: Littera Font_40
+  - first:
+      213: 21300082
+    second: Littera Font_41
+  - first:
+      213: 21300084
+    second: Littera Font_42
+  - first:
+      213: 21300086
+    second: Littera Font_43
+  - first:
+      213: 21300088
+    second: Littera Font_44
+  - first:
+      213: 21300090
+    second: Littera Font_45
+  - first:
+      213: 21300092
+    second: Littera Font_46
+  - first:
+      213: 21300094
+    second: Littera Font_47
+  - first:
+      213: 21300096
+    second: Littera Font_48
+  - first:
+      213: 21300098
+    second: Littera Font_49
+  - first:
+      213: 21300100
+    second: Littera Font_50
+  - first:
+      213: 21300102
+    second: Littera Font_51
+  - first:
+      213: 21300104
+    second: Littera Font_52
+  - first:
+      213: 21300106
+    second: Littera Font_53
+  - first:
+      213: 21300108
+    second: Littera Font_54
+  - first:
+      213: 21300110
+    second: Littera Font_55
+  - first:
+      213: 21300112
+    second: Littera Font_56
+  - first:
+      213: 21300114
+    second: Littera Font_57
+  - first:
+      213: 21300116
+    second: Littera Font_58
+  - first:
+      213: 21300118
+    second: Littera Font_59
+  - first:
+      213: 21300120
+    second: Littera Font_60
+  - first:
+      213: 21300122
+    second: Littera Font_61
+  - first:
+      213: 21300124
+    second: Littera Font_62
+  - first:
+      213: 21300126
+    second: Littera Font_63
+  - first:
+      213: 21300128
+    second: Littera Font_64
+  - first:
+      213: 21300130
+    second: Littera Font_65
+  - first:
+      213: 21300132
+    second: Littera Font_66
+  - first:
+      213: 21300134
+    second: Littera Font_67
+  - first:
+      213: 21300136
+    second: Littera Font_68
+  - first:
+      213: 21300138
+    second: Littera Font_69
+  - first:
+      213: 21300140
+    second: Littera Font_70
+  - first:
+      213: 21300142
+    second: Littera Font_71
+  - first:
+      213: 21300144
+    second: Littera Font_72
+  - first:
+      213: 21300146
+    second: Littera Font_73
+  - first:
+      213: 21300148
+    second: Littera Font_74
+  - first:
+      213: 21300150
+    second: Littera Font_75
+  - first:
+      213: 21300152
+    second: Littera Font_76
+  - first:
+      213: 21300154
+    second: Littera Font_77
+  - first:
+      213: 21300156
+    second: Littera Font_78
+  - first:
+      213: 21300158
+    second: Littera Font_79
+  - first:
+      213: 21300160
+    second: Littera Font_80
+  - first:
+      213: 21300162
+    second: Littera Font_81
+  - first:
+      213: 21300164
+    second: Littera Font_82
+  - first:
+      213: 21300166
+    second: Littera Font_83
+  - first:
+      213: 21300168
+    second: Littera Font_84
+  - first:
+      213: 21300170
+    second: Littera Font_85
+  - first:
+      213: 21300172
+    second: Littera Font_86
+  - first:
+      213: 21300174
+    second: Littera Font_87
+  - first:
+      213: 21300176
+    second: Littera Font_88
+  - first:
+      213: 21300178
+    second: Littera Font_89
+  - first:
+      213: 21300180
+    second: Littera Font_90
+  - first:
+      213: 21300182
+    second: Littera Font_91
+  - first:
+      213: 21300184
+    second: Littera Font_92
+  - first:
+      213: 21300186
+    second: Littera Font_93
+  - first:
+      213: 21300188
+    second: Littera Font_94
+  - first:
+      213: 21300190
+    second: Font_0
+  - first:
+      213: 21300192
+    second: Font_1
+  - first:
+      213: 21300194
+    second: Font_2
+  - first:
+      213: 21300196
+    second: Font_3
+  - first:
+      213: 21300198
+    second: Font_4
+  - first:
+      213: 21300200
+    second: Font_5
+  - first:
+      213: 21300202
+    second: Font_6
+  - first:
+      213: 21300204
+    second: Font_7
+  - first:
+      213: 21300206
+    second: Font_8
+  - first:
+      213: 21300208
+    second: Font_9
+  - first:
+      213: 21300210
+    second: Font_10
+  - first:
+      213: 21300212
+    second: Font_11
+  - first:
+      213: 21300214
+    second: Font_12
+  - first:
+      213: 21300216
+    second: Font_13
+  - first:
+      213: 21300218
+    second: Font_14
+  - first:
+      213: 21300220
+    second: Font_15
+  - first:
+      213: 21300222
+    second: Font_16
+  - first:
+      213: 21300224
+    second: Font_17
+  - first:
+      213: 21300226
+    second: Font_18
+  - first:
+      213: 21300228
+    second: Font_19
+  - first:
+      213: 21300230
+    second: Font_20
+  - first:
+      213: 21300232
+    second: Font_21
+  - first:
+      213: 21300234
+    second: Font_22
+  - first:
+      213: 21300236
+    second: Font_23
+  - first:
+      213: 21300238
+    second: Font_24
+  - first:
+      213: 21300240
+    second: Font_25
+  - first:
+      213: 21300242
+    second: Font_26
+  - first:
+      213: 21300244
+    second: Font_27
+  - first:
+      213: 21300246
+    second: Font_28
+  - first:
+      213: 21300248
+    second: Font_29
+  - first:
+      213: 21300250
+    second: Font_30
+  - first:
+      213: 21300252
+    second: Font_31
+  - first:
+      213: 21300254
+    second: Font_32
+  - first:
+      213: 21300256
+    second: Font_33
+  - first:
+      213: 21300258
+    second: Font_34
+  - first:
+      213: 21300260
+    second: Font_35
+  - first:
+      213: 21300262
+    second: Font_36
+  - first:
+      213: 21300264
+    second: Font_37
+  - first:
+      213: 21300266
+    second: Font_38
+  - first:
+      213: 21300268
+    second: Font_39
+  - first:
+      213: 21300270
+    second: Font_40
+  - first:
+      213: 21300272
+    second: Font_41
+  - first:
+      213: 21300274
+    second: Font_42
+  - first:
+      213: 21300276
+    second: Font_43
+  - first:
+      213: 21300278
+    second: Font_44
+  - first:
+      213: 21300280
+    second: Font_45
+  - first:
+      213: 21300282
+    second: Font_46
+  - first:
+      213: 21300284
+    second: Font_47
+  - first:
+      213: 21300286
+    second: Font_48
+  - first:
+      213: 21300288
+    second: Font_49
+  - first:
+      213: 21300290
+    second: Font_50
+  - first:
+      213: 21300292
+    second: Font_51
+  - first:
+      213: 21300294
+    second: Font_52
+  - first:
+      213: 21300296
+    second: Font_53
+  - first:
+      213: 21300298
+    second: Font_54
+  - first:
+      213: 21300300
+    second: Font_55
+  - first:
+      213: 21300302
+    second: Font_56
+  - first:
+      213: 21300304
+    second: Font_57
+  - first:
+      213: 21300306
+    second: Font_58
+  - first:
+      213: 21300308
+    second: Font_59
+  - first:
+      213: 21300310
+    second: Font_60
+  - first:
+      213: 21300312
+    second: Font_61
+  - first:
+      213: 21300314
+    second: Font_62
+  - first:
+      213: 21300316
+    second: Font_63
+  - first:
+      213: 21300318
+    second: Font_64
+  - first:
+      213: 21300320
+    second: Font_65
+  - first:
+      213: 21300322
+    second: Font_66
+  - first:
+      213: 21300324
+    second: Font_67
+  - first:
+      213: 21300326
+    second: Font_68
+  - first:
+      213: 21300328
+    second: Font_69
+  - first:
+      213: 21300330
+    second: Font_70
+  - first:
+      213: 21300332
+    second: Font_71
+  - first:
+      213: 21300334
+    second: Font_72
+  - first:
+      213: 21300336
+    second: Font_73
+  - first:
+      213: 21300338
+    second: Font_74
+  - first:
+      213: 21300340
+    second: Font_75
+  - first:
+      213: 21300342
+    second: Font_76
+  - first:
+      213: 21300344
+    second: Font_77
+  - first:
+      213: 21300346
+    second: Font_78
+  - first:
+      213: 21300348
+    second: Font_79
+  - first:
+      213: 21300350
+    second: Font_80
+  - first:
+      213: 21300352
+    second: Font_81
+  - first:
+      213: 21300354
+    second: Font_82
+  - first:
+      213: 21300356
+    second: Font_83
+  - first:
+      213: 21300358
+    second: Font_84
+  - first:
+      213: 21300360
+    second: Font_85
+  - first:
+      213: 21300362
+    second: Font_86
+  - first:
+      213: 21300364
+    second: Font_87
+  - first:
+      213: 21300366
+    second: Font_88
+  - first:
+      213: 21300368
+    second: Font_89
+  - first:
+      213: 21300370
+    second: Font_90
+  - first:
+      213: 21300372
+    second: Font_91
+  - first:
+      213: 21300374
+    second: Font_92
+  - first:
+      213: 21300376
+    second: Font_93
+  - first:
+      213: 21300378
+    second: Font_94
+  - first:
+      213: 21300380
+    second: Another Font_0
+  - first:
+      213: 21300382
+    second: Another Font_1
+  - first:
+      213: 21300384
+    second: Another Font_2
+  - first:
+      213: 21300386
+    second: Another Font_3
+  - first:
+      213: 21300388
+    second: Another Font_4
+  - first:
+      213: 21300390
+    second: Another Font_5
+  - first:
+      213: 21300392
+    second: Another Font_6
+  - first:
+      213: 21300394
+    second: Another Font_7
+  - first:
+      213: 21300396
+    second: Another Font_8
+  - first:
+      213: 21300398
+    second: Another Font_9
+  - first:
+      213: 21300400
+    second: Another Font_10
+  - first:
+      213: 21300402
+    second: Another Font_11
+  - first:
+      213: 21300404
+    second: Another Font_12
+  - first:
+      213: 21300406
+    second: Another Font_13
+  - first:
+      213: 21300408
+    second: Another Font_14
+  - first:
+      213: 21300410
+    second: Another Font_15
+  - first:
+      213: 21300412
+    second: Another Font_16
+  - first:
+      213: 21300414
+    second: Another Font_17
+  - first:
+      213: 21300416
+    second: Another Font_18
+  - first:
+      213: 21300418
+    second: Another Font_19
+  - first:
+      213: 21300420
+    second: Another Font_20
+  - first:
+      213: 21300422
+    second: Another Font_21
+  - first:
+      213: 21300424
+    second: Another Font_22
+  - first:
+      213: 21300426
+    second: Another Font_23
+  - first:
+      213: 21300428
+    second: Another Font_24
+  - first:
+      213: 21300430
+    second: Another Font_25
+  - first:
+      213: 21300432
+    second: Another Font_26
+  - first:
+      213: 21300434
+    second: Another Font_27
+  - first:
+      213: 21300436
+    second: Another Font_28
+  - first:
+      213: 21300438
+    second: Another Font_29
+  - first:
+      213: 21300440
+    second: Another Font_30
+  - first:
+      213: 21300442
+    second: Another Font_31
+  - first:
+      213: 21300444
+    second: Another Font_32
+  - first:
+      213: 21300446
+    second: Another Font_33
+  - first:
+      213: 21300448
+    second: Another Font_34
+  - first:
+      213: 21300450
+    second: Another Font_35
+  - first:
+      213: 21300452
+    second: Another Font_36
+  - first:
+      213: 21300454
+    second: Another Font_37
+  - first:
+      213: 21300456
+    second: Another Font_38
+  - first:
+      213: 21300458
+    second: Another Font_39
+  - first:
+      213: 21300460
+    second: Another Font_40
+  - first:
+      213: 21300462
+    second: Another Font_41
+  - first:
+      213: 21300464
+    second: Another Font_42
+  - first:
+      213: 21300466
+    second: Another Font_43
+  - first:
+      213: 21300468
+    second: Another Font_44
+  - first:
+      213: 21300470
+    second: Another Font_45
+  - first:
+      213: 21300472
+    second: Another Font_46
+  - first:
+      213: 21300474
+    second: Another Font_47
+  - first:
+      213: 21300476
+    second: Another Font_48
+  - first:
+      213: 21300478
+    second: Another Font_49
+  - first:
+      213: 21300480
+    second: Another Font_50
+  - first:
+      213: 21300482
+    second: Another Font_51
+  - first:
+      213: 21300484
+    second: Another Font_52
+  - first:
+      213: 21300486
+    second: Another Font_53
+  - first:
+      213: 21300488
+    second: Another Font_54
+  - first:
+      213: 21300490
+    second: Another Font_55
+  - first:
+      213: 21300492
+    second: Another Font_56
+  - first:
+      213: 21300494
+    second: Another Font_57
+  - first:
+      213: 21300496
+    second: Another Font_58
+  - first:
+      213: 21300498
+    second: Another Font_59
+  - first:
+      213: 21300500
+    second: Another Font_60
+  - first:
+      213: 21300502
+    second: Another Font_61
+  - first:
+      213: 21300504
+    second: Another Font_62
+  - first:
+      213: 21300506
+    second: Another Font_63
+  - first:
+      213: 21300508
+    second: Another Font_64
+  - first:
+      213: 21300510
+    second: Another Font_65
+  - first:
+      213: 21300512
+    second: Another Font_66
+  - first:
+      213: 21300514
+    second: Another Font_67
+  - first:
+      213: 21300516
+    second: Another Font_68
+  - first:
+      213: 21300518
+    second: Another Font_69
+  - first:
+      213: 21300520
+    second: Another Font_70
+  - first:
+      213: 21300522
+    second: Another Font_71
+  - first:
+      213: 21300524
+    second: Another Font_72
+  - first:
+      213: 21300526
+    second: Another Font_73
+  - first:
+      213: 21300528
+    second: Another Font_74
+  - first:
+      213: 21300530
+    second: Another Font_75
+  - first:
+      213: 21300532
+    second: Another Font_76
+  - first:
+      213: 21300534
+    second: Another Font_77
+  - first:
+      213: 21300536
+    second: Another Font_78
+  - first:
+      213: 21300538
+    second: Another Font_79
+  - first:
+      213: 21300540
+    second: Another Font_80
+  - first:
+      213: 21300542
+    second: Another Font_81
+  - first:
+      213: 21300544
+    second: Another Font_82
+  - first:
+      213: 21300546
+    second: Another Font_83
+  - first:
+      213: 21300548
+    second: Another Font_84
+  - first:
+      213: 21300550
+    second: Another Font_85
+  - first:
+      213: 21300552
+    second: Another Font_86
+  - first:
+      213: 21300554
+    second: Another Font_87
+  - first:
+      213: 21300556
+    second: Another Font_88
+  - first:
+      213: 21300558
+    second: Another Font_89
+  - first:
+      213: 21300560
+    second: Another Font_90
+  - first:
+      213: 21300562
+    second: Another Font_91
+  - first:
+      213: 21300564
+    second: Another Font_92
+  - first:
+      213: 21300566
+    second: Another Font_93
+  - first:
+      213: 21300568
+    second: Another Font_94
+  - first:
+      213: 21300570
+    second: Littera Font_95
+  - first:
+      213: 21300572
+    second: Littera Font_96
+  - first:
+      213: 21300574
+    second: Littera Font_97
+  - first:
+      213: 21300576
+    second: Littera Font_98
+  - first:
+      213: 21300578
+    second: Littera Font_99
+  - first:
+      213: 21300580
+    second: Littera Font_100
+  - first:
+      213: 21300582
+    second: Littera Font_101
+  - first:
+      213: 21300584
+    second: Littera Font_102
+  - first:
+      213: 21300586
+    second: Littera Font_103
+  - first:
+      213: 21300588
+    second: Littera Font_104
+  - first:
+      213: 21300590
+    second: Littera Font_105
+  - first:
+      213: 21300592
+    second: Littera Font_106
+  - first:
+      213: 21300594
+    second: Littera Font_107
+  - first:
+      213: 21300596
+    second: Littera Font_108
+  - first:
+      213: 21300598
+    second: Littera Font_109
+  - first:
+      213: 21300600
+    second: Littera Font_110
+  - first:
+      213: 21300602
+    second: Littera Font_111
+  - first:
+      213: 21300604
+    second: Littera Font_112
+  - first:
+      213: 21300606
+    second: Littera Font_113
+  - first:
+      213: 21300608
+    second: Littera Font_114
+  - first:
+      213: 21300610
+    second: Littera Font_115
+  - first:
+      213: 21300612
+    second: Littera Font_116
+  - first:
+      213: 21300614
+    second: Littera Font_117
+  - first:
+      213: 21300616
+    second: Littera Font_118
+  - first:
+      213: 21300618
+    second: Littera Font_119
+  - first:
+      213: 21300620
+    second: Littera Font_120
+  - first:
+      213: 21300622
+    second: Littera Font_121
+  - first:
+      213: 21300624
+    second: Littera Font_122
+  - first:
+      213: 21300626
+    second: Littera Font_123
+  - first:
+      213: 21300628
+    second: Littera Font_124
+  - first:
+      213: 21300630
+    second: Littera Font_125
+  - first:
+      213: 21300632
+    second: Littera Font_126
+  - first:
+      213: 21300634
+    second: Littera Font_127
+  - first:
+      213: 21300636
+    second: Littera Font_128
+  - first:
+      213: 21300638
+    second: Littera Font_129
+  - first:
+      213: 21300640
+    second: Littera Font_130
+  - first:
+      213: 21300642
+    second: Littera Font_131
+  - first:
+      213: 21300644
+    second: Littera Font_132
+  - first:
+      213: 21300646
+    second: Littera Font_133
+  - first:
+      213: 21300648
+    second: Littera Font_134
+  - first:
+      213: 21300650
+    second: Littera Font_135
+  - first:
+      213: 21300652
+    second: Littera Font_136
+  - first:
+      213: 21300654
+    second: Littera Font_137
+  - first:
+      213: 21300656
+    second: Littera Font_138
+  - first:
+      213: 21300658
+    second: Littera Font_139
+  - first:
+      213: 21300660
+    second: Littera Font_140
+  - first:
+      213: 21300662
+    second: Littera Font_141
+  - first:
+      213: 21300664
+    second: Littera Font_142
+  - first:
+      213: 21300666
+    second: Littera Font_143
+  - first:
+      213: 21300668
+    second: Littera Font_144
+  - first:
+      213: 21300670
+    second: Littera Font_145
+  - first:
+      213: 21300672
+    second: Littera Font_146
+  - first:
+      213: 21300674
+    second: Littera Font_147
+  - first:
+      213: 21300676
+    second: Littera Font_148
+  - first:
+      213: 21300678
+    second: Littera Font_149
+  - first:
+      213: 21300680
+    second: Littera Font_150
+  - first:
+      213: 21300682
+    second: Littera Font_151
+  - first:
+      213: 21300684
+    second: Littera Font_152
+  - first:
+      213: 21300686
+    second: Littera Font_153
+  - first:
+      213: 21300688
+    second: Littera Font_154
+  - first:
+      213: 21300690
+    second: Littera Font_155
+  - first:
+      213: 21300692
+    second: Littera Font_156
+  - first:
+      213: 21300694
+    second: Littera Font_157
+  - first:
+      213: 21300696
+    second: Littera Font_158
+  - first:
+      213: 21300698
+    second: Littera Font_159
+  - first:
+      213: 21300700
+    second: Littera Font_160
+  - first:
+      213: 21300702
+    second: Littera Font_161
+  - first:
+      213: 21300704
+    second: Littera Font_162
+  - first:
+      213: 21300706
+    second: Littera Font_163
+  - first:
+      213: 21300708
+    second: Littera Font_164
+  - first:
+      213: 21300710
+    second: Littera Font_165
+  - first:
+      213: 21300712
+    second: Littera Font_166
+  - first:
+      213: 21300714
+    second: Littera Font_167
+  - first:
+      213: 21300716
+    second: Littera Font_168
+  - first:
+      213: 21300718
+    second: Littera Font_169
+  - first:
+      213: 21300720
+    second: Littera Font_170
+  - first:
+      213: 21300722
+    second: Littera Font_171
+  - first:
+      213: 21300724
+    second: Littera Font_172
+  - first:
+      213: 21300726
+    second: Littera Font_173
+  - first:
+      213: 21300728
+    second: Littera Font_174
+  - first:
+      213: 21300730
+    second: Littera Font_175
+  - first:
+      213: 21300732
+    second: Littera Font_176
+  - first:
+      213: 21300734
+    second: Littera Font_177
+  - first:
+      213: 21300736
+    second: Littera Font_178
+  - first:
+      213: 21300738
+    second: Littera Font_179
+  - first:
+      213: 21300740
+    second: Littera Font_180
+  - first:
+      213: 21300742
+    second: Littera Font_181
+  - first:
+      213: 21300744
+    second: Littera Font_182
+  - first:
+      213: 21300746
+    second: Littera Font_183
+  - first:
+      213: 21300748
+    second: Littera Font_184
+  - first:
+      213: 21300750
+    second: Littera Font_185
+  - first:
+      213: 21300752
+    second: Littera Font_186
+  - first:
+      213: 21300754
+    second: Littera Font_187
+  - first:
+      213: 21300756
+    second: Littera Font_188
+  - first:
+      213: 21300758
+    second: Littera Font_189
+  - first:
+      213: 21300760
+    second: Littera Font_190
+  - first:
+      213: 21300762
+    second: Littera Font_191
+  - first:
+      213: 21300764
+    second: Littera Font_192
+  - first:
+      213: 21300766
+    second: Littera Font_193
+  - first:
+      213: 21300768
+    second: Littera Font_194
+  - first:
+      213: 21300770
+    second: Littera Font_195
+  - first:
+      213: 21300772
+    second: Littera Font_196
+  - first:
+      213: 21300774
+    second: Littera Font_197
+  - first:
+      213: 21300776
+    second: Littera Font_198
+  - first:
+      213: 21300778
+    second: Littera Font_199
+  - first:
+      213: 21300780
+    second: Littera Font_200
+  - first:
+      213: 21300782
+    second: Littera Font_201
+  - first:
+      213: 21300784
+    second: Littera Font_202
+  - first:
+      213: 21300786
+    second: Littera Font_203
+  - first:
+      213: 21300788
+    second: Littera Font_204
+  - first:
+      213: 21300790
+    second: Littera Font_205
+  - first:
+      213: 21300792
+    second: Littera Font_206
+  - first:
+      213: 21300794
+    second: Littera Font_207
+  - first:
+      213: 21300796
+    second: Littera Font_208
+  - first:
+      213: 21300798
+    second: Littera Font_209
+  - first:
+      213: 21300800
+    second: Littera Font_210
+  - first:
+      213: 21300802
+    second: Littera Font_211
+  - first:
+      213: 21300804
+    second: Littera Font_212
+  - first:
+      213: 21300806
+    second: Littera Font_213
+  - first:
+      213: 21300808
+    second: Littera Font_214
+  - first:
+      213: 21300810
+    second: Littera Font_215
+  - first:
+      213: 21300812
+    second: Littera Font_216
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -419,6 +1232,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -427,6 +1242,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -434,10 +1251,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -446,65 +1266,85 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -520,7 +1360,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ea35690eefb851c4c80cf1f38ba4737d
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_1
       rect:
@@ -533,7 +1381,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7e1c6dbe2c5fa384ba89269dba4e2132
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_2
       rect:
@@ -546,7 +1402,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0c7bf090efd143249aaf967609be2bae
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_3
       rect:
@@ -559,7 +1423,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fa0ac98b2fdb9ba4b9953f22826b9e37
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_4
       rect:
@@ -572,7 +1444,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: da03749863d53354db6ffacfb5c71a1a
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_5
       rect:
@@ -585,7 +1465,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8899ac443ac561047800d80c617a0541
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_6
       rect:
@@ -598,7 +1486,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 12c46680a4ed249438f677f05d08dacd
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_7
       rect:
@@ -611,7 +1507,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22f17096e0bc6f44091d71224b1260dc
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_8
       rect:
@@ -624,7 +1528,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 08a06f048d934be45b088c37b3ed1fd7
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_9
       rect:
@@ -637,7 +1549,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3f839185a586064680ad0a4718cd87f
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_10
       rect:
@@ -650,7 +1570,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bec53edf4de100643b057ee9809a900d
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_11
       rect:
@@ -663,7 +1591,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 431f091841b026643ae6cdb51480b4b4
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_12
       rect:
@@ -676,7 +1612,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 382ae242e75dbae40a061cb2d81b5c2c
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_13
       rect:
@@ -689,7 +1633,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5a6ca6e861760c543ba37584436cb2a2
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_14
       rect:
@@ -702,7 +1654,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 174a15fcf54a7234cac3c60e2b3218c7
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_15
       rect:
@@ -715,7 +1675,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22844852e723c104e91d92b04c987425
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_16
       rect:
@@ -728,7 +1696,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 632ab071cfe18ed49a72098e2949d9b3
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_17
       rect:
@@ -741,7 +1717,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7a9fd72c46b6e7046951a7a917464978
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_18
       rect:
@@ -754,7 +1738,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2c7c318f329518e47a6b2847584c78cc
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_19
       rect:
@@ -767,7 +1759,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d7d8e4a10e6e7e54494b38e6d7d132ca
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_20
       rect:
@@ -780,7 +1780,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2b918ba1e92add840ad294c49b13e9ef
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_21
       rect:
@@ -793,7 +1801,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 94b5a9296a7b36942889e89d48d1d10a
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_22
       rect:
@@ -806,7 +1822,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 935ffb186bf6bb84b99b83d0e270784e
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_23
       rect:
@@ -819,7 +1843,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 27f8d7ea45d069d47b0a7896a0caf41b
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_24
       rect:
@@ -832,7 +1864,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 833cd2bbe9cbfee4db9115a571a669d2
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_25
       rect:
@@ -845,7 +1885,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eb379b01f98296d4ea338337a9144cc3
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_26
       rect:
@@ -858,7 +1906,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 151a70f6f7c0b9f42a8d4cf342b3e82d
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_27
       rect:
@@ -871,7 +1927,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8401a0b33ad0f3540a87373f6eaae1a5
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_28
       rect:
@@ -884,7 +1948,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8aceb93970464554b9388120c09d7520
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_29
       rect:
@@ -897,7 +1969,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: af31313e371ae724eb15bffcd065ca01
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_30
       rect:
@@ -910,7 +1990,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3e62bacfa203aee4bb30b1ca19b77c0f
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_31
       rect:
@@ -923,7 +2011,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4e70af50b1b139f4e90ce8b7de78ad14
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_32
       rect:
@@ -936,7 +2032,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3997beabdcc3c6a4680648c94551c0cb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_33
       rect:
@@ -949,7 +2053,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b63954ed0bd99b4418bfed109c19c233
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_34
       rect:
@@ -962,7 +2074,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f33945ca1c184ea4a83552dfefc06dfa
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_35
       rect:
@@ -975,7 +2095,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c76ca31992b69e240b180abbe34a8027
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_36
       rect:
@@ -988,7 +2116,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bc2c2e90757633342b0deb0ef61c6321
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_37
       rect:
@@ -1001,7 +2137,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a9543d37af92be141b4b5243f0f0eabf
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_38
       rect:
@@ -1014,7 +2158,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2172e0fc2aeb5f4e8a3a6ee8e5f0930
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_39
       rect:
@@ -1027,7 +2179,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7a096794411e21a43b175f2cee28b7ed
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_40
       rect:
@@ -1040,7 +2200,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e7053f6befe787e478d2aafcee540715
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_41
       rect:
@@ -1053,7 +2221,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a0898d8d0a3c0664c9b0ea8489b5dd4d
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_42
       rect:
@@ -1066,7 +2242,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09367b23599218f4ba9c2bd528027cc2
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_43
       rect:
@@ -1079,7 +2263,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3286f7cd0610228408c16691693737dd
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_44
       rect:
@@ -1092,7 +2284,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 36c702c89f791fc4e966071d0f20029a
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_45
       rect:
@@ -1105,7 +2305,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8f1fe3da37de27847be3b37188b2133a
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_46
       rect:
@@ -1118,7 +2326,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 71ad5168db8050e4987d191856aef342
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_47
       rect:
@@ -1131,7 +2347,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 099d79efa341c95499857d22eaf56111
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_48
       rect:
@@ -1144,7 +2368,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: af2daf30dafdeb54fa28afe6b460d245
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_49
       rect:
@@ -1157,7 +2389,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 76f1e8046dac45444ab90556043af271
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_50
       rect:
@@ -1170,7 +2410,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1326620a339bbc74d9fd45b7c24a8045
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_51
       rect:
@@ -1183,7 +2431,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f46dbc87089b30b43a5d025988b44f7f
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_52
       rect:
@@ -1196,7 +2452,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 67ee87550f4260a4e98795ed1d9a7d92
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_53
       rect:
@@ -1209,7 +2473,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b2a483b001f82214f99b784cb59efaa5
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_54
       rect:
@@ -1222,7 +2494,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 411153275e59b714dbfbe9dc708fe72a
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_55
       rect:
@@ -1235,7 +2515,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 604b509089ded364ebfff4a7e5aae08b
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_56
       rect:
@@ -1248,7 +2536,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d0167b5bcf242c2489c83131a3d50f60
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_57
       rect:
@@ -1261,7 +2557,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3b62a190eb20156429953b6134effc60
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_58
       rect:
@@ -1274,7 +2578,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8913b12e672518b478ea9f340fdee17f
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_59
       rect:
@@ -1287,7 +2599,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5dfbac5771bb18d48acee1a242c8b1a6
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_60
       rect:
@@ -1300,7 +2620,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 73ccb6df0f6e37c478526a54ec00fda2
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_61
       rect:
@@ -1313,7 +2641,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 968552790f5965343b445113b6d2e4b0
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_62
       rect:
@@ -1326,7 +2662,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 33b8841efd0a13242a4dc55f317b84a0
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_63
       rect:
@@ -1339,7 +2683,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 69dcb2003d4a35a478d669c91077a2d5
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_64
       rect:
@@ -1352,7 +2704,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5c1dd60a182816f409c3984332d7c254
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_65
       rect:
@@ -1365,7 +2725,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5e4845799dd182842a3b8ba706e7e7c3
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_66
       rect:
@@ -1378,7 +2746,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a66b9e729c11100499e44ebb443b5c8d
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_67
       rect:
@@ -1391,7 +2767,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 11d8c31ee6ba2b94690dc6e7bd3542d0
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_68
       rect:
@@ -1404,7 +2788,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 94533f08f4260104980c46a7d1af1194
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_69
       rect:
@@ -1417,7 +2809,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cc8b6c1a17cbaab4eb1914177874aba0
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_70
       rect:
@@ -1430,7 +2830,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 28b0eb99519eb664bb05a75aa49542b8
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_71
       rect:
@@ -1443,7 +2851,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 73ca9b2578a05864695b4412f3b90b71
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_72
       rect:
@@ -1456,7 +2872,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81dceac2bbb430a468d621c7af275444
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_73
       rect:
@@ -1469,7 +2893,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e62c736f2a0d5394c88179faf881cf79
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_74
       rect:
@@ -1482,7 +2914,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cfca9173e7a8a694cb8783fa6c8c7af2
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_75
       rect:
@@ -1495,7 +2935,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 89a833fc78244bb4588a8aa502377221
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_76
       rect:
@@ -1508,7 +2956,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 011dfefc7223a634cb566bc940c17962
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_77
       rect:
@@ -1521,7 +2977,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 75e5655eb47dd844cb19badddb49bcea
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_78
       rect:
@@ -1534,7 +2998,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2ea740b1f5b9c23469fe8d77921b39f6
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_79
       rect:
@@ -1547,7 +3019,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 068615304b129794599c601ee376cf8b
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_80
       rect:
@@ -1560,7 +3040,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1001b0e4d25aee545bbda8180958576f
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_81
       rect:
@@ -1573,7 +3061,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65010af4d319d7342b82603b47cfe080
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_82
       rect:
@@ -1586,7 +3082,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2779082567e5f7458b36fd0cf23f3c8
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_83
       rect:
@@ -1599,7 +3103,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c9c30e13b226c3e4380ee48dffeee18d
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_84
       rect:
@@ -1612,7 +3124,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 542e1e7f6cb95184297f07f2af4a49f7
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_85
       rect:
@@ -1625,7 +3145,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 52d84a4f144f0754eb4dffb00c458265
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_86
       rect:
@@ -1638,7 +3166,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: deaeaf225be3c8b4bab722db9594508f
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_87
       rect:
@@ -1651,7 +3187,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 096216624ab845a4fa4f8e8dbe3ebee1
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_88
       rect:
@@ -1664,7 +3208,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 09c55d15a9b63c441bb4b02ead8f1d97
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_89
       rect:
@@ -1677,7 +3229,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65b8a0a2e9eb79943872c5df623d07cd
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_90
       rect:
@@ -1690,7 +3250,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4c83b135ca0d2c44cabf5cd757190a91
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_91
       rect:
@@ -1703,7 +3271,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cbcc259b462344e47b409c2492b48809
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_92
       rect:
@@ -1716,7 +3292,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b5f67017a8da1284389108e412b27ef2
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_93
       rect:
@@ -1729,7 +3313,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b7327449e6e32c0438d3809c58c9c581
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_94
       rect:
@@ -1742,7 +3334,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d479c2b6e0f26324984d3b8bdc090952
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_95
       rect:
@@ -1755,7 +3355,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ac35da8f1bb904848935849fbcc8dcd8
+      internalID: 21300570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_96
       rect:
@@ -1768,7 +3376,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4bb76885365d5e469e989c374a37caf
+      internalID: 21300572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_97
       rect:
@@ -1781,7 +3397,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e6c13411ce78b4544a10d4a939e3e993
+      internalID: 21300574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_98
       rect:
@@ -1794,7 +3418,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 16ab7c534d9303a41a20b8157adb91a1
+      internalID: 21300576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_99
       rect:
@@ -1807,7 +3439,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 52ec771301747814fa29dba8eb1e8423
+      internalID: 21300578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_100
       rect:
@@ -1820,7 +3460,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e82c032cd6dcbec44923680b0d19128c
+      internalID: 21300580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_101
       rect:
@@ -1833,7 +3481,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 124f951a24e1c894c8455756d76683b1
+      internalID: 21300582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_102
       rect:
@@ -1846,7 +3502,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fe7bf4f6d665543469b0bbfb5d462067
+      internalID: 21300584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_103
       rect:
@@ -1859,7 +3523,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bf04ae115fb12cb4f891c6d6f3a17478
+      internalID: 21300586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_104
       rect:
@@ -1872,7 +3544,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: aa41b301c89610d47b75afaf681e8ffe
+      internalID: 21300588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_105
       rect:
@@ -1885,7 +3565,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7762eb6d47e35ec43bfa82f387de59e4
+      internalID: 21300590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_106
       rect:
@@ -1898,7 +3586,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3d9358416afb4994bb5d56f9f0a87285
+      internalID: 21300592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_107
       rect:
@@ -1911,7 +3607,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0b2f3bc1cb604bc41b257e24363882cb
+      internalID: 21300594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_108
       rect:
@@ -1924,7 +3628,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c62a53c341a15f4d8a036d4bbc01f3c
+      internalID: 21300596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_109
       rect:
@@ -1937,7 +3649,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1b06e40b587f6c846afcc1ce64487de6
+      internalID: 21300598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_110
       rect:
@@ -1950,7 +3670,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a90e2c28d059da445880b6b9811b8c8a
+      internalID: 21300600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_111
       rect:
@@ -1963,7 +3691,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 78f8a65ade6c99f45a0a1d34a20d2da8
+      internalID: 21300602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_112
       rect:
@@ -1976,7 +3712,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b6a3ce9f94f98654b8a576681175d6a2
+      internalID: 21300604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_113
       rect:
@@ -1989,7 +3733,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eafb973cc4e111f4387e44601d8512fd
+      internalID: 21300606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_114
       rect:
@@ -2002,7 +3754,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 141201d8228acc24e934e575e3582cd2
+      internalID: 21300608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_115
       rect:
@@ -2015,7 +3775,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cf7bea6c90951504fa9773b34f0e4a9f
+      internalID: 21300610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_116
       rect:
@@ -2028,7 +3796,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 46b4452d3567cc84eaf24aa0d5fc2897
+      internalID: 21300612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_117
       rect:
@@ -2041,7 +3817,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 661b37268d2e5cb41bfcdb13d1c78770
+      internalID: 21300614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_118
       rect:
@@ -2054,7 +3838,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b503d6bc76678964789ba32862eb39d5
+      internalID: 21300616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_119
       rect:
@@ -2067,7 +3859,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3a4ede318327b845aea9e917e18cc37
+      internalID: 21300618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_120
       rect:
@@ -2080,7 +3880,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 864153c4fb25c534bbcaaad078af496c
+      internalID: 21300620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_121
       rect:
@@ -2093,7 +3901,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f46d9ef7e7df77946aceaeb4d1a3ec08
+      internalID: 21300622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_122
       rect:
@@ -2106,7 +3922,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6fdac0c7ef8177d43b302d55019194fc
+      internalID: 21300624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_123
       rect:
@@ -2119,7 +3943,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ba1451e1c7cf48e4b848731e846e5794
+      internalID: 21300626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_124
       rect:
@@ -2132,7 +3964,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f4c1e9d7bb15737418e13d89f5627c91
+      internalID: 21300628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_125
       rect:
@@ -2145,7 +3985,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 95db98034a21b894f84b91722e7e6c7e
+      internalID: 21300630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_126
       rect:
@@ -2158,7 +4006,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 26e56dd3988096646b0a07690aba0440
+      internalID: 21300632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_127
       rect:
@@ -2171,7 +4027,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7bee445daccdf4446aa430ed9cc5b1b4
+      internalID: 21300634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_128
       rect:
@@ -2184,7 +4048,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8efc483e0a3722d4cb5eeed91c252ac6
+      internalID: 21300636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_129
       rect:
@@ -2197,7 +4069,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: be24e9610fa069046b89a2b7ff866095
+      internalID: 21300638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_130
       rect:
@@ -2210,7 +4090,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4369c5293299eb4d80f86437590bf9a
+      internalID: 21300640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_131
       rect:
@@ -2223,7 +4111,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c0bf33d71c63866419f03dea68c5b435
+      internalID: 21300642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_132
       rect:
@@ -2236,7 +4132,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7adfd141be119f148b3edc4c47a99b61
+      internalID: 21300644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_133
       rect:
@@ -2249,7 +4153,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 10ecc7ad5793a1d43b885b7b25936c29
+      internalID: 21300646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_134
       rect:
@@ -2262,7 +4174,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c15745f4c557be418888e07f649bfb9
+      internalID: 21300648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_135
       rect:
@@ -2275,7 +4195,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0e15e6258b1cbd94eae2510ad5fe9af8
+      internalID: 21300650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_136
       rect:
@@ -2288,7 +4216,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cabfaa903851d4d43b1b53c9f17598a0
+      internalID: 21300652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_137
       rect:
@@ -2301,7 +4237,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f5e27ddfd23b75248a1b40e42641fba6
+      internalID: 21300654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_138
       rect:
@@ -2314,7 +4258,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f1d21f680d87681488a88d6f2c0cfaf2
+      internalID: 21300656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_139
       rect:
@@ -2327,7 +4279,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85266cba0c2440a418519649939da707
+      internalID: 21300658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_140
       rect:
@@ -2340,7 +4300,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 123f6221540daa844be6d60c73cd6673
+      internalID: 21300660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_141
       rect:
@@ -2353,7 +4321,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03a53e737899d4340bc75ab9082407f7
+      internalID: 21300662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_142
       rect:
@@ -2366,7 +4342,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e8c32117bdac2db42a61a4369d57c4fc
+      internalID: 21300664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_143
       rect:
@@ -2379,7 +4363,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f4156460da5506548b419287d839dbc8
+      internalID: 21300666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_144
       rect:
@@ -2392,7 +4384,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 882af60e863e81d42840a5da18d4e208
+      internalID: 21300668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_145
       rect:
@@ -2405,7 +4405,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b6495c7f681fbe44896f014545a656c6
+      internalID: 21300670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_146
       rect:
@@ -2418,7 +4426,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 352f688e7ba6ca046841ed16e5d61210
+      internalID: 21300672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_147
       rect:
@@ -2431,7 +4447,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ba261f11fc389c945a502289594a3a77
+      internalID: 21300674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_148
       rect:
@@ -2444,7 +4468,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2682bfa5456c36049a094b4f6824ffdd
+      internalID: 21300676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_149
       rect:
@@ -2457,7 +4489,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 215ee759b2695fd4db983c34a0c6260e
+      internalID: 21300678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_150
       rect:
@@ -2470,7 +4510,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5a5e830432e5a824e9848d9e192acbf9
+      internalID: 21300680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_151
       rect:
@@ -2483,7 +4531,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9787a301b7970524bac25be813b8e794
+      internalID: 21300682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_152
       rect:
@@ -2496,7 +4552,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 205919aae5c47714d9b78fc5f8f85ce0
+      internalID: 21300684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_153
       rect:
@@ -2509,7 +4573,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7d1af84a7bd3193468cabd9e8613b00d
+      internalID: 21300686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_154
       rect:
@@ -2522,7 +4594,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81313eb1f4014464896ec573242128c1
+      internalID: 21300688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_155
       rect:
@@ -2535,7 +4615,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83651607c2dce2a4586d0183971d4536
+      internalID: 21300690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_156
       rect:
@@ -2548,7 +4636,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5f6154a5b4a576b4eacd175ced8e1d46
+      internalID: 21300692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_157
       rect:
@@ -2561,7 +4657,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1f53c118c027ff34bb786e68f99afbc5
+      internalID: 21300694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_158
       rect:
@@ -2574,7 +4678,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44b2aad552168a94299b1b4fe907d369
+      internalID: 21300696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_159
       rect:
@@ -2587,7 +4699,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8a1ca22c47749b249907cde87368bdda
+      internalID: 21300698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_160
       rect:
@@ -2600,7 +4720,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 226b313448b32d84fa3466aa6fdc6294
+      internalID: 21300700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_161
       rect:
@@ -2613,7 +4741,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1a3dc76649e42e0499ef7f56a8655334
+      internalID: 21300702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_162
       rect:
@@ -2626,7 +4762,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5f149984ff8d57f46bfcec8ae008aa80
+      internalID: 21300704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_163
       rect:
@@ -2639,7 +4783,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fb6c3013026ce2143bcb40ec3663a74d
+      internalID: 21300706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_164
       rect:
@@ -2652,7 +4804,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bea31288f3eec3f4b8475c5fa60fa571
+      internalID: 21300708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_165
       rect:
@@ -2665,7 +4825,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a79c54f79fae66b4b80389d7a8f63271
+      internalID: 21300710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_166
       rect:
@@ -2678,7 +4846,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f2b7f37432a91c5449220c15a42940a0
+      internalID: 21300712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_167
       rect:
@@ -2691,7 +4867,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 27c867036dc7c224abf7b39a38e5a839
+      internalID: 21300714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_168
       rect:
@@ -2704,7 +4888,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 53ac6b48d39bbce4b901f603ffbc87d9
+      internalID: 21300716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_169
       rect:
@@ -2717,7 +4909,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: efb6c36a5b7498249ac4a401bec4a7ef
+      internalID: 21300718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_170
       rect:
@@ -2730,7 +4930,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bcdba8a77bdd8784986ef8d105e261ce
+      internalID: 21300720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_171
       rect:
@@ -2743,7 +4951,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 934a1088841307e46a207a4e3e6ae6c1
+      internalID: 21300722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_172
       rect:
@@ -2756,7 +4972,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b3760962dfd8b2f41aa66add5c45b897
+      internalID: 21300724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_173
       rect:
@@ -2769,7 +4993,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: baf7d98499bb6424d8b9265ccccdd797
+      internalID: 21300726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_174
       rect:
@@ -2782,7 +5014,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fb6b0c062ce84d740b3223c072aded90
+      internalID: 21300728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_175
       rect:
@@ -2795,7 +5035,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2f06fbb79c471f94ab4e5703b1c0404d
+      internalID: 21300730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_176
       rect:
@@ -2808,7 +5056,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ead67103bcfb7cb47979dc698344d14a
+      internalID: 21300732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_177
       rect:
@@ -2821,7 +5077,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0966cac2e3a80b74cbf24a9f7d729b7d
+      internalID: 21300734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_178
       rect:
@@ -2834,7 +5098,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 067f1863834f6f940a5816003e793fc8
+      internalID: 21300736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_179
       rect:
@@ -2847,7 +5119,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ab50106e7fc3d574da90ddd0fc3f812c
+      internalID: 21300738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_180
       rect:
@@ -2860,7 +5140,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ced818d311050ac4a81b42f385c9f380
+      internalID: 21300740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_181
       rect:
@@ -2873,7 +5161,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 01b324c7d106b554a9bf80530e72d554
+      internalID: 21300742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_182
       rect:
@@ -2886,7 +5182,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d461429cfb43f904fb3e3f27d9a1fee3
+      internalID: 21300744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_183
       rect:
@@ -2899,7 +5203,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c1a457ea3620e64f9a79ddecade2e8e
+      internalID: 21300746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_184
       rect:
@@ -2912,7 +5224,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2293349be4eac54095864db9ad6e399
+      internalID: 21300748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_185
       rect:
@@ -2925,7 +5245,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6fb410bd8a4a64740bff08fcc2f97331
+      internalID: 21300750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_186
       rect:
@@ -2938,7 +5266,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3673f1a1ce4027f45a956ac4d4ffef6a
+      internalID: 21300752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_187
       rect:
@@ -2951,7 +5287,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 80176410a67136d4b8963877428b4ad6
+      internalID: 21300754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_188
       rect:
@@ -2964,7 +5308,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 849d92e029d422948bcf667cd7a77de7
+      internalID: 21300756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_189
       rect:
@@ -2977,7 +5329,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 86ea412f48ee2784eb3741d0451e193f
+      internalID: 21300758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_190
       rect:
@@ -2990,7 +5350,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2e0c59ef5582b7c4db01a249568dd394
+      internalID: 21300760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_191
       rect:
@@ -3003,7 +5371,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b101cf7232a196e44853634de5b9f46f
+      internalID: 21300762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_192
       rect:
@@ -3016,7 +5392,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: ef53927f25a7fce4d859a28ffd09913c
+      internalID: 21300764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_193
       rect:
@@ -3029,7 +5413,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e021eb1b681f5924a8c7fc2c973bb13a
+      internalID: 21300766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_194
       rect:
@@ -3042,7 +5434,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 37e5ef5f7a25f4c499aa7739dafb4b02
+      internalID: 21300768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_195
       rect:
@@ -3055,7 +5455,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9a4b957c1b777af4f939012054e29855
+      internalID: 21300770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_196
       rect:
@@ -3068,7 +5476,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 709880eb629427b4da2c7b14484b5807
+      internalID: 21300772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_197
       rect:
@@ -3081,7 +5497,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0d0633672e984184fbd3eaa0a9b2f12f
+      internalID: 21300774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_198
       rect:
@@ -3094,7 +5518,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5fefa4867571fdd47bb81910c85b9279
+      internalID: 21300776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_199
       rect:
@@ -3107,7 +5539,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 594b6ed907589cc409bec96e134510eb
+      internalID: 21300778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_200
       rect:
@@ -3120,7 +5560,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 904b9d450f009344bb5916192927c32e
+      internalID: 21300780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_201
       rect:
@@ -3133,7 +5581,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 35dd2a561530397418e9f5c60d77d85d
+      internalID: 21300782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_202
       rect:
@@ -3146,7 +5602,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9e2f76db402c94a4cbdd9f2f74c1a020
+      internalID: 21300784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_203
       rect:
@@ -3159,7 +5623,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2462263e5592a0842b8af201e695f46f
+      internalID: 21300786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_204
       rect:
@@ -3172,7 +5644,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4c7fec463bf1bc649ad884d78aabfccb
+      internalID: 21300788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_205
       rect:
@@ -3185,7 +5665,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f2bfae95a8da110479581a8898bc64f6
+      internalID: 21300790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_206
       rect:
@@ -3198,7 +5686,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84770bbd07a0288469962ccd8f4b541f
+      internalID: 21300792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_207
       rect:
@@ -3211,7 +5707,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9b448d1c54512ff4c81add844827e201
+      internalID: 21300794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_208
       rect:
@@ -3224,7 +5728,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 25e652df3a46ac4478df64defdb09cc1
+      internalID: 21300796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_209
       rect:
@@ -3237,7 +5749,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 04e34dd4f82333a4b9ae6eb708fd8c77
+      internalID: 21300798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_210
       rect:
@@ -3250,7 +5770,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0e44ab3f5b736924dad35890bd8c13f2
+      internalID: 21300800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_211
       rect:
@@ -3263,7 +5791,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9792589e47044b14aafe1c5aead42f5a
+      internalID: 21300802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_212
       rect:
@@ -3276,7 +5812,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 3e719fe5a4291614ca8f84921d05c51b
+      internalID: 21300804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_213
       rect:
@@ -3289,7 +5833,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f6c2accf4924a2741ad727a38380341f
+      internalID: 21300806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_214
       rect:
@@ -3302,7 +5854,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5087331277933a94cb974ba8d1e35b0f
+      internalID: 21300808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_215
       rect:
@@ -3315,7 +5875,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7d78c69825ad6fb4b8b9d712c59ec02e
+      internalID: 21300810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Littera Font_216
       rect:
@@ -3328,9 +5896,28 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 12bf33f56e7e8cd4b88fdadfa9ce15d9
+      internalID: 21300812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 399ceddc3234e7546b63912b3e3eb226
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
