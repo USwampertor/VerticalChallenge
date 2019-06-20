@@ -37,7 +37,7 @@ public class diDungeonGenerator : MonoBehaviour
   }
 
   public bool IsStarted() {
-    return (_instance != null) ? true : false; 
+    return _instance != null; 
   }
 
   private diFloor GenerateFloor() {
