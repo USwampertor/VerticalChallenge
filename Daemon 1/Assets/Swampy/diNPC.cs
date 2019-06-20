@@ -5,16 +5,29 @@ using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 
 [System.Serializable]
+public enum eNPCType
+{
+  NONE = 0,
+  TEST,
+  MERCHANT,
+  PRIEST,
+  QUEST,
+  GOSSIP,
+  BLACKSMITH,
+  HEALER
+}
+
+[System.Serializable]
 public class diNPC : MonoBehaviour
 {
 
 
   public string m_name;
+  public eNPCType m_type;
 
   public List<diDialog> m_dialogs;
-  public Tile m_tile;
 
-  public diHighlighter m_highlight;
+  private diHighlighter m_highlight;
   private GameObject m_player;
   private GameObject m_UI;
   private Text m_gossip;
@@ -43,20 +56,8 @@ public class diNPC : MonoBehaviour
 
   }
 
-  public void BuyObject() {
-
-  }
-
-  public void StartGossip() {
-
-  }
-
-  public void ExamineObject() {
-
-  }
-
-  public void TalkToNPC() {
-
+  private void OnMouseDown() {
+    diNPCUI._instance.EnterUI(this);
   }
 
   private void OnMouseEnter() {

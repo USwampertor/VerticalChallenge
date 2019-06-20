@@ -7,11 +7,16 @@ using UnityEngine.UI;
 public enum eDialogType
 {
   NONE = 0,
+  ROOT,
   GOSSIP,
   PURCHASE,
   SELDOM,
   SYSTEM,
   ITEM,
+  ACTION,
+  NARRATION,
+  HEALING,
+  EXIT
 }
 
 
