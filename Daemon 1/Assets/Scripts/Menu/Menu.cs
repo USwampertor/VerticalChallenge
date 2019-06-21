@@ -12,7 +12,7 @@ public class Menu : MonoBehaviour
   m_timer, m_maxTime, m_markerDistance, m_inputDelay;
 
   public int
-  m_markerPosition;
+  m_markerPosition, m_numElements;
 
   bool 
   m_isInteracting, m_isUpPressed, m_isDownPressed;
@@ -24,6 +24,7 @@ public class Menu : MonoBehaviour
     m_isUpPressed = false;
     m_isDownPressed = false;
     m_markerDistance = 0.33f;
+    m_numElements = 5;
     m_markerPosition = 0;
     m_inputDelay = 1.0f;
     m_maxTime = 30.0f;
@@ -83,10 +84,10 @@ public class Menu : MonoBehaviour
 
     if ((m_isDownPressed && m_inputDelay < 0.0f) || (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow)))
     {
-      if (m_markerPosition >= 4)
+      if (m_markerPosition >= (m_numElements - 1))
       {
           m_markerPosition = 0;
-          m_markers.transform.position += new Vector3(0.0f, m_markerDistance * 4, 0.0f);
+          m_markers.transform.position += new Vector3(0.0f, m_markerDistance * (m_numElements - 1), 0.0f);
           return;
       }
       m_markers.transform.position -= new Vector3(0.0f, m_markerDistance, 0.0f);
@@ -96,8 +97,8 @@ public class Menu : MonoBehaviour
     {
       if (m_markerPosition <= 0)
       {
-          m_markerPosition = 4;
-          m_markers.transform.position -= new Vector3(0.0f, m_markerDistance * 4, 0.0f);
+          m_markerPosition = m_numElements - 1;
+          m_markers.transform.position -= new Vector3(0.0f, m_markerDistance * (m_numElements - 1), 0.0f);
           return;
       }
       m_markers.transform.position += new Vector3(0.0f, m_markerDistance, 0.0f);
@@ -107,11 +108,14 @@ public class Menu : MonoBehaviour
 
   void
   ButtonChecker(){
-    if(Input.GetKeyDown(KeyCode.Return)){
+    if(Input.GetKeyDown(KeyCode.Return) ){
       if (m_markerPosition == 0){
         SceneManager.LoadScene(4);
       }
       if (m_markerPosition == 2){
+        m_timer = 0.0f;
+        StreamVideo.m_isRepeating = true;
+        Cursor.visible = false;
         SceneManager.LoadScene(0);
       }
       if (m_markerPosition == 3){
