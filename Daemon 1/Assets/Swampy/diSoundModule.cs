@@ -31,8 +31,6 @@ public class diSoundModule : MonoBehaviour
     if (!Debug.isDebugBuild) {
       GetComponent<SpriteRenderer>().color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
     }
-    
-
     LoadSceneMusic();
   }
 
@@ -123,13 +121,23 @@ public class diSoundModule : MonoBehaviour
   /// </summary>
   /// <param name="name"></param>
   public void PlayVillager(eAudio name) {
-    if (m_villagerList[name] != null)
-    {
-      for (int i = 0; i < m_audioSourcePool.Count; ++i)
-      {
-        if (!m_audioSourcePool[i].isPlaying)
-        {
-          m_audioSourcePool[i].PlayOneShot(m_villagerList[name]);
+    if (m_villagerList[name] != null) {
+      for (int i = 0; i < m_audioSourcePool.Count; ++i) {
+        if (!m_audioSourcePool[i].isPlaying) {
+          m_audioSourcePool[i].loop = false;
+          m_audioSourcePool[i].clip = m_villagerList[name];
+          m_audioSourcePool[i].Play();
+        }
+      }
+    }
+  }
+
+  public void StopVillager(eAudio name)
+  {
+    if (m_villagerList[name] != null) {
+      for (int i = 0; i < m_audioSourcePool.Count; ++i) {
+        if (m_audioSourcePool[i].clip == m_villagerList[name]) {
+          m_audioSourcePool[i].Stop();
         }
       }
     }
@@ -158,12 +166,9 @@ public class diSoundModule : MonoBehaviour
   /// between the active music and the new one </param>
   public void PlayNarration(eAudio name)
   {
-    if (m_narrationList[name] != null)
-    {
-      for (int i = 0; i < m_audioSourcePool.Count; ++i)
-      {
-        if (!m_audioSourcePool[i].isPlaying)
-        {
+    if (m_narrationList[name] != null) {
+      for (int i = 0; i < m_audioSourcePool.Count; ++i) {
+        if (!m_audioSourcePool[i].isPlaying) {
           m_audioSourcePool[i].loop = false;
           m_audioSourcePool[i].clip = m_narrationList[name];
           m_audioSourcePool[i].Play();
@@ -174,12 +179,9 @@ public class diSoundModule : MonoBehaviour
 
   public void StopNarration(eAudio name)
   {
-    if (m_narrationList[name] != null)
-    {
-      for (int i = 0; i < m_audioSourcePool.Count; ++i)
-      {
-        if (m_audioSourcePool[i].clip == m_narrationList[name])
-        {
+    if (m_narrationList[name] != null) {
+      for (int i = 0; i < m_audioSourcePool.Count; ++i) {
+        if (m_audioSourcePool[i].clip == m_narrationList[name]) {
           m_audioSourcePool[i].Stop();
         }
       }
@@ -193,16 +195,20 @@ public class diSoundModule : MonoBehaviour
   /// <param name="audio"> The audio object to register </param>
   public void RegisterToManager(diAudio audio) {
     if (eAudioType.MUSIC == audio.m_type) {
-      m_musicList.Add(audio.m_name, audio.m_clip);
+      if(m_musicList.Count == 0 || m_musicList[audio.m_name] == null) {
+        m_musicList.Add(audio.m_name, audio.m_clip); }
     }
     else if (eAudioType.VILLAGER == audio.m_type) {
-      m_villagerList.Add(audio.m_name, audio.m_clip);
+      if (m_villagerList.Count == 0 || m_villagerList[audio.m_name] == null) {
+        m_villagerList.Add(audio.m_name, audio.m_clip); }
     }
     else if (eAudioType.NARRATION == audio.m_type) {
-      m_narrationList.Add(audio.m_name, audio.m_clip);
+      if (m_narrationList.Count == 0 || m_narrationList[audio.m_name] == null) {
+        m_narrationList.Add(audio.m_name, audio.m_clip); }
     }
     else if (eAudioType.SFX == audio.m_type) {
-      m_sfxList.Add(audio.m_name, audio.m_clip);
+      if (m_sfxList.Count == 0 || m_sfxList[audio.m_name] == null) {
+        m_sfxList.Add(audio.m_name, audio.m_clip); }
     }
     else if (eAudioType.NONE == audio.m_type) {
       return;

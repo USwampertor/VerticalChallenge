@@ -19,6 +19,7 @@ public class diHighlighter : MonoBehaviour
     if(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<OutlineEffect>() == null) {
       m_effect = GameObject.FindGameObjectWithTag("MainCamera").AddComponent<OutlineEffect>();
       m_effect.lineThickness = 0;
+      m_effect.lineColor0 = new Color(0, 0, 0, 0);
     }
     else {
       m_effect = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<OutlineEffect>();

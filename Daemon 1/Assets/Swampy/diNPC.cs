@@ -52,6 +52,7 @@ public class diNPC : MonoBehaviour
     foreach(diDialog dialog in m_dialogs) {
       dialog.RegisterAudio();
     }
+    m_highlight.enabled = false;
   }
 
   private void Update() {
@@ -67,15 +68,17 @@ public class diNPC : MonoBehaviour
   }
 
   private void OnMouseEnter() {
+    m_highlight.enabled = true;
     m_highlight.Highlight();
+
     Debug.Log("Mouse entered NPC: " + m_name);
   }
 
   private void OnMouseOver() {
-    Debug.Log("Mouse Over NPC: " + m_name);
   }
 
   private void OnMouseExit() {
+    m_highlight.enabled = false;
     m_highlight.Clear();
     Debug.Log("Mouse exited NPC: " + m_name);
 
