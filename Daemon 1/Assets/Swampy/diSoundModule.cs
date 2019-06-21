@@ -26,8 +26,7 @@ public class diSoundModule : MonoBehaviour
   /// Initializes the Module
   /// </summary>
   void
-  Start()
-  {
+  Start() {
 
     if (!Debug.isDebugBuild) {
       GetComponent<SpriteRenderer>().color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
@@ -41,27 +40,23 @@ public class diSoundModule : MonoBehaviour
   /// Checks if the module has been already started up
   /// </summary>
   /// <returns></returns>
-  public bool IsStarted()
-  {
+  public bool IsStarted() {
     return _instance != null;
   }
 
   /// <summary>
   /// When destroying the module, it sets the instance to null, to be able to be created again
   /// </summary>
-  private void OnDestroy()
-  {
+  private void OnDestroy() {
     _instance = null;
   }
 
   /// <summary>
   /// Starts up the module and checks if it is already created or not
   /// </summary>
-  private void Awake()
-  {
+  private void Awake() {
 
-    if (diSoundModule._instance != null)
-    {
+    if (diSoundModule._instance != null) {
       Destroy(gameObject);
       Debug.LogWarning("Object is already built, There shouldn't be another instance");
       return;
@@ -72,7 +67,12 @@ public class diSoundModule : MonoBehaviour
 
 
     m_musicSource = gameObject.AddComponent<AudioSource>();
-
+    for(int i = 0; i < m_SFX.Count; ++i) {
+      m_sfxList.Add(m_SFX[i].m_name, m_SFX[i].m_clip);
+    }
+    for (int i = 0; i < m_MUSIC.Count; ++i) {
+      m_sfxList.Add(m_MUSIC[i].m_name, m_MUSIC[i].m_clip);
+    }
     for (int i = 0; i < m_poolSize; ++i) {
       GameObject child = new GameObject();
       AudioSource tmp = child.gameObject.AddComponent<AudioSource>();
@@ -86,8 +86,7 @@ public class diSoundModule : MonoBehaviour
   /// <summary>
   /// Update used for fading and changing audio sources
   /// </summary>
-  void Update()
-  {
+  void Update() {
 
   }
 
@@ -98,28 +97,32 @@ public class diSoundModule : MonoBehaviour
   /// <param name="name"> the name of the audio to play</param>
   /// <param name="position"> the position of the audiosource to be played for 3D</param>
   /// <param name="source"> the transform of the requester </param>
-  public void PlaySFX(eAudio name)
-  {
+  public void PlaySFX(eAudio name) {
     //Checks for the ENUM if it is registered on the AUDIONAME
     //Should be, but just in case
-    if (m_sfxList[name] != null)
-    {
-      for (int i = 0; i < m_audioSourcePool.Count; ++i)
-      {
-        if (!m_audioSourcePool[i].isPlaying)
-        {
+    if (m_sfxList[name] != null) {
+      for (int i = 0; i < m_audioSourcePool.Count; ++i) {
+        if (!m_audioSourcePool[i].isPlaying) {
           m_audioSourcePool[i].PlayOneShot(m_sfxList[name]);
         }
       }
     }
   }
 
+  /// <summary>
+  /// Loads the music of the level by Unity Scene index
+  /// </summary>
   private void LoadSceneMusic() {
-
+    if (SceneManager.GetActiveScene().buildIndex == 1) { PlayMusic(eAudio.MENU); }
+    else if (SceneManager.GetActiveScene().buildIndex == 2) { PlayMusic(eAudio.TRISTRAM); }
+    else if (SceneManager.GetActiveScene().buildIndex == 3) { PlayMusic(eAudio.CHAPPEL); }
   }
 
-  public void PlayVillager(eAudio name)
-  {
+  /// <summary>
+  /// Plays The catchphrase of the villager
+  /// </summary>
+  /// <param name="name"></param>
+  public void PlayVillager(eAudio name) {
     if (m_villagerList[name] != null)
     {
       for (int i = 0; i < m_audioSourcePool.Count; ++i)
@@ -138,12 +141,9 @@ public class diSoundModule : MonoBehaviour
   /// <param name="name"> the name of the music to perform </param>
   /// <param name="crossfade"> the time to crossfade 
   /// between the active music and the new one </param>
-  public void PlayMusic(eAudio name)
-  {
-    if (m_musicList[name] != null)
-    {
-      if (m_musicSource.clip != m_musicList[name])
-      {
+  public void PlayMusic(eAudio name) {
+    if (m_musicList[name] != null) {
+      if (m_musicSource.clip != m_musicList[name]) {
         m_musicSource.clip = m_musicList[name];
         m_musicSource.Play();
       }
