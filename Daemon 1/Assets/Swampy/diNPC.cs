@@ -24,6 +24,7 @@ public class diNPC : MonoBehaviour
 
   public string m_name;
   public eNPCType m_type;
+  public diAudio m_catchphrase;
 
   public List<diDialog> m_dialogs;
 
@@ -47,6 +48,10 @@ public class diNPC : MonoBehaviour
     m_collider.size = new Vector2(m_renderer.bounds.size.x,
                                   m_renderer.bounds.size.y);
 
+    diSoundModule._instance.RegisterToManager(m_catchphrase);
+    foreach(diDialog dialog in m_dialogs) {
+      dialog.RegisterAudio();
+    }
   }
 
   private void Update() {
@@ -75,4 +80,5 @@ public class diNPC : MonoBehaviour
     Debug.Log("Mouse exited NPC: " + m_name);
 
   }
+
 }

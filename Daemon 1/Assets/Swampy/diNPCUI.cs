@@ -71,7 +71,7 @@ public class diNPCUI : MonoBehaviour
     m_narrationMask = m_gossipObject.transform.GetChild(0).gameObject;
 
     if (m_activeNPC.m_type == eNPCType.GOSSIP) {
-      StartNarration(m_activeNPC.m_dialogs[0].m_gossip);
+      StartNarration(m_activeNPC.m_dialogs[0]);
     }
 
     CleanMenu(m_actionContainer);
@@ -79,6 +79,7 @@ public class diNPCUI : MonoBehaviour
     m_listPosition = 0;
     StartCoroutine(SetCursor());
     m_state = eUIState.MENU;
+    diSoundModule._instance.PlayVillager(m_activeNPC.m_catchphrase.m_name);
   }
 
   private void Awake() {
@@ -87,7 +88,8 @@ public class diNPCUI : MonoBehaviour
       return;
     }
     _instance = this;
-    DontDestroyOnLoad(gameObject);
+    DontDestroyOnLoad(this);
+    Debug.Log("Creating Sound Module");
   }
 
   public bool IsStarted() {
@@ -211,7 +213,7 @@ public class diNPCUI : MonoBehaviour
         }
         else if (dialog.m_type == eDialogType.NARRATION) {
           tmp.GetComponent<Button>().onClick.AddListener(
-            () => StartNarration(dialog.m_gossip));
+            () => StartNarration(dialog));
         }
         tmp.transform.parent = container.transform;
         Text tmpText = tmp.transform.GetChild(0).GetComponent<Text>();
@@ -260,13 +262,16 @@ public class diNPCUI : MonoBehaviour
 
   }
 
-  private void StartNarration(string narration) {
+  private void StartNarration(diDialog dialog) {
     Debug.Log("Setting narration...");
     m_gossipObject.SetActive(true);
     m_infoObject.SetActive(false);
     m_menuCursor.SetActive(false);
+
+    string narration = dialog.m_gossip;
     m_narration.GetComponent<Text>().text = narration;
     m_state = eUIState.WAITING;
+    diSoundModule._instance.PlayNarration(dialog.m_audio.m_name);
   }
 
   private IEnumerator StartNarrationSequence() {
