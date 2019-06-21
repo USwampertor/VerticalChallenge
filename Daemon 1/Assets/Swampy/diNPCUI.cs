@@ -49,6 +49,7 @@ public class diNPCUI : MonoBehaviour
   private eUIState m_state;
   private diNPC m_activeNPC;
   private diDialog m_fatherDialog;
+  private eAudio m_activeAudio;
 
   public static diNPCUI _instance = null;
 
@@ -72,6 +73,7 @@ public class diNPCUI : MonoBehaviour
 
     if (m_activeNPC.m_type == eNPCType.GOSSIP) {
       StartNarration(m_activeNPC.m_dialogs[0]);
+      m_activeAudio = m_activeNPC.m_dialogs[0].m_audio.m_name;
     }
 
     CleanMenu(m_actionContainer);
@@ -157,8 +159,11 @@ public class diNPCUI : MonoBehaviour
     }
 
     if(m_state == eUIState.GOSSIPING) {
-      if(Input.GetMouseButtonDown(0)) {
+      if(Input.GetMouseButtonDown(0) || 
+         Input.GetKeyUp(KeyCode.Return) || 
+         Input.GetKeyUp(KeyCode.Escape) ) {
         StopNarrationSequence();
+        diSoundModule._instance.StopNarration(m_activeAudio);
       }
 
     }
@@ -166,8 +171,7 @@ public class diNPCUI : MonoBehaviour
 
   private void FillMenu(GameObject container, List<diDialog> dialogs, eDialogType type) {
     Debug.Log("Filling menu...");
-
-    if(type == eDialogType.ROOT) {
+    if (type == eDialogType.ROOT) {
       foreach (diDialog dialog in dialogs) {
         GameObject tmp = Instantiate(m_actionButton) as GameObject;
         if (dialog.m_type == eDialogType.EXIT) {
@@ -214,6 +218,7 @@ public class diNPCUI : MonoBehaviour
         else if (dialog.m_type == eDialogType.NARRATION) {
           tmp.GetComponent<Button>().onClick.AddListener(
             () => StartNarration(dialog));
+          m_activeAudio = dialog.m_audio.m_name;
         }
         tmp.transform.parent = container.transform;
         Text tmpText = tmp.transform.GetChild(0).GetComponent<Text>();
@@ -271,6 +276,7 @@ public class diNPCUI : MonoBehaviour
     string narration = dialog.m_gossip;
     m_narration.GetComponent<Text>().text = narration;
     m_state = eUIState.WAITING;
+    diSoundModule._instance.StopVillager(m_activeNPC.m_catchphrase.m_name);
     diSoundModule._instance.PlayNarration(dialog.m_audio.m_name);
   }
 
@@ -349,6 +355,7 @@ public class diNPCUI : MonoBehaviour
 
   private void ExitUI() {
     Debug.Log("ExitingUI");
+    diSoundModule._instance.StopVillager(m_activeNPC.m_catchphrase.m_name);
     gameObject.SetActive(false);
     m_gossipObject.SetActive(false);
     m_sellObject.SetActive(false);
