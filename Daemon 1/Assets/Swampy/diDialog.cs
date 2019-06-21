@@ -25,10 +25,18 @@ public class diDialog
 {
   public int id;
   public string m_name;
-  public AudioClip m_audio;
+  public diAudio m_audio;
   public eDialogType m_type;
   [TextArea]
   public string m_gossip;
   public List<diDialog> m_options;
   public diItem m_item;
+
+  public void RegisterAudio() {
+    diSoundModule._instance.RegisterToManager(m_audio);
+    foreach(diDialog dialog in m_options) {
+      dialog.RegisterAudio();
+    }
+  }
+
 }
