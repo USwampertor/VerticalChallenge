@@ -29,9 +29,9 @@ namespace Diablo_Entities
 
     public override void OnStateUpdate(diEnemy enemy)
     {
-      Vector3 force = enemy.seek(enemy.transform.position,
-        enemy.m_playerPosReference.position,
-        1.5f);
+
+      Vector3 force = 
+        enemy.seek(enemy.transform.position, enemy.m_playerPosReference.position, 1.5f);
 
       float distance = 
         (enemy.m_playerPosReference.position - enemy.transform.position).magnitude;

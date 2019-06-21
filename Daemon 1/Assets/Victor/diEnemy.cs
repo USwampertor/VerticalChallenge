@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Diablo_Pathfind;
 
 namespace Diablo_Entities
 {
@@ -67,6 +68,12 @@ namespace Diablo_Entities
 
     [SerializeField]
     internal Transform m_playerPosReference;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    internal diGridGenerator gridMap;
 
     #endregion //External Status
 

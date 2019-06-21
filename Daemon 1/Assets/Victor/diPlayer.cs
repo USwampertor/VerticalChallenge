@@ -38,19 +38,19 @@ namespace Diablo_Entities
     #region Combat Settings
 
     /// <summary>
-    /// Represents how strong rhe character is, and adds to the damage in melee combat.
+    /// Represents how strong the character is, and adds to the damage in melee combat.
     /// </summary>
     [SerializeField]
     internal int m_strenght;
 
     /// <summary>
-    /// Is te ability to channel magic, either throught spells or items
+    /// Is te ability to channel magic, either throught spells or items (mana points)
     /// </summary>
     [SerializeField]
     internal int m_magic;
 
     /// <summary>
-    /// This is the agiity of the character, chance to strike
+    /// This is the agiity of the character, chance to strike, + armorclass
     /// </summary>
     [SerializeField]
     internal int m_dexterity;
@@ -60,6 +60,30 @@ namespace Diablo_Entities
     /// </summary>
     [SerializeField]
     internal int m_life;
+
+    /// <summary>
+    /// Chance of make damage with the attack
+    /// </summary>
+    [SerializeField]
+    internal int m_chanceToHit;
+
+    /// <summary>
+    /// Chance to not get hit
+    /// </summary>
+    [SerializeField]
+    internal int m_armorClass;
+
+    /// <summary>
+    /// Attack speed, cooldown of the attack
+    /// </summary>
+    [SerializeField]
+    internal float m_fasterAttack;
+
+    /// <summary>
+    /// Time that the player gets stunned when a enemy attacks him
+    /// </summary>
+    [SerializeField]
+    internal float m_fasterHitRecovery;
 
     #endregion//Combat Settings
 
