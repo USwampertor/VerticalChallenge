@@ -42,6 +42,7 @@ public class diNPCUI : MonoBehaviour
 
   List<GameObject> m_list = new List<GameObject>();
   private int m_listPosition = 0;
+  private int m_rootPosition = 0;
 
   private float m_timer = 0.0f;
   private bool m_isPressed = false;
@@ -54,6 +55,11 @@ public class diNPCUI : MonoBehaviour
   public static diNPCUI _instance = null;
 
   public void EnterUI(diNPC npc) {
+    //This is to stop the previous NPC
+    if (m_activeNPC != null) {
+      diSoundModule._instance.StopVillager(m_activeNPC.m_catchphrase.m_name);
+    }
+
     m_activeNPC = npc;
     gameObject.SetActive(true);
     m_infoObject.SetActive(true);
@@ -81,6 +87,7 @@ public class diNPCUI : MonoBehaviour
     m_listPosition = 0;
     StartCoroutine(SetCursor());
     m_state = eUIState.MENU;
+
     diSoundModule._instance.PlayVillager(m_activeNPC.m_catchphrase.m_name);
   }
 
@@ -136,7 +143,10 @@ public class diNPCUI : MonoBehaviour
         m_list[m_listPosition].GetComponent<Button>().onClick.Invoke();
         return;
       }
-
+      else if(Input.GetKeyUp(KeyCode.Escape)) {
+        if (m_rootPosition == 0) { ExitUI(); return; }
+        else { ExitSubMenu(m_activeNPC.m_dialogs,eDialogType.ROOT,m_actionContainer); }
+      }
       if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)) {
         m_timer += Time.deltaTime;
         if(m_timer >= m_inputDelay) {
@@ -332,8 +342,9 @@ public class diNPCUI : MonoBehaviour
     CleanMenu(container);
     FillMenu(container, dialogs, type);
     m_listPosition = 0;
-    StartCoroutine(SetCursor());
     m_fatherDialog = parent;
+    ++m_rootPosition;
+    StartCoroutine(SetCursor());
   }
 
   private void ExitSubMenu(List<diDialog> dialogs, 
@@ -349,13 +360,13 @@ public class diNPCUI : MonoBehaviour
       FillMenu(newContainer, m_fatherDialog.m_options, m_fatherDialog.m_type);
     }
     m_listPosition = 0;
+    --m_rootPosition;
     StartCoroutine(SetCursor());
   }
 
 
   private void ExitUI() {
     Debug.Log("ExitingUI");
-    diSoundModule._instance.StopVillager(m_activeNPC.m_catchphrase.m_name);
     gameObject.SetActive(false);
     m_gossipObject.SetActive(false);
     m_sellObject.SetActive(false);
