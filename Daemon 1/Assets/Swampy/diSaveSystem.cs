@@ -14,7 +14,7 @@ public static class diSaveSystem
   public static void SaveProfile() {
 
     BinaryFormatter formatter = new BinaryFormatter();
-    string path = m_saveFolder;
+    string path = m_saveFolder + m_extension;
     FileStream file = new FileStream(path, FileMode.Create);
 
     diProfile profile = new diProfile();
@@ -30,7 +30,7 @@ public static class diSaveSystem
 
   public static void CreateProfile(string newName) {
     BinaryFormatter formatter = new BinaryFormatter();
-    string path = m_saveFolder;
+    string path = m_saveFolder +  newName + m_extension;
     FileStream file = new FileStream(path, FileMode.Create);
 
     diProfile profile = new diProfile();
@@ -50,6 +50,11 @@ public static class diSaveSystem
       profiles.Add(file.Name);
     }
     return profiles;
+  }
+
+  public static void DeleteProfile(string name) {
+    string path = m_saveFolder + name + m_extension;
+    File.Delete(path);
   }
 
   public static diProfile LoadProfile(string name) {
