@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b24657910d2514cbfbeefeb6423cc1, type: 3}
+  m_Name: ShortSword
+  m_EditorClassIdentifier: 
+  m_name: Short Sword
+  m_sprite: {fileID: 21300000, guid: 5d49677d50091004885ceb482997dd35, type: 3}
+  m_animation: {fileID: 7400000, guid: 574304793e40b8a4f8a739416e8e9566, type: 2}
+  m_inventorySize: {x: 1, y: 3}
+  m_isEquipable: 1
+  m_isSingleHanded: 1
+  m_minDamage: 2
+  m_maxDamage: 6
+  m_durability: 24

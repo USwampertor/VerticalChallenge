@@ -16,6 +16,5 @@ Armor : Object{
   private void 
   Awake(){
     m_isEquipable = true;
-    m_itemType = Types.ItemType.Armor;
   }
 }
