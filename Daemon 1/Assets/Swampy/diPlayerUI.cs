@@ -13,6 +13,12 @@ public enum ePlayerUIState
   MENU,
 }
 
+public enum eUIPosition
+{
+  NONE = 0,
+  LEFT,
+  RIGHT
+}
 
 public class diPlayerUI : MonoBehaviour
 {
@@ -32,6 +38,10 @@ public class diPlayerUI : MonoBehaviour
   public Button m_spellsButton;
   public Button m_spellButton;
 
+  private GameObject m_leftUI;
+  private GameObject m_rightUI;
+  private ePlayerUIState m_state;
+
   public Text m_logger;
   public Text m_descriptor;
 
@@ -40,6 +50,8 @@ public class diPlayerUI : MonoBehaviour
   public float m_loggerTimer = 0.0f;
   public float m_loggerInterval;
   public float m_timerThreshold;
+
+  private Vector3 m_cameraOffset = new Vector3(320.0f,0);
 
   private void Awake() {
     
@@ -55,31 +67,38 @@ public class diPlayerUI : MonoBehaviour
     diUIButton tmp;
     tmp = m_characterButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Character Information \n Hotkey : 'C'");
-    m_characterButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_statsUI));
+    m_characterButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_statsUI, eUIPosition.LEFT));
 
     tmp = m_inventoryButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Inventory \n Hotkey : 'I'");
-    m_inventoryButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_inventoryUI));
+    m_inventoryButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_inventoryUI, eUIPosition.RIGHT));
 
     tmp = m_questButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Quests Log \n Hotkey : 'Q'");
-    m_questButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_questUI));
+    m_questButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_questUI, eUIPosition.LEFT));
 
     tmp = m_mapButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Automap \n Hotkey : 'A'");
-    m_mapButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_mapUI));
+    m_mapButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_mapUI, eUIPosition.NONE));
 
     tmp = m_menuButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Main Menu \n Hotkey : 'ESCAPE'");
-    m_menuButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_menuUI));
+    m_menuButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_menuUI, eUIPosition.NONE));
 
     tmp = m_spellButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Spell \n Hotkey : 'C'");
-    m_spellButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_activeSpellUI));
+    m_spellButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_activeSpellUI, eUIPosition.RIGHT));
 
     tmp = m_spellsButton.gameObject.AddComponent<diUIButton>();
     tmp.Initialize(m_descriptor, "Spell Book \n Hotkey : 'S'");
-    m_spellsButton.GetComponent<Button>().onClick.AddListener(() => OpenUI(tmp, m_spellUI));
+    m_spellsButton.GetComponent<Button>().onClick.AddListener(
+      () => OpenUI(tmp, m_spellUI, eUIPosition.RIGHT));
 
     m_logger.text = "";
     m_descriptor.text = "";
@@ -139,11 +158,62 @@ public class diPlayerUI : MonoBehaviour
       m_logger.text += m_diabloVersion;
       m_loggerTimer += m_loggerInterval;
     }
+
+    if(Input.GetKeyDown(KeyCode.Escape)) {
+      OpenUI(m_menuButton.GetComponent<diUIButton>(), m_menuUI, eUIPosition.NONE);
+    }
+    if(Input.GetKeyDown(KeyCode.M)) {
+      OpenUI(m_menuButton.GetComponent<diUIButton>(), m_mapUI, eUIPosition.NONE);
+    }
+    if(Input.GetKeyDown(KeyCode.C)) {
+      OpenUI(m_characterButton.GetComponent<diUIButton>(), m_statsUI, eUIPosition.LEFT);
+    }
+    if (ePlayerUIState.MAIN       == m_state) {
+      
+    }
+    if (ePlayerUIState.CHARACTER  == m_state) {
+    }
+    if (ePlayerUIState.SPELLS     == m_state) {
+    }
+    if (ePlayerUIState.SPELL      == m_state) {
+    }
+    if (ePlayerUIState.QUESTLOG   == m_state) {
+    }
+    if (ePlayerUIState.MENU       == m_state) {
+    }
+
+
+
   }
 
-  private void OpenUI(diUIButton button, GameObject ui) {
-    ui.SetActive(!button.IsOpen());
-    button.ChangeState();
+  private void OpenUI(diUIButton button, GameObject ui, eUIPosition position) {
+
+    if(eUIPosition.LEFT == position) {
+      if (m_leftUI != null) { m_leftUI.SetActive(false); }
+      if (m_leftUI == ui) { m_leftUI.SetActive(false); m_leftUI = null; }
+      else {
+      m_leftUI = ui;
+      m_leftUI.SetActive(true);
+      }
+    }
+    else if (eUIPosition.RIGHT == position) {
+      if (m_rightUI != null) { m_rightUI.SetActive(false); }
+      if (m_rightUI == ui) { m_rightUI.SetActive(false); m_rightUI = null;}
+      else {
+      m_rightUI = ui;
+      m_rightUI.SetActive(true);
+      }
+    }
+    else {
+      ui.SetActive(!button.IsOpen());
+      button.ChangeState();
+    }
+
+    
+    if      (m_leftUI == null && m_rightUI != null) { }
+    else if (m_leftUI != null && m_rightUI == null) { }
+    else {  }
+
   }
 
 }
