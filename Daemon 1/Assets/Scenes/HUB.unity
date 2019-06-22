@@ -457,7 +457,7 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[0].m_type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1078,6 +1078,328 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: "Can\xB4t a fella drink in peace?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Drink in peace
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7a7525c36c377e442b0f2d2515250d26, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: "No one ever lis\u2026 listens to me. Somewhere - I ain't too sure -
+        but somewhere under the church is a whole pile o\xB4 gold. Gleaming\xB4 and
+        shinin\u2019 and just waitin\u2019 for some to get it"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: No one
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b5c6223bde7904949b430758ddc52f98, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: "I know you  got your own ideas, and I know you\u2019re not gonna believe
+        this, but that weapon you got there - it just ain\u2019t no good against those
+        big brutes! Oh, I don\u2019t care what Griswold says, they can't make anything
+        like they used to in the old days\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: I know you
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 87f5f858a6f240e4781f49e4ebe1489c, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: If I was you... and I ain't... but if I was, I'd sell all that stuff
+        you got and get out of here. That boy out there... He's always got something
+        good, but you gotta give him some gold or he won't even show you what he's
+        got
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: bc07f27c11ce7f448b3ad567a7a06688, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: If I was you
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: The gal who brings the drinks? Oh, yeah, what a pretty lady. So nice,
+        too
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: cbdeec33059650548970ea79b09367d1, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: The gal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: Why don't that old crone do somethin' for a change. Sure, sure, she's
+        got stuff, but you listen to me... she's unnatural. I ain't never seen her
+        eat or drink - and you can't trust somebody who doesn't drink at least a little
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: Old Crone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 13d57c67cc52dd248bb94844ec031cd0, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: Cain isn't what he says he is. Sure, sure, he talks a good story... some
+        of 'em are real scary or funny... but I think he knows more than he knows
+        he knows
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 12ad678c3b5c5b744a1547632aafc73d, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: Griswold? Good old Griswold. I love him like a brother! We fought together,
+        you know, back when... we... Lazarus... Lazarus... Lazarus!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: Griswold?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 556b1a70d0867ec4ab4079750898041a, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: "Hehehe, I like Pepin. He really tries, you know. Listen here, you should
+        make sure you get to know him. Good fella like that with people always wantin'
+        help. Hey, I guess that would be kinda like you, huh hero? I was a hero too\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: Hehehe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dbed7ed8bdafe924583a41df3086a4da, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].id
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_gossip
+      value: "Wirt is a kid with more problems than even me, and I know all about
+        problems. Listen here - that kid is gotta sweet deal, but he's been there,
+        you know? Lost a leg! Gotta walk around on a piece of wood. So sad, so sad\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_name
+      value: Wirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a6fe05a38bb1d9449daa2338d424245, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].id
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_gossip
+      value: "Ogden is the best man in town. I don't think his wife likes me much,
+        but as long as she keeps tappin' kegs, I'll like her just fine. Seems like
+        I been spendin' more time with Ogden than most, but he's so good to me\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_name
+      value: Ogden
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dc7f2d5abf78e46448eed3305b74af90, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].id
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_gossip
+      value: "I wanna tell ya sumthin', 'cause I know all about this stuff. It's my
+        specialty. This here is the best... theeeee best! That other ale ain't no
+        good since those stupid dogs\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_name
+      value: I wanna
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: cb0d6e11d3bd6184b822b3d37cf64d6b, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -1193,6 +1515,253 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: Good day! How may I serve you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Good day
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a2d4d4db0d76a914ba9000cb1450870f, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: The woman at the edge of town is a witch! She seems nice enough, and
+        her name, Adria, is very pleasing to the ear, but I am very afraid of her.
+        It would take someone quite brave, like you, to see what she is doing out
+        there
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: The woman
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5e0137804c37a9642b8dbd34c9181bb6, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: My grandmother had a dream that you would come and talk to me. She has
+        visions, you know and can see into the future
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: Grandmother
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a5e50432ba7e41b4eb015d8ff2a020ed, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: Our Blacksmith is a point of pride to the people of Tristram. Not only
+        is he a master craftsman who has won many contests within his guild, but he
+        received praises from our King Leoric himself - may his soul rest in peace.
+        Griswold is also a great hero; just ask Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: Blacksmith
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: fd7d025893aa9bc468fa42869d42e147, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: Cain has been the storyteller of Tristram for as long as I can remember.
+        He knows so much, and can tell you just about anything about almost everything
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 914b459c3fb2e074986d1d4acfa9b0f1, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: Farnham is a drunkard who fills his belly with ale and everyone else's
+        ears with nonsense. I know that both Pepin and Ogden feel sympathy for him,
+        but I get so frustrated watching him slip farther and farther into a befuddled
+        stupor every night
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: Farnham
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1f4b38443761ddd4081eb4a14bd53310, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: Pepin saved my grandmother's life, and I know that I can never repay
+        him for that. His ability to heal any sickness is more powerful than the mightiest
+        sword and more mysterious than any spell you can name. If you ever are in
+        need of healing, Pepin can help you
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Pepin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 86e9864a87a4b5049b54e323e1259e7d, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: I grew up with Wirt's mother, Canace. Although she was only slightly
+        hurt when those hideous creatures stole him, she never recovered. I think
+        she died of a broken heart. Wirt has become a mean-spirited youngster, looking
+        only to profit from the sweat of others. I know that he suffered and has seen
+        horrors that I cannot even imagine, but some of that darkness hangs over him
+        still
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: Grew up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f094457b2a4d85429904951ee83aa6e, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: Ogden and his wife have taken me and my grandmother into their home and
+        have even let me earn a few gold pieces by working at the inn. I owe so much
+        to them, and hope one day to leave this place and help them start a grand
+        hotel in the east
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: Ogden
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0d9f3f46ab1606a45b3d4500934f9d47, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -1308,6 +1877,302 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: "Pssst\u2026 over here"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Pssst
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 02da4d3e966797b4bb44e8df0ecdedaa, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: Not everyone in Tristram has a use - or a market - for everything you
+        will find in the labyrinth. Not even me, as hard as that is to believe. sometimes,
+        only you will be able to find a purpose for some things
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: Not everyone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5795652391e535f42b977fac1273f4c3, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: Don't trust everything the drunk says. Too many ales have fogged his
+        vision and his good sense
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: Don't trust
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 42c702cdcbe72bc4e9609764c17046fc, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: "In case you haven't noticed, I don't buy anything from tristam. I am
+        an importer of quality goods. If you want to peddle junk, you\xB4ll have to
+        see Griswold, Pepin or that witch, Adria. I'm sure that they will snap up
+        whatever you can bring them\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: In case
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c4834b05d7505864e9ccfea9d5f6bd4d, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: "I guess I owe the blacksmith my life - what there is of it. Sure, Griswold
+        offered me an apprenticeship at the  smithy, and he is a nice enough guy,
+        but I\xB4ll never get enough money to\u2026 well, let's just say that I have
+        definite plans that require a large amount of gold"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: I guess
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 464ac6c837f02324c9d611f2ba82028b, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: "If I were a few years older, I would shower her with whatever riches
+        I could muster, and let me assure you I can get my hands on some very nice
+        stuff. Gillian is a beautiful girl who get out Tristram as soon as it is safe.
+        Hmmm\u2026 maybe I\xB4ll take her with me when I go\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: If I were
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 191b8426dd4525c49b6825215a4f8674, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: "Cain knows too much. He scares the life out of me - even more than that
+        woman across the river. He keeps telling me about how lucky I am to be alive,
+        and how my story is foretold in legend. I think he\xB4s off his crock"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 63dde89dae9f1a1408af5fb0e19a25e8, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: "Farnham - now there is a man with serious problems, and I know all about
+        how serious problems can be. He trusted too much in the integrity of one man,
+        and Lazarus led him into the very jaws of death. Oh, I know what it's like
+        down there, so don't even start telling me about your plans to destroy the
+        evil that dwells in that Labyrinth. Just watch your legs\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: Farnham
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 57f2fddfd98403346bb28c30a7ff8b29, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: "As long as you don't need anything reattached, old Pepin is as good
+        as they come. If I'd have had some of those potions he brews, I might still
+        have my leg\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: As long
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c279eb82b720b5d40b30069a1929690d, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].id
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_gossip
+      value: Adria truly bothers me. Sure, Cain is creepy in what he can tell you
+        about the past, but that witch can see into your past. She always has some
+        way to get whatever she needs, too. Adria gets her hands on more merchandise
+        than I've seen pass through the gates of the King's Bazaar during High Festival
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_name
+      value: Adria
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d1e0e841d9d700f4aa47f8a98fe956b7, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].id
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_gossip
+      value: "Ogden is a fool for staying here. I could get him out of town for a
+        very reasonable price, but he insists on trying to make a go of it with that
+        stupid Tavern. I guess at the least he gives Gillian a place to work, and
+        his wife Garda does make a superb Shepherd's pie\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_name
+      value: Ogden
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4359e085e0d632449aec96630e55da0f, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -1489,6 +2354,32 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Please
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: Please, help. I bearly scape from The Butcher. He kill my wife, my children.
+        I begging you, in the name of god, avenge them
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8fd97635ebe523844b12a0f180da15a0, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -1607,7 +2498,7 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.size
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1622,27 +2513,7 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[0].m_type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_dialogs.Array.data[1].id
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_dialogs.Array.data[1].m_type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_dialogs.Array.data[1].m_gossip
-      value: Greetings, my name is Deckard Cain
-      objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_dialogs.Array.data[1].m_name
-      value: Deckard Cain
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1657,14 +2528,16 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[2].m_gossip
-      value: While you are venturing deeper into the Labyrinth you may find tomes
-        of great knowledge hidden there. Read them carefully for they can tell you
-        things that even I cannot
+      value: "Griswold \x13 a man of action and great courage. I bet he never told
+        you about the time he went into the Labyrinth to save Wirt, did he? He knows
+        his fair share of the dangers to be found there, but then again - so do you.
+        He is a skilled craftsman, and if he claims to be able to help you in any
+        way, you can count on his honesty and his skill"
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[2].m_name
-      value: While
+      value: Griswold
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1679,15 +2552,16 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[3].m_gossip
-      value: I know of many myths and legends that may contain answers to questions
-        that may arise in your journeys into the Labyrinth. If you come across challenges
-        and questions to which you seek knowledge, seek me out and I will tell you
-        what I can
+      value: Ogden has owned and run the Rising Sun Inn Tavern for almost four years
+        now.  He purchassed it just a few short months before everything here went
+        to hell. He and his wife Garda do not have the money to leave as they invested
+        all they had in making a life for themselves here. He is a good man with a
+        deep sense of responsibility
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[3].m_name
-      value: I know
+      value: Ogden
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1702,16 +2576,16 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[4].m_gossip
-      value: "Griswold \u2013 a man of action and great courage. I bet he never told
-        you about the time he went into the Labyrinth to save Wirt, did he? He knows
-        his fair share of the dangers to be found there, but then again - so do you.
-        He is a skilled craftsman, and if he claims to be able to help you in any
-        way, you can count on his honesty and his skill"
+      value: Poor Farnham. He is a disquieting reminder of the doomed assembly that
+        entered into the Cathedral with Lazarus on that dark day. He escaped with
+        his life, but his courage and much of his sanity were left in some dark pit.
+        He finds comfort only at the bottom of his tankard nowadays, but there are
+        occasional bits of truth buried within his constant ramblings
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[4].m_name
-      value: Griswold
+      value: Farnham
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1726,16 +2600,16 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[5].m_gossip
-      value: Ogden has owned and run the Rising Sun Inn Tavern for almost four years
-        now.  He purchassed it just a few short months before everything here went
-        to hell. He and his wife Garda do not have the money to leave as they invested
-        all they had in making a life for themselves here. He is a good man with a
-        deep sense of responsibility
+      value: "The witch, Adria, is an anomaly here in Tristram. She arrived shortly
+        after the Cathedral was desecrated while most everyone else was fleeing.\r\nShe
+        had a small hut constructed at the edge of town, seemingly overnight, and
+        has access to many strange and arcane artifacts and tomes of knowledge that
+        even I have never seen before\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[5].m_name
-      value: Ogden
+      value: Adria
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1750,16 +2624,17 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[6].m_gossip
-      value: Poor Farnham. He is a disquieting reminder of the doomed assembly that
-        entered into the Cathedral with Lazarus on that dark day. He escaped with
-        his life, but his courage and much of his sanity were left in some dark pit.
-        He finds comfort only at the bottom of his tankard nowadays, but there are
-        occasional bits of truth buried within his constant ramblings
+      value: The story of Wirt is a frightening and tragic one. He was taken from
+        the arms of his mother and dragged into the labyrinth by the small, foul demons
+        that wield wicked spears. There were many other children taken that day, including
+        the son of King Leoric. The Knights of the palace went below, but never returned.
+        The Blacksmith found the boy, but only after the foul beasts had begun to
+        torture him for their sadistic pleasures
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[6].m_name
-      value: Farnham
+      value: Wirt
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1774,26 +2649,24 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[7].m_gossip
-      value: "The witch, Adria, is an anomaly here in Tristram. She arrived shortly
-        after the Cathedral was desecrated while most everyone else was fleeing.\r\nShe
-        had a small hut constructed at the edge of town, seemingly overnight, and
-        has access to many strange and arcane artifacts and tomes of knowledge that
-        even I have never seen before\r\n"
+      value: Ah, Pepin. I count him as a true friend - perhaps the closest I have
+        here. He is a bit addled at times, but never a more caring or considerate
+        soul has existed. His knowledge and skills are equaled by few, and his door
+        is always open
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[7].m_name
-      value: Adria
+      value: Pepin
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[8].m_gossip
-      value: The story of Wirt is a frightening and tragic one. He was taken from
-        the arms of his mother and dragged into the labyrinth by the small, foul demons
-        that wield wicked spears. There were many other children taken that day, including
-        the son of King Leoric. The Knights of the palace went below, but never returned.
-        The Blacksmith found the boy, but only after the foul beasts had begun to
-        torture him for their sadistic pleasures
+      value: Gillian is a fine woman. Much adored for her high spirits and her quick
+        laugh, she holds a special place in my heart. She stays on at the tavern to
+        support her elderly grandmother who is too sick to travel. I sometimes fear
+        for her safety, but I know that any man in the village would rather die than
+        see her harmed
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1808,7 +2681,7 @@ PrefabInstance:
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_dialogs.Array.data[8].m_name
-      value: Wirt
+      value: Gillian
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1856,6 +2729,78 @@ PrefabInstance:
         type: 3}
       propertyPath: m_dialogs.Array.data[10].m_name
       value: Gillian
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1f7f8a8c5166a4848837324f5850a9f1, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: Read
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: While you are venturing deeper into the Labyrinth you may find tomes
+        of great knowledge hidden there. Read them carefully for they can tell you
+        things that even I cannot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 097cececd96f35d4f990c67d7257b643, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f797b9be8befd40419a6c75f36001ef6, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 09bad7f4df196a147b662070b77500e5, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d1da071598d8e44a88548c7d960696e, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0313949a48cac934485fdbad999de8f2, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 504ef8a149d04814494ca1b23beefdea, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c59415cfaa176aa4599d5fc4c8bdf343, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d917f955c6fe3d74680fa5db026fb640, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_name
+      value: Cain the Elder
       objectReference: {fileID: 0}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
@@ -1972,6 +2917,279 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: What ails you, my friend?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: What ails
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e698b9a7fd464c428636869cfa10d27, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: I have made a very interesting discovery. Unlike us, the creatures in
+        the Labyrinth can heal themselves without the aid of potions or magic. If
+        you hurt one of the monsters, make sure it is dead or it very well may regenerate
+        itself
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: Discovery
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b7f20b283dbb10d44bfb4f10f6b508af, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: Before it was taken over by, well, whatever lurks below, the Cathedral
+        was a place of great learning. There are many books to be found there. If
+        you find any, you should read them all, for some may hold secrets to the workings
+        of the Labyrinth
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: Cathedral
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e18503913d1e2b24d812a82cb661f56b, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: Griswold knows as much about the art of war as I do about the art of
+        healing. He is a shrewd merchant, but his work is second to none. Oh, I suppose
+        that may be because he is the only blacksmith left here
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: Griswold
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc6a01453cf94884082f0bd63eeb89f9, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: Cain is a true friend and a wise sage. He maintains a vast library and
+        has an innate ability to discern the true nature of many things. If you ever
+        have any questions, he is the person to go to
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 799d2e3c53c20094eac3ce2b4e27074e, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: Even my skills have been unable to fully heal Farnham. Oh, I have been
+        able to mend his body, but his mind and spirit are beyond anything I can do
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: Skills
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6228e07cee030ce48ba5e246aff8e17a, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: While I use some limited forms of magic to create the potions and elixirs
+        I store here, Adria is a true sorceress. She never seems to sleep, and she
+        always has access to many mystic tomes and artifacts. I believe her hut may
+        be much more than the hovel it appears to be, but I can never seem to get
+        inside the place
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Limited Forms
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dd7ece439f150ab4daec40b6c281f3e3, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: Poor Wirt. I did all that was possible for the child, but I know he despises
+        that wooden peg that I was forced to attach to his leg. His wounds were hideous.
+        No one - and especially such a young child - should have to suffer the way
+        he did
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: Wirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b823eaf76086674f917c9a6a73360fc, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: I really don't understand why Ogden stays here in Tristram. He suffers
+        from a slight nervous condition, but he is an intelligent and industrious
+        man who would do very well wherever he went. I suppose it may be the fear
+        of the many murders that happen in the surrounding countryside, or perhaps
+        the wishes of his wife that keep him and his family where they are
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: Ogden
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e86ea3a714c1074e8a8b00be3d12b09, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].id
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_gossip
+      value: Ogden's barmaid is a sweet girl. Her grandmother is quite ill, and suffers
+        from delusions
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_name
+      value: Barmaid
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: bbfa7eaf1bd4f0c469a093276ac3ea15, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -2087,6 +3305,281 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: Greetings, good master. Welcome to the Tavern of the Rising Sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Greetings
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6dd32d5f45702cd4c9e5fabb90b0e3c7, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: Thank goodness you've returned! Much has changed since you lived here,
+        my friend. All was peaceful until the dark riders came and destroyed our village.
+        Many were cut down where they stood, and those who took up arms were slain
+        or dragged away to become slaves - or worse. The church at the edge of town
+        has been desecrated and is being used for dark rituals. The screams that echo
+        in the night are inhuman, but some of our townsfolk may yet survive. Follow
+        the path that lies between my tavern and the blacksmith shop to find the church
+        and save who you can. Perhaps I can tell you more if we speak again. Good
+        luck
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: Thank goodness
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7f6b5d9e834e2b34387b6d78045d88c8, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: Many adventurers have graced the tables of my tavern, and ten times as
+        many stories have been told over as much ale. The only thing that I ever heard
+        any of them agree on was this old axiom. Perhaps it will help you. You can
+        cut the flesh, but you must crush the bone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: Adventurers
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9bd78540f87aa5b449a10c15d86630dc, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: Griswold the blacksmith is extremely knowledgeable about weapons and
+        armor. If you ever need work done on your gear, he is definitely the man to
+        see
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: Griswold
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1f099b4369d598843b87f6fbd066de7a, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: Farnham spends far too much time here, drowning his sorrows in cheap
+        ale. I would make him leave, but he did suffer so during his time in the Labyrinth
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: Farnham
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 09b602d7af8264a4eaca9fad264da6a8, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: "Adria is wise beyond her years, but I must admit - she frightens me
+        a little.\r\nWell, no matter. If you ever have need to trade in items of sorcery,
+        she maintains a strangely well-stocked hut just across the river"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: Adria
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e3386f55096ca874482249b30203279a, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: If you want to know more about the history of our village, the storyteller
+        Cain knows quite a bit about the past
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Cain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a9e6d6bb7491fe4fa14452575818f89, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: Wirt is a rapscallion and a little scoundrel. He was always getting into
+        trouble, and it's no surprise what happened to him. He probably went fooling
+        about someplace that he shouldn't have been. I feel sorry for the boy, but
+        I don't abide the company that he keeps
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: Wirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 007d672e1428db3488ec89f8ee327316, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: "Pepin is a good man - and certainly the most generous in the village.
+        He is always attending to the needs of others, but trouble of some sort or
+        another does seem to follow him wherever he goes\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: Pepin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 99a14b51a7beb0e48860df38ad7d962a, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].id
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_gossip
+      value: Gillian, my Barmaid? If it were not for her sense of duty to her grand-dam,
+        she would have fled from here long ago. Goodness knows I begged her to leave,
+        telling her that I would watch after the old woman, but she is too sweet and
+        caring to have done so
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_name
+      value: Gillian
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e072d472e8e38ab43bd99e1df6857894, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
@@ -2281,6 +3774,340 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_gossip
+      value: "I sense a soul in search of answers\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_name
+      value: Sense a soul
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[0].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 34835ea947d474e4fabfb4215fa57a0c, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_gossip
+      value: Wisdom is earned, not given. If you discover a tome of knowledge, devour
+        its words. Should you already have knowledge of the arcane mysteries scribed
+        within a book, remember - that level of mastery can always increase
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_name
+      value: Wisdom
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[1].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c7e15bf96fb8740419d2b3282a0973c6, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_gossip
+      value: The greatest power is often the shortest lived. You may find ancient
+        words of power written upon scrolls of parchment. The strength of these scrolls
+        lies in the ability of either apprentice or adept to cast them with equal
+        ability. Their weakness is that they must first be read aloud and can never
+        be kept at the ready in your mind. Know also that these scrolls can be read
+        but once, so use them with care
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_name
+      value: Greatest power
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[2].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a39f03ec3e41ffe4b94352f769c67746, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_gossip
+      value: Though the heat of the sun is beyond measure, the mere flame of a candle
+        is of greater danger. No energies, no matter how great, can be used without
+        the proper focus. For many spells, ensorcelled Staves may be charged with
+        magical energies many times over. I have the ability to restore their power
+        - but know that nothing is done without a price
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_name
+      value: Heat of the sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[3].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4a78ffd0576dea14eae4a07c1ad34730, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_gossip
+      value: The sum of our knowledge is in the sum of its people. Should you find
+        a book or scroll that you cannot decipher, do not hesitate to bring it to
+        me. If I can make sense of it I will share what I find
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_name
+      value: The sun
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[4].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f1b72f70304b4ee4797732a209b24395, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_gossip
+      value: To a man who only knows Iron, there is no greater magic than Steel. The
+        blacksmith Griswold is more of a sorcerer than he knows. His ability to meld
+        fire and metal is unequaled in this land
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_name
+      value: To a man
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[5].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 254be81f82a173b4787eb21fec1fbdd2, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_gossip
+      value: Corruption has the strength of deceit, but innocence holds the power
+        of purity. The young woman Gillian has a pure heart, placing the needs of
+        her matriarch over her own. She fears me, but it is only because she does
+        not understand me
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_name
+      value: Corruption
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[6].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ec9eec1189d404940974a41e2206c384, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_gossip
+      value: A chest opened in darkness holds no greater treasure than when it is
+        opened in the light. The storyteller Cain is an enigma, but only to those
+        who do not look. His knowledge of what lies beneath the cathedral is far greater
+        than even he allows himself to realize
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_name
+      value: A chest opened
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[7].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b249c5c1505ce9a44a5228db2ac365d3, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].id
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_gossip
+      value: The higher you place your faith in one man, the farther it has to fall.
+        Farnham has lost his soul, but not to any demon. It was lost when he saw his
+        fellow townspeople betrayed by the Archbishop Lazarus. He has knowledge to
+        be gleaned, but you must separate fact from fantasy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_name
+      value: Faith in one man
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[8].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 41bd1a07a93cb0a42a9a76077f35fcc8, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].id
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_gossip
+      value: The hand, the heart and the mind can perform miracles when they are in
+        perfect harmony. The healer Pepin sees into the body in a way that even I
+        cannot. His ability to restore the sick and injured is magnified by his understanding
+        of the creation of elixirs and potions. He is as great an ally as you have
+        in Tristram
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_name
+      value: The hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[9].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7430a3c780886a647bed67d513875e84, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].id
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_gossip
+      value: There is much about the future we cannot see, but when it comes it will
+        be the children who wield it. The boy Wirt has a blackness upon his soul,
+        but he poses no threat to the town or its people. His secretive dealings with
+        the urchins and unspoken guilds of nearby towns gain him access to many devices
+        that cannot be easily found in Tristram. While his methods may be reproachful,
+        Wirt can provide assistance for your battle against the encroaching Darkness
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[10].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b2166f9a3104a840869ed682284b65d, type: 3}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].id
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_gossip
+      value: Earthen walls and thatched canopy do not create a home. The innkeeper
+        Ogden serves more of a purpose in this town than many understand. He provides
+        shelter for Gillian and her matriarch, maintains what life Farnham has left
+        to him, and provides an anchor for all who are left in the town to what Tristram
+        once was. His tavern, and the simple pleasures that can still be found there,
+        provide a glimpse of a life that the people here remember. It is that memory
+        that continues to feed their hopes for your success
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_name
+      value: Earthen
+      objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879774, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_dialogs.Array.data[11].m_audio.m_clip
+      value: 
+      objectReference: {fileID: 8300000, guid: dd33dbd4bfcac40458d76572a201997e, type: 3}
     - target: {fileID: 6822077114211879745, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_Sprite
