@@ -52,7 +52,6 @@ public class diNPC : MonoBehaviour
     foreach(diDialog dialog in m_dialogs) {
       dialog.RegisterAudio();
     }
-    m_highlight.enabled = false;
   }
 
   private void Update() {
