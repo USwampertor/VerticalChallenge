@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Diablo_Pathfind;
+
 
 
 namespace Diablo_Entities
@@ -19,6 +19,7 @@ namespace Diablo_Entities
 
     private void Start()
     {
+      m_pathIterator = 0;
       m_camReference = Camera.main;
       m_playerPosReference =
          GameObject.FindGameObjectWithTag("player").transform;

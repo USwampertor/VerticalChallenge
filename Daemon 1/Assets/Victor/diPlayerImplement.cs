@@ -14,6 +14,7 @@ namespace Diablo_Entities
     private void Awake()
     {
       InitStateMachine();
+     /* diDungeon._instance.*/
     }
 
     private void Start()

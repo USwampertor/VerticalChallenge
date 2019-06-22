@@ -1,16 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class diDungeon : MonoBehaviour
 {
 
   static public diDungeon _instance = null;
 
+  private diGridGenerator m_gridInstance;
+
+  public Tilemap tilemap;
+  public diPathfind m_pathFind;
+
+  public List<List<diTile>> m_localMapGrid;
+  public List<List<diTile>> m_worldMapGrid;
+  
+
   // Start is called before the first frame update
   void Start()
   {
-
+    tilemap = GameObject.Find("Grid").GetComponentInChildren<Tilemap>();
+    m_gridInstance = new diGridGenerator();
+    m_localMapGrid = m_gridInstance.createGridNodes(tilemap);
+    m_pathFind = new diPathfind();
   }
 
   // Update is called once per frame
