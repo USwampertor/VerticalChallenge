@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Diablo_Entities
 {
-  class PlayerIdleState : diState<diPlayer>
+  public class PlayerIdleState : diState<diPlayer>
   {
 
     public PlayerIdleState(diStateMachine<diPlayer> stateMachine)

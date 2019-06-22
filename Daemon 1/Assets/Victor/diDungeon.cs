@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Diablo_Entities;
 
 public class diDungeon : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class diDungeon : MonoBehaviour
 
   public Tilemap tilemap;
   public diPathfind m_pathFind;
+  public diPlayer m_playerReference;
 
   public List<List<diTile>> m_localMapGrid;
   public List<List<diTile>> m_worldMapGrid;
@@ -24,6 +26,10 @@ public class diDungeon : MonoBehaviour
     m_gridInstance = new diGridGenerator();
     m_localMapGrid = m_gridInstance.createGridNodes(tilemap);
     m_pathFind = new diPathfind();
+    m_playerReference = new diPlayer();
+    m_playerReference = GameObject.Find("player").GetComponent<diPlayer>();
+
+    
   }
 
   // Update is called once per frame

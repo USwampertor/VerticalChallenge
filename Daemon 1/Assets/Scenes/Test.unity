@@ -442,6 +442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00214b5d6d5e3144584c7e4f498170ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tilemap: {fileID: 0}
+  playerReference: {fileID: 0}
 --- !u!4 &1204014595
 Transform:
   m_ObjectHideFlags: 0
@@ -468,7 +470,7 @@ GameObject:
   - component: {fileID: 1575970974}
   - component: {fileID: 1575970973}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: player
   m_TagString: player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
