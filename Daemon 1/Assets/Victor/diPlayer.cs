@@ -8,7 +8,7 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file to declarate variables, properties and constants
   /// </summary>
-  partial class diPlayer : diBoid
+   public partial class diPlayer : diBoid
   {
     #region Movement Settings
 
@@ -80,7 +80,7 @@ namespace Diablo_Entities
     internal float m_fasterAttack;
 
     /// <summary>
-    /// Time that the player gets stunned when a enemy attacks him
+    /// cooldown 
     /// </summary>
     [SerializeField]
     internal float m_fasterHitRecovery;

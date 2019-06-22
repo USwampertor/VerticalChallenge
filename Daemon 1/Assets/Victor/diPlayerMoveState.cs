@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Diablo_Entities
 {
 
-  class PlayerMoveState : diState<diPlayer>
+  public class PlayerMoveState : diState<diPlayer>
   {
 
     public PlayerMoveState(diStateMachine<diPlayer> stateMachine)

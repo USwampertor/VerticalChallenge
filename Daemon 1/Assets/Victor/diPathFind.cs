@@ -10,8 +10,8 @@ public class diPathfind
 
     
     List<Vector2> path = new List<Vector2>();
-    List<diTile> openPath = new List<diTile>();
-    List<diTile> closePath = new List<diTile>();
+    List<diTile> openList = new List<diTile>();
+    List<diTile> closedList = new List<diTile>();
     Vector3Int startPosiiton = new Vector3Int();
     Vector3Int currPosiiton = new Vector3Int();
     Vector3Int endPosiiton = new Vector3Int();
@@ -29,6 +29,8 @@ public class diPathfind
     startTile = diDungeon._instance.m_localMapGrid[startPosiiton.x][startPosiiton.y];
     endTile = diDungeon._instance.m_localMapGrid[endPosiiton.x][endPosiiton.y];
 
+
+
     if(currTile.m_pos == endTile.m_pos)
     {
       path.Add(currTile.m_pos);
@@ -37,7 +39,7 @@ public class diPathfind
     
 
     // se agrega el primero
-    openPath.Add(currTile);
+    openList.Add(currTile);
 
 
     currPosiiton =
@@ -45,9 +47,9 @@ public class diPathfind
 
     //norte
     currTile = diDungeon._instance.m_localMapGrid[currPosiiton.x][currPosiiton.y + 1];
-    currTile.m_Parent = openPath[0];
-    closePath.Add(openPath[0]);
-    openPath.RemoveAt(0);
+    currTile.m_Parent = openList[0];
+    closedList.Add(openList[0]);
+    openList.RemoveAt(0);
     //checkNode()
 
 
