@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Types
 {
-    public enum 
+  public enum
   Stats{
     Strength,
     Magic,
@@ -17,7 +17,17 @@ public class Types
     ResistFire,
     ResistLightning,
     AttackSpeed,
-    LifeSteal
+    LifeSteal,
+    Health,
+    Mana
+  }
+
+  public enum
+  DamageType{
+    Strength,
+    Magic,
+    Dexterity,
+    Vitality
   }
 
   public enum 

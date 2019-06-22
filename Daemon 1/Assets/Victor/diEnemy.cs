@@ -62,6 +62,9 @@ namespace Diablo_Entities
     [SerializeField]
     internal int m_life;
 
+    [SerializeField]
+    internal int m_level;
+
     #endregion//Combat Settings
 
     #region External Status (how it's interacting with the world

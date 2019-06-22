@@ -10,8 +10,16 @@ Consumable : Object{
   protected bool
   m_isEquipable;
 
-  private void Awake(){
+  private void 
+  Awake(){
     m_isEquipable = false;
     m_itemType = Types.ItemType.Consumable;
+
+    if(m_type == Types.ConsumableType.Book){
+      m_inventorySize = new Vector2Int(2, 2);
+    }
+    else{
+      m_inventorySize = new Vector2Int(1, 1);
+    }
   }
 }

@@ -2,17 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemEffect : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "Effect", menuName = "Effect/Single")]
+public class ItemEffect : ScriptableObject{
+  public Types.Stats
+  m_stat;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public bool 
+  m_ispercentage, m_isPositive;
 }

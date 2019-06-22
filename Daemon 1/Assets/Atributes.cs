@@ -8,14 +8,13 @@ public class Atributes : MonoBehaviour
     public SpriteRenderer m_spriteRenderer;
     public Animator m_animator;
 
-    void Start()
-    {
+    public int
+    m_rarity, m_durability, m_maxDamage, m_minDamage;
+
+    void 
+    Awake(){
         m_spriteRenderer.sprite = m_properties.m_sprite;
-        //m_spriteRenderer.enabled = false;
-        Debug.Log(m_properties.m_name + ": " + m_properties.m_description);
     }
 
-    void Update()
-    {
-    }
+
 }
