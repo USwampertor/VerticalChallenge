@@ -17,7 +17,7 @@ public class ButtonManager : MonoBehaviour
 
   public void 
   PressSinglePlayer(){
-    SceneManager.LoadScene(4);
+    Debug.Log("Character Creation");
   }
 
   public void 
