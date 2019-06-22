@@ -7,9 +7,9 @@ using UnityEngine.EventSystems;
 public class diUIButton : MonoBehaviour, IPointerEnterHandler , IPointerExitHandler
 {
 
-  Text m_container;
-  string m_text;
-  bool m_isOpen;
+  public Text m_container;
+  public string m_text;
+  public bool m_isOpen;
 
   // Start is called before the first frame update
   void Start() {

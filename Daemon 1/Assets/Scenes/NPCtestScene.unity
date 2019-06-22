@@ -2142,6 +2142,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879744, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0e9930117c6e26b4f87daafe82d14c85, type: 2}
     - target: {fileID: 6822077114211879747, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_highlight.r
@@ -2157,11 +2162,6 @@ PrefabInstance:
       propertyPath: m_highlight.b
       value: 0.9046192
       objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879744, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 0e9930117c6e26b4f87daafe82d14c85, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fce4a2e2586429469f1d3fa4dbae5da, type: 3}
 --- !u!1 &1124752126
@@ -3011,6 +3011,11 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6822077114211879744, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0e9930117c6e26b4f87daafe82d14c85, type: 2}
     - target: {fileID: 6822077114211879747, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
         type: 3}
       propertyPath: m_highlight.r
@@ -3026,11 +3031,6 @@ PrefabInstance:
       propertyPath: m_highlight.b
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6822077114211879744, guid: 0fce4a2e2586429469f1d3fa4dbae5da,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 0e9930117c6e26b4f87daafe82d14c85, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fce4a2e2586429469f1d3fa4dbae5da, type: 3}
 --- !u!1 &1809425967
