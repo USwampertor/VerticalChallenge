@@ -10,7 +10,6 @@ public class diQuestLogger : MonoBehaviour
 
   List<diQuest> m_questDatabase;
 
-
   // Start is called before the first frame update
   void Start() {
   }
@@ -19,6 +18,5 @@ public class diQuestLogger : MonoBehaviour
   void Update() {
       
   }
-
 
 }
