@@ -4,23 +4,16 @@ using UnityEngine;
 
 public class 
 Object : ScriptableObject{
-  public string 
-  m_name, m_description;
+  public string
+  m_name;
 
   public Sprite 
   m_sprite;
 
-  protected Types.ItemType 
-  m_itemType;
+  public AnimationClip
+  m_animation;
 
-  protected Vector2Int m_inventorySize;
-
-  public Types.ItemType GetItemType(){
-    return m_itemType;
-  }
-
-  public Vector2Int GetInventorySize(){
-    return m_inventorySize;
-  }
+  public Vector2Int 
+  m_inventorySize;
 }
     

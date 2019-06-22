@@ -11,8 +11,6 @@ public class Atributes : MonoBehaviour
     void Start()
     {
         m_spriteRenderer.sprite = m_properties.m_sprite;
-        //m_spriteRenderer.enabled = false;
-        Debug.Log(m_properties.m_name + ": " + m_properties.m_description);
     }
 
     void Update()

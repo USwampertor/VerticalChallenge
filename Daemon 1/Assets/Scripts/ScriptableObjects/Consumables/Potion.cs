@@ -2,17 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Potion : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(fileName = "Potion", menuName = "Consumable/Potion")]
+public class Potion : ScriptableObject{
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
