@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Diablo_Pathfind;
 
 namespace Diablo_Entities
 {
@@ -31,8 +30,16 @@ namespace Diablo_Entities
     [SerializeField]
     internal Camera m_camReference;
 
+    /// <summary>
+    /// 
+    /// </summary>
     [SerializeField]
     internal float m_rangeToArrive;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    internal int m_pathIterator;
 
     #endregion //Movement Settings
 

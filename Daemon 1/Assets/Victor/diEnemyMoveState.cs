@@ -30,23 +30,35 @@ namespace Diablo_Entities
     public override void OnStateUpdate(diEnemy enemy)
     {
 
-      Vector3 force = 
-        enemy.seek(enemy.transform.position, enemy.m_playerPosReference.position, 1.5f);
+      List<Vector2> targets = new List<Vector2>();
 
-      float distance = 
-        (enemy.m_playerPosReference.position - enemy.transform.position).magnitude;
+      diDungeon._instance.m_pathFind.createPath(enemy.transform.position, 
+        enemy.m_playerPosReference.position);
 
-      if(distance < 0.1f)
+      if(enemy.m_pathIterator != targets.Count)
       {
-        enemy.transform.position = enemy.transform.position;
-        enemy.m_targetReached = true;
+
+        Vector3 force =
+          enemy.seek(enemy.transform.position, targets[enemy.m_pathIterator], 1.0f);
+
+        float distance =
+          (targets[enemy.m_pathIterator] - (Vector2)enemy.transform.position).magnitude;
+
+        if (distance < 0.1f)
+        {
+          enemy.transform.position = enemy.transform.position;
+          enemy.m_pathIterator++;
+        }
+        else
+        {
+          enemy.transform.position += new Vector3(force.x, force.y, 0) *
+            Time.fixedDeltaTime;
+        }
       }
       else
       {
-        enemy.transform.position += new Vector3(force.x, force.y, 0) *
-          Time.fixedDeltaTime;
+        enemy.m_targetReached = true;
       }
-      
     }
 
   }
