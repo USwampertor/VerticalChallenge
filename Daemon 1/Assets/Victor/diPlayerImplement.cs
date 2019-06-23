@@ -19,6 +19,10 @@ namespace Diablo_Entities
     private void Start()
     {
       m_camReference = Camera.main;
+      m_pathIterator = 0;
+      m_pathTargets = new List<Vector2>();
+      m_worldToCell = new Vector3Int();
+      m_cellToWorld = new Vector3Int();
     }
 
     private void Update()

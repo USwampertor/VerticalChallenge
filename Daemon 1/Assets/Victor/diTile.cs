@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class diTile : MonoBehaviour
+public class diTile
 {
 
   bool m_isWalkable;
+
+  public float m_cost;
+
   public bool m_walkable
   {
     get { return m_isWalkable; }
@@ -28,7 +31,7 @@ public class diTile : MonoBehaviour
   }
 
   Vector2 m_v2Pos;
-  public UnityEngine.Vector2 m_pos
+  public Vector2 m_pos
   {
     get { return m_v2Pos; }
     set { m_v2Pos = value; }

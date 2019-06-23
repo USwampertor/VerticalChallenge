@@ -31,12 +31,19 @@ public class diGridGenerator : MonoBehaviour
           node.m_ocupied = false;
           node.m_walkable = true;
           node.m_pos = place;
+          node.m_Parent = null;
 
           tile.Add(node);
         }
         else
         {
           Debug.Log("no tile placed");
+          diTile node = new diTile();
+          node.m_ocupied = false;
+          node.m_walkable = false;
+          node.m_pos = place;
+          node.m_Parent = null;
+          tile.Add(node);
         }
       }
       m_gridMap.Add(tile);
