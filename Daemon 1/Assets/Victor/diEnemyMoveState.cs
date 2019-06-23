@@ -16,6 +16,11 @@ namespace Diablo_Entities
     {
       Debug.Log("Iddle state");
       enemy.m_targetReached = false;
+
+      List<Vector2> targets =
+        diDungeon._instance.m_pathFind.createPath(enemy.transform.position,
+        enemy.m_playerPosReference.transform.position
+    /*diDungeon._instance.m_playerReference.transform.position*/);
     }
 
     public override void OnStatePreUpdate(diEnemy enemy)
@@ -30,10 +35,11 @@ namespace Diablo_Entities
     public override void OnStateUpdate(diEnemy enemy)
     {
 
-      List<Vector2> targets = new List<Vector2>();
-
-      diDungeon._instance.m_pathFind.createPath(enemy.transform.position, 
-        enemy.m_playerPosReference.position);
+      List<Vector2> targets = 
+        diDungeon._instance.m_pathFind.createPath(
+          enemy.transform.position, 
+          enemy.m_playerPosReference.transform.position
+          /*diDungeon._instance.m_playerReference.transform.position*/);
 
       if(enemy.m_pathIterator != targets.Count)
       {
