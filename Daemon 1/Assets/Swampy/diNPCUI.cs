@@ -81,12 +81,14 @@ public class diNPCUI : MonoBehaviour
       StartNarration(m_activeNPC.m_dialogs[0]);
       m_activeAudio = m_activeNPC.m_dialogs[0].m_audio.m_name;
     }
+    else {
+      CleanMenu(m_actionContainer);
+      FillMenu(m_actionContainer, npc.m_dialogs, eDialogType.ROOT);
+      m_listPosition = 0;
+      StartCoroutine(SetCursor());
+      m_state = eUIState.MENU;
 
-    CleanMenu(m_actionContainer);
-    FillMenu(m_actionContainer, npc.m_dialogs, eDialogType.ROOT);
-    m_listPosition = 0;
-    StartCoroutine(SetCursor());
-    m_state = eUIState.MENU;
+    }
 
     diSoundModule._instance.PlayVillager(m_activeNPC.m_catchphrase.m_name);
   }
@@ -174,6 +176,7 @@ public class diNPCUI : MonoBehaviour
          Input.GetKeyUp(KeyCode.Escape) ) {
         StopNarrationSequence();
         diSoundModule._instance.StopNarration(m_activeAudio);
+        if (m_activeNPC.m_type == eNPCType.GOSSIP) { ExitUI(); }
       }
 
     }

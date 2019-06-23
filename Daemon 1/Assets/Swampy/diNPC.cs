@@ -20,8 +20,6 @@ public enum eNPCType
 [System.Serializable]
 public class diNPC : MonoBehaviour
 {
-
-
   public string m_name;
   public eNPCType m_type;
   public diAudio m_catchphrase;

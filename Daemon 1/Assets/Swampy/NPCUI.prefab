@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_sellObject: {fileID: 3742402083372726526}
   m_infoObject: {fileID: 3742402081732227405}
   m_inputDelay: 1
-  m_narrationUpwardSpeed: 15
+  m_narrationUpwardSpeed: 30
 --- !u!82 &3742402082651170783
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.80887204, b: 0.26059094, a: 1}
+  m_Color: {r: 0.41176474, g: 0.37647063, b: 0.24705884, a: 0.84705883}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1330,7 +1330,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2dc79ee16ce424e40bdbdd01f19e793d, type: 3}
-    m_FontSize: 12
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1341,33 +1341,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'ABCDEFGASKDFJHALKSDJFHASJDF
+  m_Text: '{TEXT LINE 1}
 
-    ASDFASDFASDF
+    {TEXT LINE 2}
 
-    ASDFASDFASDF
+    {TEXT LINE 3}
 
-    ASDFASDFASDF
+    {TEXT LINE 4}
 
-    AKSDJFKASJDHFKALSJDF
+    {TEXT LINE 5}
 
-    ASDFASDFASDFASDFA
-
-    FDAS
-
-    ASDF
-
-    ASDFASFDASDFASFDASFD
-
-    SADFASDFASDFASDFASFASDF
-
-    ASDFASDFASDFASDFASDFASDFASDFASDFASFDASDFASDFASDF
-
-    ASDFASFDADFADF
-
-    ASDFASDFASDFASDF
-
-    ASDFASDF'
+    {TEXT LINE 6}'
 --- !u!114 &3742402083251897041
 MonoBehaviour:
   m_ObjectHideFlags: 0
