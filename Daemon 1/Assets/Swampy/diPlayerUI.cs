@@ -39,6 +39,8 @@ public class diPlayerUI : MonoBehaviour
   public Button m_spellsButton;
   public Button m_spellButton;
 
+  public List<Button> m_menuButtons;
+
   private GameObject m_leftUI;
   private GameObject m_rightUI;
   private ePlayerUIState m_state;
@@ -46,13 +48,15 @@ public class diPlayerUI : MonoBehaviour
   public Text m_logger;
   public Text m_descriptor;
 
-  public static diPlayerUI _instance = null;
   private string m_diabloVersion = "Daemon 1 v1.01 \n";
   public float m_loggerTimer = 0.0f;
   public float m_loggerInterval;
   public float m_timerThreshold;
 
+  private Diablo_Entities.diPlayer m_player;
   private Vector3 m_cameraOffset = new Vector3(320.0f,0);
+
+  public static diPlayerUI _instance = null;
 
   private void Awake() {
     
@@ -103,6 +107,13 @@ public class diPlayerUI : MonoBehaviour
 
     m_logger.text = "";
     m_descriptor.text = "";
+
+    m_menuButtons[0].onClick.AddListener(() => diSaveSystem.SaveProfile());
+    m_menuButtons[1].onClick.AddListener(() => OpenOptions());
+    m_menuButtons[2].onClick.AddListener(
+      () => diLoadManager._instance.Show(SceneManager.LoadSceneAsync("Menu"), eScene.MENU));
+    m_menuButtons[3].onClick.AddListener(() => diSaveSystem.LoadProfile(m_player.name));
+    m_menuButtons[4].onClick.AddListener(() => Application.Quit());
 
     m_spellUI.SetActive(false);
     m_questUI.SetActive(false);
@@ -162,6 +173,8 @@ public class diPlayerUI : MonoBehaviour
 
     if(Input.GetKeyDown(KeyCode.Escape)) {
       OpenUI(m_menuButton.GetComponent<diUIButton>(), m_menuUI, eUIPosition.NONE);
+      Time.timeScale = (Time.timeScale == 1.0f) ? 0.0f : 1.0f;
+      Time.fixedDeltaTime = (Time.fixedDeltaTime == 1.0f) ? 0.0f : 1.0f;
     }
     if(Input.GetKeyDown(KeyCode.M)) {
       OpenUI(m_menuButton.GetComponent<diUIButton>(), m_mapUI, eUIPosition.NONE);
@@ -187,6 +200,14 @@ public class diPlayerUI : MonoBehaviour
 
   }
 
+  private void OpenOptions() {
+
+  }
+
+  private void CloseOptions() {
+
+  }
+
   private void OpenUI(diUIButton button, GameObject ui, eUIPosition position) {
 
     if(eUIPosition.LEFT == position) {
@@ -209,6 +230,7 @@ public class diPlayerUI : MonoBehaviour
       ui.SetActive(!button.IsOpen());
       button.ChangeState();
     }
+
 
     
     if      (m_leftUI == null && m_rightUI != null) { }

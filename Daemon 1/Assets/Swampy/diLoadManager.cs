@@ -7,7 +7,8 @@ public enum eScene
 {
   TRISTRAM = 0,
   CHAPPEL = 1,
-  FLOOR = 2
+  FLOOR = 2,
+  MENU
 }
 
 [System.Serializable]
