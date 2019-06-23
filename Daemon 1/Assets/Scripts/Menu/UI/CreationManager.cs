@@ -29,7 +29,7 @@ public class CreationManager : MonoBehaviour
         m_inputField.characterLimit = m_characterNameLimit;
 
         diSaveSystem.Initialize();
-        //diSaveSystem.CreateProfile("Test");
+        diSaveSystem.CreateProfile("Test");
 
         if (diSaveSystem.GetProfiles().Count == 0)
         {
