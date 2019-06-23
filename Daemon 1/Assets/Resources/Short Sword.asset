@@ -9,15 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6b24657910d2514cbfbeefeb6423cc1, type: 3}
-  m_Name: Weapon
+  m_Script: {fileID: 11500000, guid: 2aa6fae6611ced645bd482ffb6a4d3c8, type: 3}
+  m_Name: Short Sword
   m_EditorClassIdentifier: 
-  m_name: 
+  m_name: Short Sword
+  m_requerimentType: 0
   m_sprite: {fileID: 0}
   m_animation: {fileID: 0}
-  m_inventorySize: {x: 0, y: 0}
-  m_isEquipable: 0
-  m_isSingleHanded: 0
-  m_minDamage: 0
-  m_maxDamage: 0
-  m_durability: 0
+  m_inventorySize: {x: 1, y: 3}
+  m_isEquipable: 1
+  m_isSingleHanded: 1
+  m_minDamage: 2
+  m_maxDamage: 6
+  m_armorClass: 0
+  m_durability: 24
+  m_charges: 0
+  m_requerimentAmount: 0
