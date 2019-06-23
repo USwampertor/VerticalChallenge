@@ -5,19 +5,29 @@ using UnityEngine;
 
 public class diPathfind
 {
-  List<diTile> openList = new List<diTile>();
-  List<diTile> closedList = new List<diTile>();
-  diTile currTile = new diTile();
-  diTile startTile = new diTile();
-  diTile endTile = new diTile();
-  Vector3Int startPosiiton = new Vector3Int();
-  Vector3Int currPosiiton = new Vector3Int();
-  Vector3Int endPosiiton = new Vector3Int();
-  List<Vector2> path = new List<Vector2>();
+  List<diTile> openList;
+  List<diTile> closedList;
+  diTile currTile;
+  diTile startTile;
+  diTile endTile;
+  Vector3Int startPosiiton;
+  Vector3Int currPosititon;
+  Vector3Int endPosiiton;
+  List<Vector2> path;
 
   public List<Vector2> createPath(Vector2 startPos, Vector2 finalPos)
   {
-   
+
+    openList = new List<diTile>();
+    closedList = new List<diTile>();
+    currTile = new diTile();
+    endTile = new diTile();
+    startPosiiton = new Vector3Int();
+    currPosititon = new Vector3Int();
+    endPosiiton = new Vector3Int();
+
+
+    path = new List<Vector2>();
     bool goalReached = false;
 
     startPosiiton = 
@@ -35,17 +45,20 @@ public class diPathfind
     while (!goalReached)
     {
       currTile = openList[0];
-      openList.RemoveAt(0);
+      openList.RemoveRange(0, 1);
       currTile.m_visited = true;
       closedList.Add(currTile);
 
-      currPosiiton =
+      currPosititon =
         diDungeon._instance.tilemap.WorldToCell(new Vector3(currTile.m_pos.x, currTile.m_pos.y, 0.0f));
 
 
-      if (currPosiiton == endPosiiton)
+      if (currPosititon == endPosiiton)
       {
         goalReached = true;
+        traceBack(currTile);
+        openList.Clear();
+        closedList.Clear();
         return path;
       }
 
@@ -53,75 +66,73 @@ public class diPathfind
       int x, y;
 
       //Nodo ESTE
-      x = currPosiiton.x + 1;
-      y = currPosiiton.y;
-      if (currPosiiton.x < (diDungeon._instance.tilemap.cellBounds.xMax - 1))
+      x = currPosititon.x + 1;
+      y = currPosititon.y;
+      if (x < (diDungeon._instance.tilemap.cellBounds.xMax ))
       {
         visitNode(x, y);
       }
 
       //Nodo SUR-ESTE
-      x = currPosiiton.x + 1;
-      y = currPosiiton.y - 1;
-      if (currPosiiton.x < (diDungeon._instance.tilemap.cellBounds.xMax -1) &&
-          currPosiiton.y > (diDungeon._instance.tilemap.cellBounds.yMin -1))
+      x = currPosititon.x + 1;
+      y = currPosititon.y - 1;
+      if (x < (diDungeon._instance.tilemap.cellBounds.xMax ) &&
+          y > (diDungeon._instance.tilemap.cellBounds.yMin -1 ))
       {
         visitNode(x, y);
       }
 
       //Nodo SUR
-      x = currPosiiton.x;
-      y = currPosiiton.y - 1;
-      if (currPosiiton.y > (diDungeon._instance.tilemap.cellBounds.yMin -1))
+      x = currPosititon.x;
+      y = currPosititon.y - 1;
+      if (y > (diDungeon._instance.tilemap.cellBounds.yMin -1 ))
       {
         visitNode(x, y);
       }
 
       //Nodo Sur-OESTE
-      x = currPosiiton.x - 1;
-      y = currPosiiton.y - 1;
-      if (currPosiiton.x > (diDungeon._instance.tilemap.cellBounds.xMin ) &&
-         currPosiiton.y > (diDungeon._instance.tilemap.cellBounds.yMin -1))
+      x = currPosititon.x - 1;
+      y = currPosititon.y - 1;
+      if (x > (diDungeon._instance.tilemap.cellBounds.xMin -1 ) &&
+          y > (diDungeon._instance.tilemap.cellBounds.yMin -1 ))
       {
         visitNode(x, y);
       }
 
-      //Nodo ESTE
-      x = currPosiiton.x - 1;
-      y = currPosiiton.y;
-      if(currPosiiton.x > (diDungeon._instance.tilemap.cellBounds.xMin ))
+      //Nodo OESTE
+      x = currPosititon.x - 1;
+      y = currPosititon.y;
+      if(x > (diDungeon._instance.tilemap.cellBounds.xMin - 1 ))
       {
         visitNode(x, y);
       }
 
-      //Nodo NOR-ESTE
-      x = currPosiiton.x - 1;
-      y = currPosiiton.y + 1;
-      if(currPosiiton.x > (diDungeon._instance.tilemap.cellBounds.xMin) &&
-         currPosiiton.y < (diDungeon._instance.tilemap.cellBounds.yMax -1))
+      //Nodo NOR-OESTE
+      x = currPosititon.x - 1;
+      y = currPosititon.y + 1;
+      if(x > (diDungeon._instance.tilemap.cellBounds.xMin - 1) &&
+         y < (diDungeon._instance.tilemap.cellBounds.yMax))
       {
         visitNode(x, y);
       }
 
       //Nodo NORTE
-      x = currPosiiton.x;
-      y = currPosiiton.y + 1;
-      if(currPosiiton.y < ( diDungeon._instance.tilemap.cellBounds.yMax - 1))
+      x = currPosititon.x;
+      y = currPosititon.y + 1;
+      if(y < ( diDungeon._instance.tilemap.cellBounds.yMax ))
       {
         visitNode(x, y);
       }
 
       //Nodo NOR-ESTE
-      x = currPosiiton.x + 1;
-      y = currPosiiton.y + 1;
-      if(currPosiiton.x < (diDungeon._instance.tilemap.cellBounds.xMax - 1) &&
-         currPosiiton.y < (diDungeon._instance.tilemap.cellBounds.yMax -1 ))
+      x = currPosititon.x + 1;
+      y = currPosititon.y + 1;
+      if(x < (diDungeon._instance.tilemap.cellBounds.xMax ) &&
+         y < (diDungeon._instance.tilemap.cellBounds.yMax  ))
       {
         visitNode(x, y);
       }
     }
-
-    traceBack();
     return path;
   }
 
@@ -131,45 +142,32 @@ public class diPathfind
 
     if(node.m_walkable && !node.m_visited && !node.m_ocupied)
     {
-      prirityQueue(x, y);
+      priorityQueue(x, y);
     }
   }
 
-  private void prirityQueue(int x, int y)
+  private void priorityQueue(int x, int y)
   {
     Vector2Int tempEnd = (Vector2Int)endPosiiton;
     Vector2Int tempNode = new Vector2Int(x, y);
 
     int distance = manhattanDist(tempNode, tempEnd);
+    diDungeon._instance.m_localMapGrid[x][y].m_cost = distance;
 
     int i = 0;
-
-    foreach (var it in openList)
+    for(i = 0; i < openList.Count; ++i)
     {
-      Vector3Int itCellPos =
-        diDungeon._instance.tilemap.WorldToCell(new Vector3(it.m_pos.x, it.m_pos.y, 0.0f));
-
-      if (it.m_pos.x == x && it.m_pos.y == y)
-      {
-        i++;
-        return;
-      }
-
-      tempNode.x = itCellPos.x;
-      tempNode.y = itCellPos.y;
-
-      int distance2 = manhattanDist(tempNode, tempNode);
-
-      if (distance < distance2)
+      if(openList[i].m_cost > distance)
       {
         openList.Insert(i, diDungeon._instance.m_localMapGrid[x][y]);
-        diDungeon._instance.m_localMapGrid[x][y].m_Parent = currTile;
-
-        i++;
-        return;
+        break;
       }
     }
-    openList.Add(diDungeon._instance.m_localMapGrid[x][y]);
+
+    if(i == openList.Count)
+    {
+      openList.Add(diDungeon._instance.m_localMapGrid[x][y]);
+    }
     diDungeon._instance.m_localMapGrid[x][y].m_Parent = currTile;
 
   }
@@ -179,22 +177,18 @@ public class diPathfind
     return (int)(Mathf.Abs(end.x - start.x) + Mathf.Abs(end.y - start.y));
   }
 
-  private void traceBack()
+  private void traceBack(diTile tile)
   {
-    if (closedList.Count > 0)
+    diTile node = new diTile();
+    node = tile.m_Parent;
+    while (node.m_Parent != null)
     {
-      int last = closedList.Count;
-      diTile node = new diTile();
-
-      node = closedList[last -1];
+      path.Add(new Vector2(node.m_pos.x, node.m_pos.y));
       node = node.m_Parent;
-      while(node.m_Parent)
-      {
-        path.Add(new Vector2(node.m_pos.x, node.m_pos.y));
-        node = node.m_Parent;
-      }
     }
+
   }
+  
 }
 
 

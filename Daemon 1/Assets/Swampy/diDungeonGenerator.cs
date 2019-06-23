@@ -49,7 +49,7 @@ public class diDungeonGenerator : MonoBehaviour
     List<Vector2> randomPoints = GenerateRandomPoints(m_radius, m_seed, m_maxRooms);
     Random.InitState(m_seed);
 
-    for(int i = 0; i < randomPoints.Count; ++i) {
+    for(int i = 0; i < randomPoints.Count -1; ++i) {
       randomPoints[i] += m_center;
       diRoom tmp = new diRoom(i,
                               new Vector2(Random.Range(m_minSizeGenerated.x, m_maxSizeGenerated.x),

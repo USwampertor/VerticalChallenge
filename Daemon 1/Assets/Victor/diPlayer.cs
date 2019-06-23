@@ -30,8 +30,19 @@ namespace Diablo_Entities
     [SerializeField]
     internal Camera m_camReference;
 
+    internal Vector3Int m_worldToCell;
+
+    internal Vector3 m_cellToWorld;
+
     [SerializeField]
     internal float m_rangeToArrive;
+
+    internal List<Vector2> m_pathTargets;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    internal int m_pathIterator;
 
     #endregion //Movement Settings
 

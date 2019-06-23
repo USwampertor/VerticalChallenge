@@ -23,6 +23,9 @@ namespace Diablo_Entities
       m_camReference = Camera.main;
       m_playerPosReference =
          GameObject.FindGameObjectWithTag("player").transform;
+      m_pathTargets = diDungeon._instance.m_pathFind.createPath(
+        transform.position,
+        m_playerPosReference.transform.position);
     }
 
     private void Update()

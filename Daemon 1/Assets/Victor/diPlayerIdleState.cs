@@ -22,9 +22,6 @@ namespace Diablo_Entities
       //Moving state
       if(Input.GetMouseButtonDown(0))
       {
-        player.m_targetToMove = player.m_camReference.ScreenToWorldPoint
-          (new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-
         m_StateMachine.ToState(player.movingState, player);
       }
 

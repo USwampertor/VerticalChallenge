@@ -4,8 +4,9 @@ using UnityEngine;
 
 namespace Diablo_Entities
 {
-  class EnemyMoveState : diState<diEnemy>
+  public class EnemyMoveState : diState<diEnemy>
   {
+
 
     public EnemyMoveState(diStateMachine<diEnemy> stateMachine)
     : base(stateMachine)
@@ -16,11 +17,7 @@ namespace Diablo_Entities
     {
       Debug.Log("Iddle state");
       enemy.m_targetReached = false;
-
-      List<Vector2> targets =
-        diDungeon._instance.m_pathFind.createPath(enemy.transform.position,
-        enemy.m_playerPosReference.transform.position
-    /*diDungeon._instance.m_playerReference.transform.position*/);
+      enemy.m_playerLastPos = enemy.m_playerPosReference.transform.position;
     }
 
     public override void OnStatePreUpdate(diEnemy enemy)
@@ -35,25 +32,31 @@ namespace Diablo_Entities
     public override void OnStateUpdate(diEnemy enemy)
     {
 
-      List<Vector2> targets = 
-        diDungeon._instance.m_pathFind.createPath(
-          enemy.transform.position, 
-          enemy.m_playerPosReference.transform.position
-          /*diDungeon._instance.m_playerReference.transform.position*/);
-
-      if(enemy.m_pathIterator != targets.Count)
+      if(enemy.m_pathIterator != enemy.m_pathTargets.Count)
       {
 
+        Vector2 pathTarget =
+          new Vector2(enemy.m_pathTargets[enemy.m_pathIterator].x, enemy.m_pathTargets[enemy.m_pathIterator].y + 0.25f);
+
         Vector3 force =
-          enemy.seek(enemy.transform.position, targets[enemy.m_pathIterator], 1.0f);
+          enemy.seek(enemy.transform.position, pathTarget, 1.0f);
 
         float distance =
-          (targets[enemy.m_pathIterator] - (Vector2)enemy.transform.position).magnitude;
+          (enemy.m_pathTargets[enemy.m_pathIterator] - (Vector2)enemy.transform.position).magnitude;
 
         if (distance < 0.1f)
         {
-          enemy.transform.position = enemy.transform.position;
-          enemy.m_pathIterator++;
+          enemy.transform.position = enemy.m_pathTargets[enemy.m_pathIterator];
+          
+          if(enemy.m_playerLastPos != 
+            (Vector2)enemy.m_playerPosReference.transform.position)
+          {
+            enemy.m_pathTargets = diDungeon._instance.m_pathFind.createPath(
+             enemy.transform.position,
+             enemy.m_playerPosReference.transform.position);
+          }
+
+          ++enemy.m_pathIterator;
         }
         else
         {

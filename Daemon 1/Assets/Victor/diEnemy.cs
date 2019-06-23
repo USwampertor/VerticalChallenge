@@ -8,7 +8,7 @@ namespace Diablo_Entities
   /// Class for the main character and his stats
   /// Use this file to declarate variables, properties and constants
   /// </summary>
-  partial class diEnemy : diBoid
+  public partial class diEnemy : diBoid
   {
     #region Movement Settings
     
@@ -23,6 +23,8 @@ namespace Diablo_Entities
     /// </summary>
     [SerializeField]
     internal bool m_targetReached;
+
+    internal List<Vector2> m_pathTargets;
 
     /// <summary>
     /// 
@@ -40,6 +42,8 @@ namespace Diablo_Entities
     /// 
     /// </summary>
     internal int m_pathIterator;
+
+    internal Vector2 m_playerLastPos;
 
     #endregion //Movement Settings
 

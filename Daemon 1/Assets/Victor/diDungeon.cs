@@ -16,7 +16,6 @@ public class diDungeon : MonoBehaviour
   public diPlayer m_playerReference;
 
   public List<List<diTile>> m_localMapGrid;
-  public List<List<diTile>> m_worldMapGrid;
   
 
   // Start is called before the first frame update
