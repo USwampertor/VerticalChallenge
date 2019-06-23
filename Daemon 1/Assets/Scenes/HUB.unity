@@ -639,7 +639,7 @@ MonoBehaviour:
   m_gridInstance: {fileID: 0}
   tilemap: {fileID: 0}
   m_playerReference: {fileID: 0}
-  tilemapName: Tristam Level 1
+  tilemapName: TristamLevel 1
 --- !u!1 &879836229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3903608864544919462, guid: 75fba9867dd8a9a46a7bd4adf2f17f0b,
