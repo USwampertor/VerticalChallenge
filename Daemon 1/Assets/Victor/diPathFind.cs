@@ -26,8 +26,8 @@ public class diPathfind
     currPosititon = new Vector3Int();
     endPosiiton = new Vector3Int();
 
-
     path = new List<Vector2>();
+    path.Clear();
     bool goalReached = false;
 
     startPosiiton = 
