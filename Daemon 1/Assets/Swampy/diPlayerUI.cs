@@ -171,7 +171,8 @@ public class diPlayerUI : MonoBehaviour
       m_loggerTimer += m_loggerInterval;
     }
 
-    if(Input.GetKeyDown(KeyCode.Escape)) {
+    
+    if(Input.GetKeyDown(KeyCode.Escape) && !diNPCUI._instance.gameObject.activeSelf) {
       OpenUI(m_menuButton.GetComponent<diUIButton>(), m_menuUI, eUIPosition.NONE);
       Time.timeScale = (Time.timeScale == 1.0f) ? 0.0f : 1.0f;
       Time.fixedDeltaTime = (Time.fixedDeltaTime == 1.0f) ? 0.0f : 1.0f;
