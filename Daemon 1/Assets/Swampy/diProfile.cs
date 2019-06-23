@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Diablo_Entities;
-using Diablo_Behaviours;
 
 public class diProfile
 {
