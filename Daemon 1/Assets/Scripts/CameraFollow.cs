@@ -7,13 +7,16 @@ public class CameraFollow : MonoBehaviour
 {
     public GameObject m_player;
 
-    void Start()
+    public Vector3 m_offset;
+
+    void Awake()
     {
         m_player.GetComponent<GameObject>();
+        m_offset = Vector3.zero;
     }
 
     void Update()
     {
-        transform.position = m_player.transform.position;
+        transform.position = m_player.transform.position + m_offset;
     }
 }

@@ -8,6 +8,9 @@ Object : ScriptableObject{
   public string
   m_name;
 
+  public Types.RequerimentType 
+  m_requerimentType;
+
   public Sprite 
   m_sprite;
 
@@ -21,6 +24,6 @@ Object : ScriptableObject{
   m_isEquipable, m_isSingleHanded;
 
   public int
-  m_minDamage, m_maxDamage, m_armorClass, m_durability, m_charges;
+  m_minDamage, m_maxDamage, m_armorClass, m_durability, m_charges, m_requerimentAmount;
 }
     

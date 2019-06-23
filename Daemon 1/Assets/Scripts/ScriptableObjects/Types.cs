@@ -31,7 +31,7 @@ public class Types
   }
 
   public enum 
-  Requeriments{
+  RequerimentType{
     Strength,
     Magic,
     Dexterity
