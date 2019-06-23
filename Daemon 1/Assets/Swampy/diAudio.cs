@@ -10,7 +10,9 @@ public enum eAudio
   TRISTRAM,
   MENU,
   BARMAID_INTRO,
-  BARMAID_GOSSIP
+  BARMAID_GOSSIP,
+  WALK_GRASS,
+  ATTACK
 }
 
 [System.Serializable]

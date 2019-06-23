@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
+  public diSoundModule 
+  m_soundModule;
+
   public GameObject 
-  m_markers;
+  m_markers, m_creationManager, m_mainMenu;
 
   public float 
   m_timer, m_maxTime, m_markerDistance, m_inputDelay;
@@ -29,6 +32,11 @@ public class Menu : MonoBehaviour
     m_inputDelay = 1.0f;
     m_maxTime = 30.0f;
     m_timer = 0.0f;
+
+    m_soundModule.PlayMusic(eAudio.MENU);
+
+    m_creationManager.GetComponent<GameObject>();
+    m_mainMenu.GetComponent<GameObject>();
   }
 
   void 
@@ -110,7 +118,7 @@ public class Menu : MonoBehaviour
   ButtonChecker(){
     if(Input.GetKeyDown(KeyCode.Return) ){
       if (m_markerPosition == 0){
-        SceneManager.LoadScene(4);
+        ChangeToCharacterCreation();
       }
       if (m_markerPosition == 2){
         m_timer = 0.0f;
@@ -125,5 +133,11 @@ public class Menu : MonoBehaviour
         Application.Quit();
       }
     }
+  }
+
+  public void ChangeToCharacterCreation(){
+    m_soundModule.StopMusic(eAudio.MENU);
+    m_creationManager.gameObject.SetActive(true);
+    m_mainMenu.gameObject.SetActive(false);
   }
 }

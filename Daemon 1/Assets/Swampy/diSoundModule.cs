@@ -14,8 +14,8 @@ public class diSoundModule : MonoBehaviour
   public List<diAudio> m_SFX;
   public List<diAudio> m_MUSIC;
 
-  private Dictionary<eAudio, AudioClip> m_sfxList;
-  private Dictionary<eAudio, AudioClip> m_musicList;
+  private Dictionary<eAudio, AudioClip> m_sfxList = new Dictionary<eAudio, AudioClip>();
+  private Dictionary<eAudio, AudioClip> m_musicList = new Dictionary<eAudio, AudioClip>();
 
   private AudioSource m_musicSource;
   private List<AudioSource> m_audioSourcePool = new List<AudioSource>();
@@ -69,7 +69,7 @@ public class diSoundModule : MonoBehaviour
       m_sfxList.Add(m_SFX[i].m_name, m_SFX[i].m_clip);
     }
     for (int i = 0; i < m_MUSIC.Count; ++i) {
-      m_sfxList.Add(m_MUSIC[i].m_name, m_MUSIC[i].m_clip);
+      m_musicList.Add(m_MUSIC[i].m_name, m_MUSIC[i].m_clip);
     }
     for (int i = 0; i < m_poolSize; ++i) {
       GameObject child = new GameObject();
@@ -107,13 +107,45 @@ public class diSoundModule : MonoBehaviour
     }
   }
 
+      
+  /// <summary>
+  /// Gives the requester an audio source if it doesn't have one, and plays the Effect given
+  /// </summary>
+  /// <param name="name"> the name of the audio to play</param>
+  /// <param name="position"> the position of the audiosource to be played for 3D</param>
+  /// <param name="source"> the transform of the requester </param>
+  public void PlaySFXLoop(eAudio name){
+    //Checks for the ENUM if it is registered on the AUDIONAME
+    //Should be, but just in case
+    if (m_sfxList[name] != null){
+      for (int i = 0; i < m_audioSourcePool.Count; ++i){
+        if (!m_audioSourcePool[i].isPlaying){
+          m_audioSourcePool[i].clip = m_sfxList[name];
+          m_audioSourcePool[i].loop = true;
+          m_audioSourcePool[i].Play();
+        }
+      }
+    }
+  }
+
+  public void StopSFX(eAudio name){
+    if (m_villagerList[name] != null){
+      for (int i = 0; i < m_audioSourcePool.Count; ++i){
+        if (m_audioSourcePool[i].clip == m_sfxList[name]){
+          m_audioSourcePool[i].Stop();
+        }
+      }
+    }
+  }
+
+
   /// <summary>
   /// Loads the music of the level by Unity Scene index
   /// </summary>
   private void LoadSceneMusic() {
-    if (SceneManager.GetActiveScene().buildIndex == 1) { PlayMusic(eAudio.MENU); }
-    else if (SceneManager.GetActiveScene().buildIndex == 2) { PlayMusic(eAudio.TRISTRAM); }
-    else if (SceneManager.GetActiveScene().buildIndex == 3) { PlayMusic(eAudio.CHAPPEL); }
+    if (SceneManager.GetActiveScene().buildIndex == 2) { PlayMusic(eAudio.MENU); }
+    else if (SceneManager.GetActiveScene().buildIndex == 4) { PlayMusic(eAudio.TRISTRAM); }
+    else if (SceneManager.GetActiveScene().buildIndex == 5) { PlayMusic(eAudio.CHAPPEL); }
   }
 
   /// <summary>
@@ -151,9 +183,23 @@ public class diSoundModule : MonoBehaviour
   /// between the active music and the new one </param>
   public void PlayMusic(eAudio name) {
     if (m_musicList[name] != null) {
-      if (m_musicSource.clip != m_musicList[name]) {
+      if (m_musicSource.clip != m_musicList[name] || !m_musicSource.isPlaying) {
         m_musicSource.clip = m_musicList[name];
         m_musicSource.Play();
+      }
+    }
+  }
+
+  /// <summary>
+  /// Stops a music name from the music source object
+  /// </summary>
+  /// <param name="name"> the name of the music to perform </param>
+  /// <param name="crossfade"> the time to crossfade 
+  /// between the active music and the new one </param>
+  public void StopMusic(eAudio name) {
+    if (m_musicList[name] != null) {
+      if (m_musicSource.clip == m_musicList[name] && m_musicSource.isPlaying) {
+        m_musicSource.Stop();
       }
     }
   }

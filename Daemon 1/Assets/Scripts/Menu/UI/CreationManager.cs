@@ -1,15 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class CreationManager : MonoBehaviour
 {
-    enum MenuType
-    {
-        NewCharacter,
-        SelectCharacter
-    }
+    public diSoundModule m_soundModule;
 
     public Text         m_header;
     public Text         m_boxTittle;
@@ -22,16 +19,21 @@ public class CreationManager : MonoBehaviour
     public float        m_horizontalOffset;
     public int          m_characterNameLimit;
 
+    public GameObject   m_creationManager;
+    public GameObject   m_mainMenu;
+
     void Start()
     {
+        m_soundModule.GetComponent<diSoundModule>();
+        m_creationManager.GetComponent<GameObject>();
+        m_mainMenu.GetComponent<GameObject>();
         m_header.GetComponent<Button>();
         m_boxTittle.GetComponent<Button>();
         m_inputField.characterLimit = m_characterNameLimit;
 
         diSaveSystem.Initialize();
-        diSaveSystem.CreateProfile("Test");
 
-        if (diSaveSystem.GetProfiles().Count == 0)
+        if (diSaveSystem.GetProfiles().Count > 0)
         {
             NewCharacter();
         }
@@ -43,7 +45,14 @@ public class CreationManager : MonoBehaviour
 
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            StartGame();
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            BackToMenu();
+        }
     }
 
     void NewCharacter()
@@ -65,16 +74,28 @@ public class CreationManager : MonoBehaviour
 
     public void Cancel()
     {
-        Debug.Log("Cancel");
+        BackToMenu();
     }
 
     public void Ok()
     {
-        Debug.Log("Ok");
+        StartGame();
     }
 
     public void Delete()
     {
         Debug.Log("Delete");
+    }
+
+    void StartGame()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    void BackToMenu()
+    {
+        m_soundModule.PlayMusic(eAudio.MENU);
+        m_mainMenu.gameObject.SetActive(true);
+        m_creationManager.gameObject.SetActive(false);
     }
 }

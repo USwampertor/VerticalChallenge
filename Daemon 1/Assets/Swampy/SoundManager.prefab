@@ -44,5 +44,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_poolSize: 0
-  m_SFX: []
-  m_MUSIC: []
+  m_SFX:
+  - m_clip: {fileID: 8300000, guid: f24007a4d3c2159489e276114a64e6d3, type: 3}
+    m_name: 6
+    m_type: 2
+  - m_clip: {fileID: 8300000, guid: 43b902d5484508448b14d74bcb8b8495, type: 3}
+    m_name: 7
+    m_type: 2
+  m_MUSIC:
+  - m_clip: {fileID: 8300000, guid: 796e91d1e52c2c1428d80e82fa660cfb, type: 3}
+    m_name: 3
+    m_type: 1
+  - m_clip: {fileID: 8300000, guid: 5be17f45f680fd84daf8b6afc47fb008, type: 3}
+    m_name: 2
+    m_type: 1
+  - m_clip: {fileID: 8300000, guid: b84eed9fdfce338469258a1ce5eab1e8, type: 3}
+    m_name: 1
+    m_type: 1
