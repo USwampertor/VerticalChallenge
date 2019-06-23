@@ -9,7 +9,7 @@ public class diDungeon : MonoBehaviour
 
   static public diDungeon _instance = null;
 
-  private diGridGenerator m_gridInstance;
+  public diGridGenerator m_gridInstance;
 
   public Tilemap tilemap;
   public diPathfind m_pathFind;
@@ -26,7 +26,7 @@ public class diDungeon : MonoBehaviour
     m_localMapGrid = m_gridInstance.createGridNodes(tilemap);
     m_pathFind = new diPathfind();
     m_playerReference = new diPlayer();
-    m_playerReference = GameObject.Find("player").GetComponent<diPlayer>();
+    m_playerReference = GameObject.Find("Player").GetComponent<diPlayer>();
 
     
   }

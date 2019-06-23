@@ -39,6 +39,10 @@ namespace Diablo_Entities
 
     internal List<Vector2> m_pathTargets;
 
+    internal diTile m_lastTile;
+
+    internal Vector3Int m_gridPos;
+
     /// <summary>
     /// 
     /// </summary>
@@ -102,6 +106,11 @@ namespace Diablo_Entities
     #endregion //External Status
 
     #region Internal Status
+
+    /// <summary>
+    /// The name of the player.
+    /// </summary>
+    internal string m_name;
 
     /// <summary>
     /// Is an indicator of the overall health and fitness of the character

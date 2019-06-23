@@ -23,6 +23,7 @@ namespace Diablo_Entities
       m_pathTargets = new List<Vector2>();
       m_worldToCell = new Vector3Int();
       m_cellToWorld = new Vector3Int();
+      m_lastTile = new diTile();
     }
 
     private void Update()

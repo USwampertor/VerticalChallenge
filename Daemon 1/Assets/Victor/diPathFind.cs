@@ -14,10 +14,12 @@ public class diPathfind
   Vector3Int currPosititon;
   Vector3Int endPosiiton;
   List<Vector2> path;
+  public List<List<diTile>> m_mapCopy;
 
   public List<Vector2> createPath(Vector2 startPos, Vector2 finalPos)
   {
-
+    m_mapCopy = 
+      diDungeon._instance.m_gridInstance.createGridNodes(diDungeon._instance.tilemap);
     openList = new List<diTile>();
     closedList = new List<diTile>();
     currTile = new diTile();
@@ -28,6 +30,7 @@ public class diPathfind
 
 
     path = new List<Vector2>();
+    path.Clear();
     bool goalReached = false;
 
     startPosiiton = 
@@ -36,9 +39,9 @@ public class diPathfind
     endPosiiton =
        diDungeon._instance.tilemap.WorldToCell(new Vector3(finalPos.x, finalPos.y, 0.0f));
 
-    currTile = diDungeon._instance.m_localMapGrid[startPosiiton.x][startPosiiton.y];
-    startTile = diDungeon._instance.m_localMapGrid[startPosiiton.x][startPosiiton.y];
-    endTile = diDungeon._instance.m_localMapGrid[endPosiiton.x][endPosiiton.y];
+    currTile = m_mapCopy[startPosiiton.x][startPosiiton.y];
+    startTile = m_mapCopy[startPosiiton.x][startPosiiton.y];
+    endTile = m_mapCopy[endPosiiton.x][endPosiiton.y];
 
     openList.Add(currTile);
 
@@ -138,9 +141,11 @@ public class diPathfind
 
   private void visitNode( int x, int y)
   {
-    diTile node = diDungeon._instance.m_localMapGrid[x][y];
+    diTile node = m_mapCopy[x][y];
 
-    if(node.m_walkable && !node.m_visited && !node.m_ocupied)
+    diTile nodeFromMap = diDungeon._instance.m_localMapGrid[x][y];
+
+    if(node.m_walkable && !node.m_visited && !nodeFromMap.m_ocupied)
     {
       priorityQueue(x, y);
     }
@@ -152,23 +157,23 @@ public class diPathfind
     Vector2Int tempNode = new Vector2Int(x, y);
 
     int distance = manhattanDist(tempNode, tempEnd);
-    diDungeon._instance.m_localMapGrid[x][y].m_cost = distance;
+    m_mapCopy[x][y].m_cost = distance;
 
     int i = 0;
     for(i = 0; i < openList.Count; ++i)
     {
       if(openList[i].m_cost > distance)
       {
-        openList.Insert(i, diDungeon._instance.m_localMapGrid[x][y]);
+        openList.Insert(i, m_mapCopy[x][y]);
         break;
       }
     }
 
     if(i == openList.Count)
     {
-      openList.Add(diDungeon._instance.m_localMapGrid[x][y]);
+      openList.Add(m_mapCopy[x][y]);
     }
-    diDungeon._instance.m_localMapGrid[x][y].m_Parent = currTile;
+    m_mapCopy[x][y].m_Parent = currTile;
 
   }
 
@@ -183,8 +188,13 @@ public class diPathfind
     node = tile.m_Parent;
     while (node.m_Parent != null)
     {
-      path.Add(new Vector2(node.m_pos.x, node.m_pos.y));
+      path.Add(new Vector2(node.m_pos.x, node.m_pos.y + 0.25f ));
       node = node.m_Parent;
+    }
+
+    if (!tile.m_ocupied)
+    {
+      path.Add(new Vector2(tile.m_pos.x, tile.m_pos.y + 0.25f));
     }
 
   }

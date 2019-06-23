@@ -17,6 +17,8 @@ namespace Diablo_Entities
     {
       Debug.Log("moving state");
       player.m_targetReached = false;
+      player.m_pathIterator = 0;
+      player.m_pathTargets.Clear();
 
       player.m_targetToMove = player.m_camReference.ScreenToWorldPoint
          (new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
@@ -27,59 +29,87 @@ namespace Diablo_Entities
 
       player.m_cellToWorld =
         diDungeon._instance.tilemap.CellToWorld(player.m_worldToCell);
-/*
 
       player.m_pathTargets = diDungeon._instance.m_pathFind.createPath(
-       player.transform.position,
-       player.m_cellToWorld);*/
+        player.transform.position,
+         player.m_cellToWorld);
+
+      player.m_gridPos =
+        diDungeon._instance.tilemap.WorldToCell(player.transform.position);
+      player.m_lastTile = 
+        diDungeon._instance.m_localMapGrid[player.m_gridPos.x][player.m_gridPos.y];
+      player.m_lastTile.m_ocupied = true;
+
     }
 
     public override void OnStatePreUpdate(diPlayer player)
     {
-      if(player.m_targetReached)
+      if (player.m_targetReached)
       {
         m_StateMachine.ToState(player.idleState, player);
       }
- 
+
     }
 
     public override void OnStateUpdate(diPlayer player)
     {
-      Vector2 playerPos =
-       new Vector2(player.transform.position.x, player.transform.position.y);
 
-      if (Input.GetMouseButtonUp(0))
+      int last = player.m_pathTargets.Count;
+      if (player.m_pathIterator == last)
       {
-        player.m_targetToMove = player.m_camReference.ScreenToWorldPoint
-          (new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
-
-        player.m_worldToCell =
-       diDungeon._instance.tilemap.WorldToCell(
-         new Vector3(player.m_targetToMove.x, player.m_targetToMove.y, 0));
-
-        player.m_cellToWorld =
-          diDungeon._instance.tilemap.CellToWorld(player.m_worldToCell);
-
-      }
-
-      Vector2 target = new Vector2(player.m_cellToWorld.x, player.m_cellToWorld.y + 0.25f);
-
-      Vector3 force =
-        player.seek(player.transform.position, target, 1.5f);
-
-      float distance = (playerPos - target).magnitude;
-
-      if (distance < 0.1f)
-      {
-        player.transform.position = target;
         player.m_targetReached = true;
       }
       else
       {
-        player.transform.position += new Vector3(force.x, force.y, 0) *
-           Time.fixedDeltaTime;
-      }
+        Vector2 nextTargetPos =
+       new Vector2(player.m_pathTargets[player.m_pathIterator].x, player.m_pathTargets[player.m_pathIterator].y );
 
+        Vector2 playerPos =
+      new Vector2(player.transform.position.x, player.transform.position.y);
+
+        /*
+              if (Input.GetMouseButtonUp(0))
+              {
+                player.m_targetToMove = player.m_camReference.ScreenToWorldPoint
+                  (new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+
+                player.m_worldToCell =
+               diDungeon._instance.tilemap.WorldToCell(
+                 new Vector3(player.m_targetToMove.x, player.m_targetToMove.y, 0));
+
+                player.m_cellToWorld =
+                  diDungeon._instance.tilemap.CellToWorld(player.m_worldToCell);
+
+              }*/
+
+        /*Vector2 target = new Vector2(player.m_cellToWorld.x, player.m_cellToWorld.y + 0.25f);*/
+
+        Vector3 force =
+          player.seek(player.transform.position, nextTargetPos, 1.5f);
+
+        float distance = (playerPos - nextTargetPos).magnitude;
+
+        if (distance < 0.1f)
+        {
+          player.m_lastTile.m_ocupied = false;
+          player.transform.position = nextTargetPos;
+          player.m_gridPos =
+            diDungeon._instance.tilemap.WorldToCell(player.transform.position);
+          player.m_lastTile =
+            diDungeon._instance.m_localMapGrid[player.m_gridPos.x][player.m_gridPos.y];
+          player.m_lastTile.m_ocupied = true;
+          player.m_pathIterator++;
+        }
+        else
+        {
+          player.transform.position += new Vector3(force.x, force.y, 0) *
+             Time.fixedDeltaTime;
+        }
+      }
+    }
+
+    public override void OnStateExit(diPlayer player)
+    {
 
     }
   }
