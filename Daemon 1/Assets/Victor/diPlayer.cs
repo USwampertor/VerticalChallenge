@@ -103,6 +103,11 @@ namespace Diablo_Entities
     #endregion//Combat Settings
 
     #region External Status (how it's interacting with the world)
+
+    /// <summary>
+    /// Reference to the animator of the character
+    /// </summary>
+    internal Animator m_playerAnimator;
     #endregion //External Status
 
     #region Internal Status
@@ -172,6 +177,7 @@ namespace Diablo_Entities
     [SerializeField]
     internal int m_lightingResist;
 
+    internal Vector2 m_lookDir;
 
 
     #endregion //Internal Status

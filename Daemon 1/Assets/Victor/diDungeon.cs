@@ -15,13 +15,16 @@ public class diDungeon : MonoBehaviour
   public diPathfind m_pathFind;
   public diPlayer m_playerReference;
 
+  [SerializeField]
+  public string tilemapName; 
+
   public List<List<diTile>> m_localMapGrid;
   
 
   // Start is called before the first frame update
   void Start()
   {
-    tilemap = GameObject.Find("Grid").GetComponentInChildren<Tilemap>();
+    tilemap = GameObject.Find(tilemapName).GetComponentInChildren<Tilemap>();
     m_gridInstance = new diGridGenerator();
     m_localMapGrid = m_gridInstance.createGridNodes(tilemap);
     m_pathFind = new diPathfind();
