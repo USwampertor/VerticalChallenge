@@ -23,7 +23,9 @@ public enum eAudio
   WOUNDED_GOSSIP,
   PEGLEG_INTRO,
   PEGLEG_GOSSIP,
-  PEPPY_GOSSIP
+  PEPPY_GOSSIP,
+  DRUNK_INTRO,
+  DRUNK_GOSSIP
 }
 
 [System.Serializable]

@@ -183,7 +183,7 @@ public class diSoundModule : MonoBehaviour
   /// between the active music and the new one </param>
   public void PlayMusic(eAudio name) {
     if (m_musicList[name] != null) {
-      if (m_musicSource.clip != m_musicList[name] || !m_musicSource.isPlaying) {
+      if (m_musicSource.clip != m_musicList[name] && !m_musicSource.isPlaying) {
         m_musicSource.clip = m_musicList[name];
         m_musicSource.Play();
       }
@@ -239,25 +239,42 @@ public class diSoundModule : MonoBehaviour
   /// level will use to register the sound in the sound manager.
   /// </summary>
   /// <param name="audio"> The audio object to register </param>
-  public void RegisterToManager(diAudio audio) {
-    if (eAudioType.MUSIC == audio.m_type) {
-      if(m_musicList.Count == 0 || m_musicList[audio.m_name] == null) {
-        m_musicList.Add(audio.m_name, audio.m_clip); }
+  public void RegisterToManager(diAudio audio)
+  {
+    if (eAudioType.NONE == audio.m_type || audio.m_name == eAudio.NONE) {
+      return;
+    }
+    else if (eAudioType.MUSIC == audio.m_type) {
+      if(m_musicList.Count == 0) {
+        m_musicList.Add(audio.m_name, audio.m_clip);
+      }
+      else if (!m_musicList.ContainsKey(audio.m_name)) {
+        m_musicList.Add(audio.m_name, audio.m_clip);
+      }
     }
     else if (eAudioType.VILLAGER == audio.m_type) {
-      if (m_villagerList.Count == 0 || m_villagerList[audio.m_name] == null) {
-        m_villagerList.Add(audio.m_name, audio.m_clip); }
+      if(m_villagerList.Count == 0) {
+        m_villagerList.Add(audio.m_name, audio.m_clip);
+      }
+      else if (!m_villagerList.ContainsKey(audio.m_name)) {
+        m_villagerList.Add(audio.m_name, audio.m_clip);
+      }
     }
     else if (eAudioType.NARRATION == audio.m_type) {
-      if (m_narrationList.Count == 0 || m_narrationList[audio.m_name] == null) {
-        m_narrationList.Add(audio.m_name, audio.m_clip); }
+      if(m_narrationList.Count == 0) {
+        m_narrationList.Add(audio.m_name, audio.m_clip);
+      }
+      else if (!m_narrationList.ContainsKey(audio.m_name)) {
+        m_narrationList.Add(audio.m_name, audio.m_clip);
+      }
     }
     else if (eAudioType.SFX == audio.m_type) {
-      if (m_sfxList.Count == 0 || m_sfxList[audio.m_name] == null) {
-        m_sfxList.Add(audio.m_name, audio.m_clip); }
-    }
-    else if (eAudioType.NONE == audio.m_type) {
-      return;
+      if(m_sfxList.Count == 0) {
+        m_sfxList.Add(audio.m_name, audio.m_clip);
+      }
+      else if (!m_sfxList.ContainsKey(audio.m_name)) {
+        m_sfxList.Add(audio.m_name, audio.m_clip);
+      }
     }
   }
 
