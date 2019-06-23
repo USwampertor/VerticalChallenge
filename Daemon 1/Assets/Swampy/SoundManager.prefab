@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c480818b334a1428c6cd253cc756ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_poolSize: 0
+  m_poolSize: 3
   m_SFX:
   - m_clip: {fileID: 8300000, guid: f24007a4d3c2159489e276114a64e6d3, type: 3}
     m_name: 6

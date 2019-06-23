@@ -39,6 +39,10 @@ namespace Diablo_Entities
 
     internal List<Vector2> m_pathTargets;
 
+    internal diTile m_lastTile;
+
+    internal Vector3Int m_gridPos;
+
     /// <summary>
     /// 
     /// </summary>
@@ -99,9 +103,19 @@ namespace Diablo_Entities
     #endregion//Combat Settings
 
     #region External Status (how it's interacting with the world)
+
+    /// <summary>
+    /// Reference to the animator of the character
+    /// </summary>
+    internal Animator m_playerAnimator;
     #endregion //External Status
 
     #region Internal Status
+
+    /// <summary>
+    /// The name of the player.
+    /// </summary>
+    internal string m_name;
 
     /// <summary>
     /// Is an indicator of the overall health and fitness of the character
@@ -163,6 +177,7 @@ namespace Diablo_Entities
     [SerializeField]
     internal int m_lightingResist;
 
+    internal Vector2 m_lookDir;
 
 
     #endregion //Internal Status

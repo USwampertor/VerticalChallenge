@@ -15,6 +15,7 @@ namespace Diablo_Entities
     public override void OnStateEnter(diPlayer player)
     {
       Debug.Log("Iddle state");
+      player.m_playerAnimator.SetBool("iddle", true);
     }
 
     public override void OnStatePreUpdate(diPlayer player)

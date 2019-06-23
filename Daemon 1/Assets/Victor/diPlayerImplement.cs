@@ -23,6 +23,9 @@ namespace Diablo_Entities
       m_pathTargets = new List<Vector2>();
       m_worldToCell = new Vector3Int();
       m_cellToWorld = new Vector3Int();
+      m_lastTile = new diTile();
+      m_lookDir = new Vector2(1.0f, -1.0f);
+      m_playerAnimator = GetComponentInChildren<Animator>();
     }
 
     private void Update()
