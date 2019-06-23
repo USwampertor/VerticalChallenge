@@ -89,7 +89,7 @@ public class CreationManager : MonoBehaviour
 
     void StartGame()
     {
-        SceneManager.LoadScene(4);
+        diLoadManager._instance.Show(SceneManager.LoadSceneAsync(4), eScene.TRISTRAM);
     }
 
     void BackToMenu()
